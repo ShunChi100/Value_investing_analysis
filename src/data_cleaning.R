@@ -156,5 +156,5 @@ get_quotes <- function(financials, history_quotes, lower = 0.05, upper = 0.95){
 # call main() function
 stock_finan <- main("../data/data_Ticker/tikers_TenBillion.feather")
 
-write_feather(stock_finan, "../data/stock_data.feather")
+write_feather(stock_finan, "../data/stock_data_clean.feather")
 
