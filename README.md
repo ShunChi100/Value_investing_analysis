@@ -1,7 +1,7 @@
 # Value Investment Analysis
 Value investing has been a hot topic in the stock market. In particular, the success of Warren Buffett inspired many people to pursue the value investing approach. In this project, I would like to test value investing method using ten years historical stock data.
 
-The six known Buffett's methodologies can found [here](https://www.investopedia.com/articles/01/071801.asp):
+The six known Buffett's methodologies can be found [here](https://www.investopedia.com/articles/01/071801.asp):
 
 1. Has the company consistently performed well?
 2. Has the company avoided excess debt?
