@@ -10,9 +10,9 @@ The six known Buffett's methodologies can be found [here](https://www.investoped
 5. Do the company's products rely on a commodity?
 6. Is the stock selling at a 25% discount to its real value?
 
- The first four rules can quantify using historical stock data. The other two require expertise in finance, so will not be considered here.
+ The first four rules can be quantified using historical stock data. The other two require expertise in finance, so will not be considered here.
 
- __The null hypothesis__ (need to be refined as the project evolving): The true means of returns are the same for two groups that classified by the first four rules.
+ __The null hypothesis__ (need to be refined as the project evolving): The true means of returns are the same for two groups that classified by the first four rules. Classification methods is discussed in the __Analysis__ section below.
 
 
 ### Data Description

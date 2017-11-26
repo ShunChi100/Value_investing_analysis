@@ -1,0 +1,101 @@
+---
+title: "Data Exploration"
+author: Shun CHI
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(feather)
+library(lubridate)
+```
+
+## Data wrangling
+
+```{r}
+stock_all <- read_feather("../data/stock_data.feather")
+glimpse(stock_all)
+```
+
+```{r}
+colum_list_to_keep <- c("Symbol", "Name", "MarketCap", "Sector", "industry", "Date", "Median_Quote", "Lower_Quote", "Upper_Quote", "Revenues", "Revenue_Growth", "Profit_Margin", "EPS", "Debt_to_Equity_Ratio","Net_Income", "Shareholders_Equity", "Cash_per_Share", "Book_Value_per_Share")
+
+stock <- stock_all %>% 
+        select(colum_list_to_keep)
+
+stock$Sector <- factor(stock$Sector)
+stock$industry <- factor(stock$industry)
+stock$Symbol <- factor(stock$Symbol)
+
+stock <- mutate(stock, Year = year(Date))
+
+
+glimpse(stock)
+```
+
+## Visulization
+
+```{r}
+stock %>% filter( Year == 2016 ) %>% 
+        ggplot(aes(y = MarketCap, x = Sector))+
+        geom_jitter(size = 1, alpha = 0.3)+
+        geom_violin(fill = "blue", alpha = 0.3)+
+        theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+        scale_y_log10("Market Capitalization", breaks = c(1,10,100)*10000000000)
+```
+
+
+> For instance, an investor who is looking to buy undervalued stocks might select one with a low price-to-earnings ratio. The implicit hope is that the price would rise such that its price-to-earnings ratio will rebound to a level more in line with its peers. But what Kok et al. found is that the opposite is more likely to happen — the price-to-earnings ratio will return to normal levels, but only because the earnings in the denominator fell.
+
+```{r}
+stock %>% ggplot(aes(y = Median_Quote, x = Date, group = Symbol))+
+        geom_line(alpha = 0.1)+
+        scale_y_log10()
+```
+```{r}
+ stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
+ stock_new %>%
+        ggplot(aes(y = PriceDiff, x = Revenue_Growth ))+
+        geom_hex(bins = 100)+
+        scale_x_continuous(limits = c(-1 , 2))+
+        scale_y_continuous(limits = c(-2, 1))+
+        scale_fill_distiller(palette = "Spectral")
+```
+
+
+```{r}
+# stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
+ stock_new %>%
+        ggplot(aes(y = PriceDiff, x = Profit_Margin ))+
+        geom_hex(bins = 100)+
+        scale_x_continuous(limits = c(-1 , 1))+
+        scale_y_continuous(limits = c(-1, 1))+
+        scale_fill_distiller(palette = "Spectral")
+```
+
+```{r}
+# stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
+ stock_new %>%
+        ggplot(aes(y = PriceDiff, x = MarketCap ))+
+        geom_hex(bins = 100)+
+        scale_x_log10(breaks = c(1,10 , 100)*10000000000)+
+        scale_y_continuous(limits = c(-1, 1))+
+        scale_fill_distiller(palette = "Spectral")
+```
+
+
+
+
+```{r}
+# stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
+ stock_new %>%
+        ggplot(aes(y = PriceDiff, x = Median_Quote/EPS ))+
+        geom_hex(bins = 100)+
+        scale_x_continuous(limits = c(-100 , 100))+
+        scale_y_continuous(limits = c(-1, 1))+
+        scale_fill_distiller(palette = "Spectral")
+```
