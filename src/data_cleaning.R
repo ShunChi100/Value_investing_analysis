@@ -2,24 +2,22 @@ library(tidyverse)
 library(feather)
 library(XLConnect)
 library(stringr)
+library(lubridate)
 
 
 
 main <- function(tikers){
         tickers <- read_feather(tikers)
         
-        # # symbols without financials data
-        # missing_symbols <- c("CTX","LTM","QD","SPB           ","WINS")
-        
         all_financials <- tibble(Symbolb = character())
         
         for (symbol in tickers$Symbol){
                 print(symbol)
-                file_name_Growth <- str_c(c("./data/data_financials/", symbol, "_Growth.xlsx"), collapse = "")
-                file_name_Balance <- str_c(c("./data/data_financials/", symbol, "_Balance.xlsx"), collapse = "")
-                file_name_Income <- str_c(c("./data/data_financials/", symbol, "_Income.xlsx"), collapse = "")
-                file_name_Metrics <- str_c(c("./data/data_financials/", symbol, "_Metrics.xlsx"), collapse = "")
-                file_name_Cash <- str_c(c("./data/data_financials/", symbol, "_Cash.xlsx"), collapse = "")
+                file_name_Growth <- str_c(c("../data/data_financials/", symbol, "_Growth.xlsx"), collapse = "")
+                file_name_Balance <- str_c(c("../data/data_financials/", symbol, "_Balance.xlsx"), collapse = "")
+                file_name_Income <- str_c(c("../data/data_financials/", symbol, "_Income.xlsx"), collapse = "")
+                file_name_Metrics <- str_c(c("../data/data_financials/", symbol, "_Metrics.xlsx"), collapse = "")
+                file_name_Cash <- str_c(c("../data/data_financials/", symbol, "_Cash.xlsx"), collapse = "")
                 
                 read_flag <- any(file.info(file_name_Growth)$size < 4500, 
                                  file.info(file_name_Balance)$size < 4500, 
@@ -51,7 +49,7 @@ main <- function(tikers){
 
 read_single_financial<- function(datafile){
         
-        # read raw data from xlsx using XLConnect pacakge #"../data/data_financials/AAPL_Balance.xlsx"
+        # read raw data from xlsx using XLConnect pacakge #".../data/data_financials/AAPL_Balance.xlsx"
         raw_data <- readWorksheetFromFile(datafile, sheet = 1, startRow = 1)
         # rotate the raw data
         data_t <- t(raw_data[,-1])
@@ -64,8 +62,8 @@ read_single_financial<- function(datafile){
         items <- str_replace_all(items, pattern = "&", replacement = "and")
         items <- str_replace_all(items, pattern = "-", replacement = "_")
         items <- str_replace_all(items, pattern = "/", replacement = "_")
-        items <- str_replace_all(items, pattern = "(", replacement = "")
-        items <- str_replace_all(items, pattern = ")", replacement = "")
+        items <- str_replace_all(items, pattern = "\\(", replacement = "")
+        items <- str_replace_all(items, pattern = "\\)", replacement = "")
         
         colnames(data_t) <- items
         
@@ -86,7 +84,7 @@ read_financials <- function(symbol){
         
         flag = FALSE
         for (financial in c("Income", "Metrics","Balance","Growth","Cash")){
-                datafile <- str_c(c("./data/data_financials/", symbol, "_", financial, ".xlsx"), collapse = "")
+                datafile <- str_c(c("../data/data_financials/", symbol, "_", financial, ".xlsx"), collapse = "")
                 if (file.exists(datafile)){
                         wb <- loadWorkbook(datafile)
                         if (existsSheet(wb, symbol)){
@@ -111,7 +109,7 @@ read_financials <- function(symbol){
 # AAPL_financials <- read_financials("AAPL")
 
 read_history <- function(symbol){
-        datafile <- str_c(c("./data/data_historyPrice/", symbol, "_historyPricefrom20060101to20171118.csv"), collapse = "")
+        datafile <- str_c(c("../data/data_historyPrice/", symbol, "_historyPricefrom20060101to20171118.csv"), collapse = "")
         raw_data <- read_csv(datafile)
         
         colnames(raw_data) <- str_replace_all(colnames(raw_data), pattern = " ", replacement = "_")
@@ -156,7 +154,7 @@ get_quotes <- function(financials, history_quotes, lower = 0.05, upper = 0.95){
 
 
 # call main() function
-stock_finan <- main("./data/data_Ticker/tikers_TenBillion.feather")
+stock_finan <- main("../data/data_Ticker/tikers_TenBillion.feather")
 
-write_feather(stock_finan, "./data/stock_data.feather")
+write_feather(stock_finan, "../data/stock_data.feather")
 
