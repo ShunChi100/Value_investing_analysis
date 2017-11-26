@@ -16,8 +16,10 @@ library(lubridate)
 
 ## Data wrangling
 
+Select financial indicators for analysis.
+
 ```{r}
-stock_all <- read_feather("../data/stock_data.feather")
+stock_all <- read_feather("../data/stock_data_clean.feather")
 glimpse(stock_all)
 ```
 
@@ -39,6 +41,8 @@ glimpse(stock)
 
 ## Visulization
 
+First exploration of the dataset
+
 ```{r}
 stock %>% filter( Year == 2016 ) %>% 
         ggplot(aes(y = MarketCap, x = Sector))+
@@ -49,13 +53,18 @@ stock %>% filter( Year == 2016 ) %>%
 ```
 
 
-> For instance, an investor who is looking to buy undervalued stocks might select one with a low price-to-earnings ratio. The implicit hope is that the price would rise such that its price-to-earnings ratio will rebound to a level more in line with its peers. But what Kok et al. found is that the opposite is more likely to happen — the price-to-earnings ratio will return to normal levels, but only because the earnings in the denominator fell.
+
+Visualized stock growth (percentage to last year) vs time. Overall, the prices grow in the last 9 year.
 
 ```{r}
 stock %>% ggplot(aes(y = Median_Quote, x = Date, group = Symbol))+
         geom_line(alpha = 0.1)+
         scale_y_log10()
 ```
+
+
+Visualized stock growth (percentage to last year) vs revenue growth rate
+
 ```{r}
  stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
  stock_new %>%
@@ -67,6 +76,8 @@ stock %>% ggplot(aes(y = Median_Quote, x = Date, group = Symbol))+
 ```
 
 
+Visualized stock growth (percentage to last year) vs profit margin
+
 ```{r}
 # stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
  stock_new %>%
@@ -76,6 +87,9 @@ stock %>% ggplot(aes(y = Median_Quote, x = Date, group = Symbol))+
         scale_y_continuous(limits = c(-1, 1))+
         scale_fill_distiller(palette = "Spectral")
 ```
+
+
+Visualized stock growth (percentage to last year) vs different market cap size.
 
 ```{r}
 # stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
@@ -88,7 +102,7 @@ stock %>% ggplot(aes(y = Median_Quote, x = Date, group = Symbol))+
 ```
 
 
-
+Visualized stock growth (percentage to last year) vs PE ratio
 
 ```{r}
 # stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
@@ -99,3 +113,11 @@ stock %>% ggplot(aes(y = Median_Quote, x = Date, group = Symbol))+
         scale_y_continuous(limits = c(-1, 1))+
         scale_fill_distiller(palette = "Spectral")
 ```
+
+
+
+
+
+Things to check
+
+> For instance, an investor who is looking to buy undervalued stocks might select one with a low price-to-earnings ratio. The implicit hope is that the price would rise such that its price-to-earnings ratio will rebound to a level more in line with its peers. But what Kok et al. found is that the opposite is more likely to happen — the price-to-earnings ratio will return to normal levels, but only because the earnings in the denominator fell.
