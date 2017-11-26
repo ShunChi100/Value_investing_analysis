@@ -1,5 +1,5 @@
 # Value Investment Analysis
-Value investing has been a hot topic in stock market. In particular, the success of Warren Buffett inspired many people to pursue the value investing approach. In this project, I would like to test value investing method using ten years historical stock data.
+Value investing has been a hot topic in the stock market. In particular, the success of Warren Buffett inspired many people to pursue the value investing approach. In this project, I would like to test value investing method using ten years historical stock data.
 
 The six known Buffett's methodologies can found [here](https://www.investopedia.com/articles/01/071801.asp):
 
@@ -10,13 +10,20 @@ The six known Buffett's methodologies can found [here](https://www.investopedia.
 5. Do the company's products rely on a commodity?
 6. Is the stock selling at a 25% discount to its real value?
 
- The first four rules can quantified using historical stock data. The other two rules require expertise in finance, so will not be considered here.
+ The first four rules can quantify using historical stock data. The other two require expertise in finance, so will not be considered here.
 
- __The null hypothesis__ (need to be refined as the project evolving): The trun means of returns are the same for two groups that classified by the first four rules.
+ __The null hypothesis__ (need to be refined as the project evolving): The true means of returns are the same for two groups that classified by the first four rules.
 
 
 ### Data Description
-Stock data are downloaded from [stockrow.com](stockrow.com) and [Yahoo finance](https://ca.finance.yahoo.com). Thanks to them for making the data publicly available.
+Stock data were downloaded from [stockrow.com](stockrow.com) and [Yahoo finance](https://ca.finance.yahoo.com). Thanks to them for making the data publicly available.
 
-### Analysis and Coding
-Summary of analysis methods and codes go here (To be complete in the next milestone).
+Data is cleaned using R language, including all financial data as well as median stock prices for each year. I will perform analysis of this cleaned dataset.
+
+
+### Analysis
+In this analysis, only stocks in US stock exchanges and have market capital larger than ten billion US dollars are considered. For small market cap stocks, parameters fluctuate a lot, and hence value investing may not apply well in general.  
+
+I will use some criteria to classify stocks into two or more groups. For example, the revenue growth rate is larger than 5%. After classification, we can visualize the stock average price growth verse the groups. We can also try to optimize the criteria so that we can separate a group from the other, which gives the maximum returns in stock growth.
+
+(To be continued as the project evolving.)
