@@ -24,6 +24,6 @@ Data is cleaned using R language, including all financial data as well as median
 ### Analysis
 In this analysis, only stocks in US stock exchanges and have market capital larger than ten billion US dollars are considered. For small market cap stocks, parameters fluctuate a lot, and hence value investing may not apply well in general.  
 
-I will use some criteria to classify stocks into two or more groups. For example, the revenue growth rate is larger than 5%. After classification, we can visualize the stock average price growth verse the groups. We can also try to optimize the criteria so that we can separate a group from the other, which gives the maximum returns in stock growth.
+I will use some criteria based on the first four rules to classify stocks into two or more groups. For example, the revenue growth rate is larger than 5%. After classification, we can visualize the stock average price growth verse the groups. We can also try to optimize the criteria so that we can separate a group from the other, which gives the maximum returns in stock growth. These visualization and analysis will conducted in next two milestones and results will be summarized in the final report.
 
 (To be continued as the project evolving.)
