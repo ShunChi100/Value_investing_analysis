@@ -20,23 +20,28 @@ main <- function(tikers){
                 file_name_Metrics <- str_c(c("../data/data_financials/", symbol, "_Metrics.xlsx"), collapse = "")
                 file_name_Cash <- str_c(c("../data/data_financials/", symbol, "_Cash.xlsx"), collapse = "")
                 
-                read_flag <- any(file.info(file_name_Growth)$size < 4500, 
-                                 file.info(file_name_Balance)$size < 4500, 
-                                 file.info(file_name_Income)$size < 4500, 
-                                 file.info(file_name_Metrics)$size < 4500, 
-                                 file.info(file_name_Cash)$size < 4500)
                 
-                if (read_flag){
-                        next
-                }else{
-                        tmp_financials <- read_financials(symbol )
-                        tmp_history <- read_history(symbol)
-                        tmp_financials <- get_quotes(tmp_financials, tmp_history)
-                        
-                        tmp_financials <- tmp_financials %>% 
-                                mutate(Symbol = symbol)
-                        
-                        all_financials <- bind_rows(all_financials, tmp_financials)
+                read_flag1 <- file.exists(file_name_Growth)
+                
+                read_flag2 <- any(file.info(file_name_Growth)$size < 4500, 
+                                  file.info(file_name_Balance)$size < 4500, 
+                                  file.info(file_name_Income)$size < 4500, 
+                                  file.info(file_name_Metrics)$size < 4500, 
+                                  file.info(file_name_Cash)$size < 4500)
+                
+                if (read_flag1){
+                        if(read_flag2){
+                                next
+                        }else{
+                                tmp_financials <- read_financials(symbol )
+                                tmp_history <- read_history(symbol)
+                                tmp_financials <- get_quotes(tmp_financials, tmp_history)
+                                
+                                tmp_financials <- tmp_financials %>% 
+                                        mutate(Symbol = symbol)
+                                
+                                all_financials <- bind_rows(all_financials, tmp_financials)
+                        }
                 }
                 
         }
@@ -155,8 +160,8 @@ get_quotes <- function(financials, history_quotes, lower = 0.05, upper = 0.95){
 
 
 # call main() function
-stock_finan <- main("../data/data_Ticker/tikers_TenBillion.feather")
+stock_finan <- main("../data/data_Ticker/tickers_TenBillion.csv")
 
-write_csv(stock_finan, "../data/stock_data_clean.feather")
+write_csv(stock_finan, "../data/stock_data_clean.csv")
 #write_feather(stock_finan, "../data/stock_data_clean.feather")
 
