@@ -7,8 +7,9 @@ library(lubridate)
 
 
 main <- function(tikers){
-        tickers <- read_feather(tikers)
-        
+        #tickers <- read_feather(tikers)
+        tickers <- read_csv(tikers)      
+  
         all_financials <- tibble(Symbolb = character())
         
         for (symbol in tickers$Symbol){
@@ -156,5 +157,6 @@ get_quotes <- function(financials, history_quotes, lower = 0.05, upper = 0.95){
 # call main() function
 stock_finan <- main("../data/data_Ticker/tikers_TenBillion.feather")
 
-write_feather(stock_finan, "../data/stock_data_clean.feather")
+write_csv(stock_finan, "../data/stock_data_clean.feather")
+#write_feather(stock_finan, "../data/stock_data_clean.feather")
 
