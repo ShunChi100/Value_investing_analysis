@@ -19,32 +19,56 @@ library(lubridate)
 Select financial indicators for analysis.
 
 ```{r}
-stock_all <- read_feather("../data/stock_data_clean.feather")
+stock_all <- read_csv("../data/stock_data_clean.csv")
 glimpse(stock_all)
 ```
 
 ```{r}
-colum_list_to_keep <- c("Symbol", "Name", "MarketCap", "Sector", "industry", "Date", "Median_Quote", "Lower_Quote", "Upper_Quote", "Revenues", "Revenue_Growth", "Profit_Margin", "EPS", "Debt_to_Equity_Ratio","Net_Income", "Shareholders_Equity", "Cash_per_Share", "Book_Value_per_Share")
+colum_list_to_keep <- c("Symbol", "Name", "MarketCap", "Sector", "Industry", "Date", "Median_Quote", "Median_Q_Increase", "UpLow_Q_Var90", "Lower_Quote", "Upper_Quote", "Revenues", "Revenue_Growth", "Profit_Margin", "Debt_to_Equity_Ratio","Net_Income", "Shareholders_Equity", "Total_Liabilities", "Cash_per_Share", "EPS", "Book_Value_per_Share")
 
 stock <- stock_all %>% 
         select(colum_list_to_keep)
 
 stock$Sector <- factor(stock$Sector)
-stock$industry <- factor(stock$industry)
+stock$industry <- factor(stock$Industry)
 stock$Symbol <- factor(stock$Symbol)
 
 stock <- mutate(stock, Year = year(Date))
 
-
 glimpse(stock)
 ```
+
+
+
+```{r}
+stock_selected <- stock %>% mutate(PEratio = Median_Quote/EPS, ROE = Net_Income/Shareholders_Equity, DEratio = Debt_to_Equity_Ratio) %>% select(Symbol, Name, MarketCap, Sector, Industry, Year, Date, Median_Quote, Median_Q_Increase, ROE, DEratio, Profit_Margin, PEratio, Revenue_Growth)
+
+FiveYearMean <- function(x){
+  len <- length(x)
+  means <- rep(NA_real_, len)
+  for (i in 1:(len-4)){
+    means[i] <- mean(x[i:(i+4)])
+  }
+  return(means)
+}
+
+
+stock_selected <- 
+  stock_selected %>% 
+  group_by(Symbol) %>% 
+  mutate(ROE_5Y = FiveYearMean(ROE),
+         DEratio_5Y = FiveYearMean(DEratio),
+         Profit_Margin_5Y = FiveYearMean(Profit_Margin)
+         )
+```
+
 
 ## Visulization
 
 First exploration of the dataset
 
 ```{r}
-stock %>% filter( Year == 2016 ) %>% 
+stock_selected %>% filter( Year == 2016 ) %>% 
         ggplot(aes(y = MarketCap, x = Sector))+
         geom_jitter(size = 1, alpha = 0.3)+
         geom_violin(fill = "blue", alpha = 0.3)+
@@ -62,14 +86,17 @@ stock %>% ggplot(aes(y = Median_Quote, x = Date, group = Symbol))+
         scale_y_log10()
 ```
 
+```{r}
+stock_selected %>% ggplot(aes(ROE_N))+geom_histogram()+scale_x_continuous(limits = c(-1, 1))
+```
+
 
 Visualized stock growth (percentage to last year) vs revenue growth rate
 
 ```{r}
- stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
- stock_new %>%
-        ggplot(aes(y = PriceDiff, x = Revenue_Growth ))+
-        geom_hex(bins = 100)+
+ stock_selected %>%
+        ggplot(aes(y = Median_Q_Increase/Median_Quote, x = Revenue_Growth))+
+        geom_hex(bins = 50)+
         scale_x_continuous(limits = c(-1 , 2))+
         scale_y_continuous(limits = c(-2, 1))+
         scale_fill_distiller(palette = "Spectral")
@@ -80,9 +107,19 @@ Visualized stock growth (percentage to last year) vs profit margin
 
 ```{r}
 # stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
- stock_new %>%
-        ggplot(aes(y = PriceDiff, x = Profit_Margin ))+
-        geom_hex(bins = 100)+
+ stock_selected %>%
+        ggplot(aes(y =Median_Q_Increase/Median_Quote,  x = Profit_Margin ))+
+        geom_hex(bins = 50)+
+        scale_x_continuous(limits = c(-1 , 1))+
+        scale_y_continuous(limits = c(-1, 1))+
+        scale_fill_distiller(palette = "Spectral")
+```
+
+```{r}
+# stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
+ stock_selected %>%
+        ggplot(aes(y =Median_Q_Increase/Median_Quote,  x = Profit_Margin_5Y ))+
+        geom_hex(bins = 50)+
         scale_x_continuous(limits = c(-1 , 1))+
         scale_y_continuous(limits = c(-1, 1))+
         scale_fill_distiller(palette = "Spectral")
@@ -93,9 +130,9 @@ Visualized stock growth (percentage to last year) vs different market cap size.
 
 ```{r}
 # stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
- stock_new %>%
-        ggplot(aes(y = PriceDiff, x = MarketCap ))+
-        geom_hex(bins = 100)+
+ stock_selected %>%
+        ggplot(aes(y = Median_Q_Increase/Median_Quote, x = MarketCap ))+
+        geom_hex(bins = 50)+
         scale_x_log10(breaks = c(1,10 , 100)*10000000000)+
         scale_y_continuous(limits = c(-1, 1))+
         scale_fill_distiller(palette = "Spectral")
@@ -106,16 +143,39 @@ Visualized stock growth (percentage to last year) vs PE ratio
 
 ```{r}
 # stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
- stock_new %>%
-        ggplot(aes(y = PriceDiff, x = Median_Quote/EPS ))+
-        geom_hex(bins = 100)+
+ stock_selected %>%
+        ggplot(aes(y = Median_Q_Increase/Median_Quote, x = PEratio ))+
+        geom_hex(bins = 50)+
         scale_x_continuous(limits = c(-100 , 100))+
+        scale_y_continuous(limits = c(-1, 1))+
+        scale_fill_distiller(palette = "Spectral")
+```
+
+Visualized stock growth (percentage to last year) vs debet/equity ratio
+
+```{r}
+# stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
+ stock_selected %>%
+        ggplot(aes(y = Median_Q_Increase/Median_Quote, x = DEratio ))+
+        geom_hex(bins = 50)+
+        scale_x_continuous(limits = c(-10 , 10))+
         scale_y_continuous(limits = c(-1, 1))+
         scale_fill_distiller(palette = "Spectral")
 ```
 
 
 
+Visualized stock growth (percentage to last year) vs debet/equity ratio
+
+```{r}
+# stock_new <- stock %>% group_by(Symbol) %>% mutate(PriceDiff = c(-diff(Median_Quote), NA_real_)/Median_Quote)
+ stock_selected %>%
+        ggplot(aes(y = Median_Q_Increase/Median_Quote, x = ROE_N ))+
+        geom_hex(bins = 30)+
+        scale_x_continuous(limits = c(-5 , 5))+
+        scale_y_continuous(limits = c(-1, 1))+
+        scale_fill_distiller(palette = "Spectral")
+```
 
 
 Things to check

@@ -1,24 +1,112 @@
 library(tidyverse)
-library(feather)
+#library(feather)
 library(XLConnect)
 library(stringr)
 library(lubridate)
 
 
 
-main <- function(tikers){
-        #tickers <- read_feather(tikers)
-        tickers <- read_csv(tikers)      
+main <- function(tickers){
+  
+  # assure the code runs in either project root or /src directories
+  cwd <- getwd()
+  if (str_sub(cwd, -4, -1) == "/src"){
+    project_dir_ref <- "../"
+  }else if(str_sub(cwd, -3, -1) == "ting"){
+    project_dir_ref <- "./"
+  }else{
+    print("Please run the script in project root directory or /src directory")
+    exit()
+  }
+  
+  # obtain a combined dataframe from both stock historical qoutes and financial statistics
+  stock_all <- data_combine(paste0(project_dir_ref,tickers))
+  
+  # select all relevent data
+  colum_list_to_keep <- c("Symbol", "Name", "MarketCap", "Sector", "Industry", "Date", "Median_Quote", "Median_Q_Increase", "UpLow_Q_Var90", "Lower_Quote", "Upper_Quote", "Revenues", "Revenue_Growth", "Profit_Margin", "Debt_to_Equity_Ratio","Net_Income", "Shareholders_Equity", "Total_Liabilities", "Cash_per_Share", "EPS", "Book_Value_per_Share")
+  
+  stock_filtered <- stock_all %>% 
+    select(colum_list_to_keep)
+  
+  # characters to factors
+  stock_filtered$Sector <- factor(stock_filtered$Sector)
+  stock_filtered$industry <- factor(stock_filtered$Industry)
+  stock_filtered$Symbol <- factor(stock_filtered$Symbol)
+  
+  # extract year from Data
+  stock_filtered <- mutate(stock_filtered, Year = year(Date))
+  
+  # 
+  stock_filtered <- 
+    stock_filtered %>% 
+    mutate(PEratio = Median_Quote/EPS, 
+           ROE = Net_Income/Shareholders_Equity, 
+           DEratio = Debt_to_Equity_Ratio,
+           Median_Q_Growth = Median_Q_Increase/Median_Quote) 
+  
+  stock_filtered <- 
+    stock_filtered %>% 
+    group_by(Symbol) %>% 
+    mutate(ROE_5Y = FiveYearMean(ROE),
+           DEratio_5Y = FiveYearMean(DEratio),
+           Profit_Margin_5Y = FiveYearMean(Profit_Margin)
+    )
+  
+  stock_cleaned <- stock_filtered %>% 
+    select(Symbol, 
+           Name, 
+           MarketCap, 
+           Sector, 
+           Industry, 
+           Year,
+           Date, 
+           Median_Quote, 
+           Median_Q_Growth, 
+           ROE,
+           ROE_5Y,
+           DEratio,
+           DEratio_5Y,
+           Profit_Margin,
+           Profit_Margin_5Y,
+           PEratio, 
+           Revenue_Growth)
+  
+  # remove rows with NA values
+  stock_cleaned <- 
+    stock_cleaned %>% 
+    na.omit()
+  
+  # save the cleaned final data into the result folder  
+  write_csv(stock_cleaned, paste0(project_dir_ref,"results/stock_data_clean.csv"))
+  #write_feather(stock_finan, "../data/stock_data_clean.feather")
+}
+
+data_combine <- function(tickers){
+  
+  # assure the code runs in either project root or /src directories
+  cwd <- getwd()
+  if (str_sub(cwd, -4, -1) == "/src"){
+    project_dir_ref <- "../"
+  }else if(str_sub(cwd, -3, -1) == "ting"){
+    project_dir_ref <- "./"
+  }else{
+    print("Please run the script in project root directory or /src directory")
+    exit()
+  }
+  
+        #tickers <- read_feather(tickers)
+        tickers <- read_csv(tickers)  
+        colnames(tickers) <- str_replace_all(colnames(tickers), pattern = " ", replacement = "_")
   
         all_financials <- tibble(Symbolb = character())
         
         for (symbol in tickers$Symbol){
                 print(symbol)
-                file_name_Growth <- str_c(c("../data/data_financials/", symbol, "_Growth.xlsx"), collapse = "")
-                file_name_Balance <- str_c(c("../data/data_financials/", symbol, "_Balance.xlsx"), collapse = "")
-                file_name_Income <- str_c(c("../data/data_financials/", symbol, "_Income.xlsx"), collapse = "")
-                file_name_Metrics <- str_c(c("../data/data_financials/", symbol, "_Metrics.xlsx"), collapse = "")
-                file_name_Cash <- str_c(c("../data/data_financials/", symbol, "_Cash.xlsx"), collapse = "")
+                file_name_Growth <- str_c(c(project_dir_ref, "data/data_financials/", symbol, "_Growth.xlsx"), collapse = "")
+                file_name_Balance <- str_c(c(project_dir_ref, "data/data_financials/", symbol, "_Balance.xlsx"), collapse = "")
+                file_name_Income <- str_c(c(project_dir_ref, "data/data_financials/", symbol, "_Income.xlsx"), collapse = "")
+                file_name_Metrics <- str_c(c(project_dir_ref, "data/data_financials/", symbol, "_Metrics.xlsx"), collapse = "")
+                file_name_Cash <- str_c(c(project_dir_ref, "data/data_financials/", symbol, "_Cash.xlsx"), collapse = "")
                 
                 
                 read_flag1 <- file.exists(file_name_Growth)
@@ -64,6 +152,7 @@ read_single_financial<- function(datafile){
         ## first delete all uncommon characters: " ", ",", "/", "-", "&"
         items <- str_trim(raw_data[,1])
         items <- str_replace_all(items, pattern = " ", replacement = "_")
+        items <- str_replace_all(items, pattern = "`", replacement = "")
         items <- str_replace_all(items, pattern = ",", replacement = "")
         items <- str_replace_all(items, pattern = "&", replacement = "and")
         items <- str_replace_all(items, pattern = "-", replacement = "_")
@@ -87,10 +176,21 @@ read_single_financial<- function(datafile){
 }
 
 read_financials <- function(symbol){
+  
+  # assure the code runs in either project root or /src directories
+  cwd <- getwd()
+  if (str_sub(cwd, -4, -1) == "/src"){
+    project_dir_ref <- "../"
+  }else if(str_sub(cwd, -3, -1) == "ting"){
+    project_dir_ref <- "./"
+  }else{
+    print("Please run the script in project root directory or /src directory")
+    exit()
+  }
         
         flag = FALSE
         for (financial in c("Income", "Metrics","Balance","Growth","Cash")){
-                datafile <- str_c(c("../data/data_financials/", symbol, "_", financial, ".xlsx"), collapse = "")
+                datafile <- str_c(c(project_dir_ref, "data/data_financials/", symbol, "_", financial, ".xlsx"), collapse = "")
                 if (file.exists(datafile)){
                         wb <- loadWorkbook(datafile)
                         if (existsSheet(wb, symbol)){
@@ -115,8 +215,20 @@ read_financials <- function(symbol){
 # AAPL_financials <- read_financials("AAPL")
 
 read_history <- function(symbol){
-        datafile <- str_c(c("../data/data_historyPrice/", symbol, "_historyPricefrom20060101to20171118.csv"), collapse = "")
-        raw_data <- read_csv(datafile)
+  
+  # assure the code runs in either project root or /src directories
+  cwd <- getwd()
+  if (str_sub(cwd, -4, -1) == "/src"){
+    project_dir_ref <- "../"
+  }else if(str_sub(cwd, -3, -1) == "ting"){
+    project_dir_ref <- "./"
+  }else{
+    print("Please run the script in project root directory or /src directory")
+    exit()
+  }
+  
+        datafile <- str_c(c(project_dir_ref, "data/data_historyPrice/", symbol, "_historyPricefrom20060101to20171118.csv"), collapse = "")
+        raw_data <- suppressMessages(read_csv(datafile))
         
         colnames(raw_data) <- str_replace_all(colnames(raw_data), pattern = " ", replacement = "_")
         
@@ -130,38 +242,61 @@ read_history <- function(symbol){
 get_quotes <- function(financials, history_quotes, lower = 0.05, upper = 0.95){
         size <- dim(financials)
         median_quotes <- rep(0, size[1])
+        median_year_diff <- rep(0, size[1])
         lower_quotes <- rep(0, size[1])
         upper_quotes <- rep(0, size[1])
+        upper_lower_diff <- rep(0, size[1])
         
         for (i in 1:size[1]){
                 Index = history_quotes$Date >= financials$Date[i] & history_quotes$Date < (financials$Date[i] %m+% years(1))
-                year_quotes <- history_quotes[Index,]$Adj_Close
+                year_quotes_after <- history_quotes[Index,]$Adj_Close
                 
-                if (is.null(year_quotes)){
+                Index = history_quotes$Date <= financials$Date[i] & history_quotes$Date < (financials$Date[i] %m-% years(1))
+                year_quotes_before <- history_quotes[Index,]$Adj_Close
+                
+                if (is.null(year_quotes_after)){
+                        median_year_diff[i] <- NA_real_
                         median_quotes[i] <- NA_real_
                         lower_quotes[i] <- NA_real_
                         upper_quotes[i] <- NA_real_
+                        upper_lower_diff[i] <- NA_real_
                 }else{  
-                        year_quotes <- as.numeric(year_quotes)
-                        median_quotes[i] <- median(year_quotes, na.rm = TRUE)
-                        lower_quotes[i] <- quantile(year_quotes, probs = 0.05, na.rm = TRUE)
-                        upper_quotes[i] <- quantile(year_quotes, probs = 0.95, na.rm = TRUE)
+                        year_quotes_after <- as.numeric(year_quotes_after)
+                        year_quotes_before <- as.numeric(year_quotes_before)
+                        median_quotes[i] <- median(year_quotes_after, na.rm = TRUE)
+                        median_year_diff[i] <- median_quotes[i] - median(year_quotes_before, na.rm = TRUE)
+                        lower_quotes[i] <- quantile(year_quotes_after, probs = 0.05, na.rm = TRUE)
+                        upper_quotes[i] <- quantile(year_quotes_after, probs = 0.95, na.rm = TRUE)
+                        upper_lower_diff[i] <- upper_quotes[i] - lower_quotes[i]
                 }
                 
         }
         
         financials <- financials %>% 
-                mutate(Median_Quote = median_quotes, Lower_Quote = lower_quotes, Upper_Quote = upper_quotes) %>% 
+                mutate(Median_Quote = median_quotes, 
+                       Median_Q_Increase = median_year_diff,
+                       Lower_Quote = lower_quotes, 
+                       Upper_Quote = upper_quotes,
+                       UpLow_Q_Var90 = upper_lower_diff
+                       ) %>% 
                 select(Date, Median_Quote, Lower_Quote, Upper_Quote, everything())
         return(financials)
 }
 
 #AAPL_financials <- get_quotes(AAPL_financials, AAPL_history)
 
+# Funtion to calculate the previous five years' mean of selected quantity
+FiveYearMean <- function(x){
+  len <- length(x)
+  means <- rep(NA_real_, len)
+  for (i in 1:(len-4)){
+    means[i] <- mean(x[i:(i+4)])
+  }
+  return(means)
+}
 
 # call main() function
-stock_finan <- main("../data/data_Ticker/tickers_TenBillion.csv")
+ main("data/data_Ticker/tickers_TenBillion.csv")
 
-write_csv(stock_finan, "../data/stock_data_clean.csv")
-#write_feather(stock_finan, "../data/stock_data_clean.feather")
+
 
