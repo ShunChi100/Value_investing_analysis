@@ -1,671 +1,672 @@
 ,Symbol,Name,LastSale,MarketCap,ADR TSO,IPOyear,Sector,Industry,Summary Quote,Unnamed: 9,Exchange
-0,ATVI,"Activision Blizzard, Inc",62.01,46885727204.55,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/atvi,,NASDAQ
-1,ADBE,Adobe Systems Incorporated,176.85,87176972025.9,n/a,1986,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/adbe,,NASDAQ
-2,AMD,"Advanced Micro Devices, Inc.",10.83,10448768870.49,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/amd,,NASDAQ
-3,ALXN,"Alexion Pharmaceuticals, Inc.",107.36,23985259379.84,n/a,1996,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/alxn,,NASDAQ
-4,ALGN,"Align Technology, Inc.",258.27,20707495612.08,n/a,2001,Health Care,Industrial Specialties,http://www.nasdaq.com/symbol/algn,,NASDAQ
-5,ALNY,"Alnylam Pharmaceuticals, Inc.",128.11,11879744325.32,n/a,2004,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/alny,,NASDAQ
-6,GOOG,Alphabet Inc.,1021.66,709851524724.26,n/a,2004,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/goog,,NASDAQ
-7,AABA,Altaba Inc.,70.43,61512017329.24,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/aaba,,NASDAQ
-8,AMZN,"Amazon.com, Inc.",1160.55,559236752696.25,n/a,1997,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/amzn,,NASDAQ
-9,AMOV,"America Movil, S.A.B. de C.V.",17.5524,57972953835.8484,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/amov,,NASDAQ
-10,AAL,"American Airlines Group, Inc.",49.25,23566079345.25,n/a,n/a,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/aal,,NASDAQ
-11,AMGN,Amgen Inc.,172.28,125059873861.0,n/a,1983,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),http://www.nasdaq.com/symbol/amgn,,NASDAQ
-12,ADI,"Analog Devices, Inc.",85.67,31581027957.96,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/adi,,NASDAQ
-13,ANSS,"ANSYS, Inc.",146.53,12434605108.69,n/a,1996,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/anss,,NASDAQ
-14,AAPL,Apple Inc.,169.48,870163197760.0,n/a,1980,Technology,Computer Manufacturing,http://www.nasdaq.com/symbol/aapl,,NASDAQ
-15,AMAT,"Applied Materials, Inc.",52.91,56427835900.15,n/a,1972,Technology,Semiconductors,http://www.nasdaq.com/symbol/amat,,NASDAQ
-16,ACGL,Arch Capital Group Ltd.,96.28,12600551030.72,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/acgl,,NASDAQ
-17,ASML,ASML Holding N.V.,172.43,12221261449.22,70876654,1995,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/asml,,NASDAQ
-18,TEAM,Atlassian Corporation Plc,46.61,10725154105.23,n/a,2015,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/team,,NASDAQ
-19,ADSK,"Autodesk, Inc.",109.34,23966480396.32,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/adsk,,NASDAQ
-20,ADP,"Automatic Data Processing, Inc.",113.33,50260691100.9,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/adp,,NASDAQ
-21,BIDU,"Baidu, Inc.",235.49,64882218929.4,275520060,2005,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/bidu,,NASDAQ
-22,BIIB,Biogen Inc.,319.96,67664160442.56,n/a,n/a,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),http://www.nasdaq.com/symbol/biib,,NASDAQ
-23,BMRN,BioMarin Pharmaceutical Inc.,83.28,14625739948.56,n/a,1999,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/bmrn,,NASDAQ
-24,AVGO,Broadcom Limited,271.54,110782713785.16,n/a,2009,Technology,Semiconductors,http://www.nasdaq.com/symbol/avgo,,NASDAQ
-25,CHRW,"C.H. Robinson Worldwide, Inc.",84.49,11778353628.02,n/a,1997,Transportation,Oil Refining/Marketing,http://www.nasdaq.com/symbol/chrw,,NASDAQ
-26,CA,CA Inc.,32.58,13636143776.52,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/ca,,NASDAQ
-27,CDNS,"Cadence Design Systems, Inc.",43.16,12186657600.0,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/cdns,,NASDAQ
-28,CBOE,"Cboe Global Markets, Inc.",120.95,13722723812.8,n/a,2010,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/cboe,,NASDAQ
-29,CDW,CDW Corporation,68.89,10544498083.14,n/a,2013,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/cdw,,NASDAQ
-30,CELG,Celgene Corporation,103.09,81164502416.79,n/a,1987,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/celg,,NASDAQ
-31,CERN,Cerner Corporation,69.775,23194249368.4,n/a,1986,Technology,EDP Services,http://www.nasdaq.com/symbol/cern,,NASDAQ
-32,CHTR,"Charter Communications, Inc.",331.67,82456622976.45,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/chtr,,NASDAQ
-33,CHKP,Check Point Software Technologies Ltd.,102.05,16937769568.2,n/a,1996,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/chkp,,NASDAQ
-34,CINF,Cincinnati Financial Corporation,74.85,12280772358.75,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/cinf,,NASDAQ
-35,CTAS,Cintas Corporation,153.73,16342173106.05,n/a,1983,Consumer Non-Durables,Apparel,http://www.nasdaq.com/symbol/ctas,,NASDAQ
-36,CSCO,"Cisco Systems, Inc.",37.48,185286957207.52,n/a,1990,Technology,Computer Communications Equipment,http://www.nasdaq.com/symbol/csco,,NASDAQ
-37,CTXS,"Citrix Systems, Inc.",87.02,13111775744.56,n/a,1995,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/ctxs,,NASDAQ
-38,CME,CME Group Inc.,147.82,50302332398.72,n/a,2002,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/cme,,NASDAQ
-39,CGNX,Cognex Corporation,135.82,11760191876.18,n/a,1989,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/cgnx,,NASDAQ
-40,CTSH,Cognizant Technology Solutions Corporation,72.11,42519346811.96,n/a,1998,Technology,EDP Services,http://www.nasdaq.com/symbol/ctsh,,NASDAQ
-41,CMCSA,Comcast Corporation,37.19,173817574357.7,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/cmcsa,,NASDAQ
-42,CSGP,"CoStar Group, Inc.",301.83,10909793246.7,n/a,1998,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/csgp,,NASDAQ
-43,COST,Costco Wholesale Corporation,177.53,77578764753.18,n/a,n/a,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/cost,,NASDAQ
-44,CSX,CSX Corporation,54.44,48654284638.52,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/csx,,NASDAQ
-45,CTRP,"Ctrip.com International, Ltd.",46.25,21186183350.0,458079640,2003,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/ctrp,,NASDAQ
-46,XRAY,DENTSPLY SIRONA Inc.,68.36,15701123522.52,n/a,1987,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/xray,,NASDAQ
-47,FANG,"Diamondback Energy, Inc.",108.13,10614828959.57,n/a,2012,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/fang,,NASDAQ
-48,DISH,DISH Network Corporation,51.3,23924134979.1,n/a,1995,Consumer Services,Television Services,http://www.nasdaq.com/symbol/dish,,NASDAQ
-49,DLTR,"Dollar Tree, Inc.",104.15,24693602141.4,n/a,1995,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/dltr,,NASDAQ
-50,ETFC,E*TRADE Financial Corporation,47.78,12884343619.48,n/a,n/a,Finance,Savings Institutions,http://www.nasdaq.com/symbol/etfc,,NASDAQ
-51,EBAY,eBay Inc.,34.38,35912355827.58,n/a,1998,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/ebay,,NASDAQ
-52,EA,Electronic Arts Inc.,105.49,32483056036.97,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/ea,,NASDAQ
-53,EQIX,"Equinix, Inc.",468.435,36647401854.195,n/a,2000,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/eqix,,NASDAQ
-54,EXPE,"Expedia, Inc.",121.99,18602865293.98,n/a,n/a,Consumer Services,Transportation Services,http://www.nasdaq.com/symbol/expe,,NASDAQ
-55,EXPD,"Expeditors International of Washington, Inc.",64.43,11449394625.5,n/a,n/a,Transportation,Oil Refining/Marketing,http://www.nasdaq.com/symbol/expd,,NASDAQ
-56,ESRX,Express Scripts Holding Company,62.86,35602206780.0,n/a,1992,Health Care,Medical/Nursing Services,http://www.nasdaq.com/symbol/esrx,,NASDAQ
-57,FB,"Facebook, Inc.",175.13,508894286037.24,n/a,2012,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/fb,,NASDAQ
-58,FAST,Fastenal Company,51.26,14731630571.24,n/a,1987,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/fast,,NASDAQ
-59,FITB,Fifth Third Bancorp,30.46,21492005423.28,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/fitb,,NASDAQ
-60,FISV,"Fiserv, Inc.",128.72,26825169995.68,n/a,1986,Technology,EDP Services,http://www.nasdaq.com/symbol/fisv,,NASDAQ
-61,GRMN,Garmin Ltd.,62.395,11711754766.11,n/a,2000,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/grmn,,NASDAQ
-62,GILD,"Gilead Sciences, Inc.",73.67,96232836935.32,n/a,1992,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),http://www.nasdaq.com/symbol/gild,,NASDAQ
-63,HAS,"Hasbro, Inc.",92.83,11562495048.38,n/a,n/a,Consumer Non-Durables,Recreational Products/Toys,http://www.nasdaq.com/symbol/has,,NASDAQ
-64,HSIC,"Henry Schein, Inc.",70.3,11033893757.6,n/a,1995,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/hsic,,NASDAQ
-65,HOLX,"Hologic, Inc.",42.29,11658657244.92,n/a,1990,Health Care,Medical Electronics,http://www.nasdaq.com/symbol/holx,,NASDAQ
-66,HBAN,Huntington Bancshares Incorporated,14.475,15646697909.625,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/hban,,NASDAQ
-67,IAC,IAC/InterActiveCorp,127.59,10460511316.86,n/a,n/a,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/iac,,NASDAQ
-68,IDXX,"IDEXX Laboratories, Inc.",154.02,13433426176.26,n/a,1991,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances,http://www.nasdaq.com/symbol/idxx,,NASDAQ
-69,INFO,IHS Markit Ltd.,44.16,17615128348.8,n/a,2014,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/info,,NASDAQ
-70,ILMN,"Illumina, Inc.",227.48,33212080000.0,n/a,2000,Capital Goods,Biotechnology: Laboratory Analytical Instruments,http://www.nasdaq.com/symbol/ilmn,,NASDAQ
-71,INCY,Incyte Corporation,95.97,20253250544.73,n/a,n/a,Health Care,Biotechnology: Commercial Physical & Biological Resarch,http://www.nasdaq.com/symbol/incy,,NASDAQ
-72,INTC,Intel Corporation,43.95,205686000000.0,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/intc,,NASDAQ
-73,IBKR,"Interactive Brokers Group, Inc.",57.13,23520608672.05,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/ibkr,,NASDAQ
-74,INTU,Intuit Inc.,154.24,39431439804.8,n/a,1993,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/intu,,NASDAQ
-75,ISRG,"Intuitive Surgical, Inc.",394.3,44180461734.8,n/a,2000,Health Care,Industrial Specialties,http://www.nasdaq.com/symbol/isrg,,NASDAQ
-76,IPGP,IPG Photonics Corporation,228.159,12305642954.453999,n/a,2006,Technology,Semiconductors,http://www.nasdaq.com/symbol/ipgp,,NASDAQ
-77,JBHT,"J.B. Hunt Transport Services, Inc.",108.65,11924543391.75,n/a,n/a,Transportation,Trucking Freight/Courier Services,http://www.nasdaq.com/symbol/jbht,,NASDAQ
-78,JD,"JD.com, Inc.",37.83,34726226376.66,917954702,2014,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/jd,,NASDAQ
-79,KLAC,KLA-Tencor Corporation,100.36,15727205145.08,n/a,1980,Capital Goods,Electronic Components,http://www.nasdaq.com/symbol/klac,,NASDAQ
-80,LRCX,Lam Research Corporation,194.62,31517978785.76,n/a,1984,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/lrcx,,NASDAQ
-81,LBRDA,Liberty Broadband Corporation,86.59,15746076572.17,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lbrda,,NASDAQ
-82,LBTYA,Liberty Global plc,32.3,26502368961.7,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lbtya,,NASDAQ
-83,LKQ,LKQ Corporation,39.5,12207244359.5,n/a,n/a,Consumer Services,Motor Vehicles,http://www.nasdaq.com/symbol/lkq,,NASDAQ
-84,MAR,Marriott International,126.49,46115886486.67,n/a,n/a,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/mar,,NASDAQ
-85,MRVL,Marvell Technology Group Ltd.,22.215,10910703290.835,n/a,2000,Technology,Semiconductors,http://www.nasdaq.com/symbol/mrvl,,NASDAQ
-86,MXIM,"Maxim Integrated Products, Inc.",52.11,14668266569.67,n/a,1988,Technology,Semiconductors,http://www.nasdaq.com/symbol/mxim,,NASDAQ
-87,MELI,"MercadoLibre, Inc.",267.93,11831082536.52,n/a,2007,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/meli,,NASDAQ
-88,MCHP,Microchip Technology Incorporated,86.58,20251528406.46,n/a,1993,Technology,Semiconductors,http://www.nasdaq.com/symbol/mchp,,NASDAQ
-89,MU,"Micron Technology, Inc.",43.74,50443383497.76,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/mu,,NASDAQ
-90,MSFT,Microsoft Corporation,83.34,642933946851.3,n/a,1986,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/msft,,NASDAQ
+0,ATVI,"Activision Blizzard, Inc",62.4,47180605992.0,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/atvi,,NASDAQ
+1,ADBE,Adobe Systems Incorporated,181.47,89454368750.58,n/a,1986,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/adbe,,NASDAQ
+2,AMD,"Advanced Micro Devices, Inc.",10.89,10506656786.67,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/amd,,NASDAQ
+3,ALXN,"Alexion Pharmaceuticals, Inc.",109.81,24532613007.64,n/a,1996,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/alxn,,NASDAQ
+4,ALGN,"Align Technology, Inc.",260.88,20916759419.52,n/a,2001,Health Care,Industrial Specialties,http://www.nasdaq.com/symbol/algn,,NASDAQ
+5,ALNY,"Alnylam Pharmaceuticals, Inc.",134.54,13342441046.48,n/a,2004,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/alny,,NASDAQ
+6,GOOG,Alphabet Inc.,1021.41,709677824196.51,n/a,2004,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/goog,,NASDAQ
+7,AABA,Altaba Inc.,70.22,61328607934.96,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/aaba,,NASDAQ
+8,AMZN,"Amazon.com, Inc.",1176.75,567043081931.25,n/a,1997,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/amzn,,NASDAQ
+9,AMOV,"America Movil, S.A.B. de C.V.",17.0528,56322849705.5648,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/amov,,NASDAQ
+10,AAL,"American Airlines Group, Inc.",50.49,24159418195.77,n/a,n/a,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/aal,,NASDAQ
+11,AMGN,Amgen Inc.,175.66,127513451604.5,n/a,1983,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),http://www.nasdaq.com/symbol/amgn,,NASDAQ
+12,ADI,"Analog Devices, Inc.",86.11,31743227704.68,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/adi,,NASDAQ
+13,ANSS,"ANSYS, Inc.",148.19,12575473493.87,n/a,1996,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/anss,,NASDAQ
+14,AAPL,Apple Inc.,171.85,882331517200.0,n/a,1980,Technology,Computer Manufacturing,http://www.nasdaq.com/symbol/aapl,,NASDAQ
+15,AMAT,"Applied Materials, Inc.",52.77,56278527697.05,n/a,1972,Technology,Semiconductors,http://www.nasdaq.com/symbol/amat,,NASDAQ
+16,ACGL,Arch Capital Group Ltd.,94.69,12392461332.56,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/acgl,,NASDAQ
+17,ASML,ASML Holding N.V.,175.565,12443459759.51,70876654,1995,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/asml,,NASDAQ
+18,TEAM,Atlassian Corporation Plc,46.74,10755067643.82,n/a,2015,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/team,,NASDAQ
+19,ADSK,"Autodesk, Inc.",109.7,24045389605.6,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/adsk,,NASDAQ
+20,ADP,"Automatic Data Processing, Inc.",114.46,50761834495.8,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/adp,,NASDAQ
+21,BIDU,"Baidu, Inc.",238.68,65761127920.8,275520060,2005,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/bidu,,NASDAQ
+22,BIIB,Biogen Inc.,322.17,68131524471.12,n/a,n/a,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),http://www.nasdaq.com/symbol/biib,,NASDAQ
+23,BMRN,BioMarin Pharmaceutical Inc.,85.9,15085867694.3,n/a,1999,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/bmrn,,NASDAQ
+24,AVGO,Broadcom Limited,277.94,113393781650.76,n/a,2009,Technology,Semiconductors,http://www.nasdaq.com/symbol/avgo,,NASDAQ
+25,CHRW,"C.H. Robinson Worldwide, Inc.",86.65,12079469071.7,n/a,1997,Transportation,Oil Refining/Marketing,http://www.nasdaq.com/symbol/chrw,,NASDAQ
+26,CA,CA Inc.,33.07,13841230039.58,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/ca,,NASDAQ
+27,CDNS,"Cadence Design Systems, Inc.",43.91,12398427600.0,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/cdns,,NASDAQ
+28,CBOE,"Cboe Global Markets, Inc.",123.43,14004099216.32,n/a,2010,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/cboe,,NASDAQ
+29,CDW,CDW Corporation,70.01,10715928448.26,n/a,2013,Consumer Services,Catalog/Specialty Distribution,http://www.nasdaq.com/symbol/cdw,,NASDAQ
+30,CELG,Celgene Corporation,100.83,79385166152.73,n/a,1987,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/celg,,NASDAQ
+31,CERN,Cerner Corporation,70.69,23498408998.24,n/a,1986,Technology,EDP Services,http://www.nasdaq.com/symbol/cern,,NASDAQ
+32,CHTR,"Charter Communications, Inc.",326.21,81099210001.35,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/chtr,,NASDAQ
+33,CHKP,Check Point Software Technologies Ltd.,104.35,17319512537.4,n/a,1996,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/chkp,,NASDAQ
+34,CINF,Cincinnati Financial Corporation,74.73,12261083745.75,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/cinf,,NASDAQ
+35,CTAS,Cintas Corporation,157.44,16736562374.4,n/a,1983,Consumer Non-Durables,Apparel,http://www.nasdaq.com/symbol/ctas,,NASDAQ
+36,CSCO,"Cisco Systems, Inc.",37.3,184397105225.2,n/a,1990,Technology,Computer Communications Equipment,http://www.nasdaq.com/symbol/csco,,NASDAQ
+37,CTXS,"Citrix Systems, Inc.",87.63,13203687755.64,n/a,1995,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/ctxs,,NASDAQ
+38,CME,CME Group Inc.,149.63,50918265436.48,n/a,2002,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/cme,,NASDAQ
+39,CGNX,Cognex Corporation,138.57,11998305023.43,n/a,1989,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/cgnx,,NASDAQ
+40,CTSH,Cognizant Technology Solutions Corporation,72.28,42619586570.08,n/a,1998,Technology,EDP Services,http://www.nasdaq.com/symbol/ctsh,,NASDAQ
+41,CMCSA,Comcast Corporation,37.54,175453394498.2,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/cmcsa,,NASDAQ
+42,CSGP,"CoStar Group, Inc.",304.97,11023290085.3,n/a,1998,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/csgp,,NASDAQ
+43,COST,Costco Wholesale Corporation,184.43,80593993034.58,n/a,n/a,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/cost,,NASDAQ
+44,CSX,CSX Corporation,55.75,49825061877.25,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/csx,,NASDAQ
+45,CTRP,"Ctrip.com International, Ltd.",46.095,21115181005.8,458079640,2003,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/ctrp,,NASDAQ
+46,XRAY,DENTSPLY SIRONA Inc.,67.01,15391051598.07,n/a,1987,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/xray,,NASDAQ
+47,FANG,"Diamondback Energy, Inc.",109.31,10730666360.59,n/a,2012,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/fang,,NASDAQ
+48,DISH,DISH Network Corporation,50.65,23621002664.55,n/a,1995,Consumer Services,Television Services,http://www.nasdaq.com/symbol/dish,,NASDAQ
+49,DLTR,"Dollar Tree, Inc.",102.74,24359296053.84,n/a,1995,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/dltr,,NASDAQ
+50,ETFC,E*TRADE Financial Corporation,48.155,12905268453.955,n/a,n/a,Finance,Savings Institutions,http://www.nasdaq.com/symbol/etfc,,NASDAQ
+51,EBAY,eBay Inc.,34.67,36215281458.47,n/a,1998,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/ebay,,NASDAQ
+52,EA,Electronic Arts Inc.,106.35,32747871926.55,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/ea,,NASDAQ
+53,EQIX,"Equinix, Inc.",464.49,36338769919.53,n/a,2000,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/eqix,,NASDAQ
+54,EXPE,"Expedia, Inc.",122.5275,18684831357.555,n/a,n/a,Consumer Services,Transportation Services,http://www.nasdaq.com/symbol/expe,,NASDAQ
+55,EXPD,"Expeditors International of Washington, Inc.",64.78,11511590623.0,n/a,n/a,Transportation,Oil Refining/Marketing,http://www.nasdaq.com/symbol/expd,,NASDAQ
+56,ESRX,Express Scripts Holding Company,65.18,36916192140.0,n/a,1992,Health Care,Medical/Nursing Services,http://www.nasdaq.com/symbol/esrx,,NASDAQ
+57,FB,"Facebook, Inc.",177.18,514851193970.64,n/a,2012,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/fb,,NASDAQ
+58,FAST,Fastenal Company,52.4,15059255597.6,n/a,1987,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/fast,,NASDAQ
+59,FITB,Fifth Third Bancorp,30.52,21534340299.36,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/fitb,,NASDAQ
+60,FISV,"Fiserv, Inc.",131.45,27394100341.3,n/a,1986,Technology,EDP Services,http://www.nasdaq.com/symbol/fisv,,NASDAQ
+61,GRMN,Garmin Ltd.,62.08,11652628189.44,n/a,2000,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/grmn,,NASDAQ
+62,GILD,"Gilead Sciences, Inc.",74.78,97682795520.88,n/a,1992,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),http://www.nasdaq.com/symbol/gild,,NASDAQ
+63,HAS,"Hasbro, Inc.",93.02,11586160609.72,n/a,n/a,Consumer Non-Durables,Recreational Products/Toys,http://www.nasdaq.com/symbol/has,,NASDAQ
+64,HSIC,"Henry Schein, Inc.",71.45,11214391308.4,n/a,1995,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/hsic,,NASDAQ
+65,HOLX,"Hologic, Inc.",41.72,11501517622.56,n/a,1990,Health Care,Medical Electronics,http://www.nasdaq.com/symbol/holx,,NASDAQ
+66,HBAN,Huntington Bancshares Incorporated,14.395,15560222204.425,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/hban,,NASDAQ
+67,IAC,IAC/InterActiveCorp,127.27,10434276003.58,n/a,n/a,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/iac,,NASDAQ
+68,IDXX,"IDEXX Laboratories, Inc.",156.41,13641878900.33,n/a,1991,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances,http://www.nasdaq.com/symbol/idxx,,NASDAQ
+69,INFO,IHS Markit Ltd.,44.62,17798619269.1,n/a,1996,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/info,,NASDAQ
+70,ILMN,"Illumina, Inc.",230.03,33584380000.0,n/a,2000,Capital Goods,Biotechnology: Laboratory Analytical Instruments,http://www.nasdaq.com/symbol/ilmn,,NASDAQ
+71,INCY,Incyte Corporation,98.99,20890583217.91,n/a,n/a,Health Care,Biotechnology: Commercial Physical & Biological Resarch,http://www.nasdaq.com/symbol/incy,,NASDAQ
+72,INTC,Intel Corporation,44.84,209851200000.0,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/intc,,NASDAQ
+73,IBKR,"Interactive Brokers Group, Inc.",57.04,23483555376.4,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/ibkr,,NASDAQ
+74,INTU,Intuit Inc.,157.28,40208615485.6,n/a,1993,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/intu,,NASDAQ
+75,ISRG,"Intuitive Surgical, Inc.",399.78,44794483876.08,n/a,2000,Health Care,Industrial Specialties,http://www.nasdaq.com/symbol/isrg,,NASDAQ
+76,IPGP,IPG Photonics Corporation,228.98,12349923183.88,n/a,2006,Technology,Semiconductors,http://www.nasdaq.com/symbol/ipgp,,NASDAQ
+77,JBHT,"J.B. Hunt Transport Services, Inc.",111.14,12197825610.3,n/a,n/a,Transportation,Trucking Freight/Courier Services,http://www.nasdaq.com/symbol/jbht,,NASDAQ
+78,JD,"JD.com, Inc.",37.46,34386583136.92,917954702,2014,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/jd,,NASDAQ
+79,KLAC,KLA-Tencor Corporation,102.24,16021816002.72,n/a,1980,Capital Goods,Electronic Components,http://www.nasdaq.com/symbol/klac,,NASDAQ
+80,LRCX,Lam Research Corporation,192.33,31147121877.84,n/a,1984,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/lrcx,,NASDAQ
+81,LBRDA,Liberty Broadband Corporation,85.7,15584233309.1,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lbrda,,NASDAQ
+82,LBTYA,Liberty Global plc,31.76,26059295301.04,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/lbtya,,NASDAQ
+83,LKQ,LKQ Corporation,39.42,12182520826.62,n/a,n/a,Consumer Services,Motor Vehicles,http://www.nasdaq.com/symbol/lkq,,NASDAQ
+84,MAR,Marriott International,127.0,46301822941.0,n/a,n/a,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/mar,,NASDAQ
+85,MRVL,Marvell Technology Group Ltd.,22.34,10972095949.46,n/a,2000,Technology,Semiconductors,http://www.nasdaq.com/symbol/mrvl,,NASDAQ
+86,MXIM,"Maxim Integrated Products, Inc.",52.36,14738638218.92,n/a,1988,Technology,Semiconductors,http://www.nasdaq.com/symbol/mxim,,NASDAQ
+87,MELI,"MercadoLibre, Inc.",275.14,12149457130.96,n/a,2007,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/meli,,NASDAQ
+88,MCHP,Microchip Technology Incorporated,86.99,20347429615.13,n/a,1993,Technology,Semiconductors,http://www.nasdaq.com/symbol/mchp,,NASDAQ
+89,MU,"Micron Technology, Inc.",42.39,48886488945.36,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/mu,,NASDAQ
+90,MSFT,Microsoft Corporation,84.17,649337056713.15,n/a,1986,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/msft,,NASDAQ
 91,MDLZ,"Mondelez International, Inc.",42.94,64169046398.12,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/mdlz,,NASDAQ
-92,MNST,Monster Beverage Corporation,61.89,34903688637.0,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/mnst,,NASDAQ
-93,MYL,Mylan N.V.,36.84,19762314139.32,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/myl,,NASDAQ
-94,NDAQ,"Nasdaq, Inc.",78.56,13058736006.88,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/ndaq,,NASDAQ
-95,NTAP,"NetApp, Inc.",56.24,15171166411.68,n/a,1995,Technology,Electronic Components,http://www.nasdaq.com/symbol/ntap,,NASDAQ
-96,NTES,"NetEase, Inc.",324.42,24610854168.96,75861088,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/ntes,,NASDAQ
-97,NFLX,"Netflix, Inc.",188.15,81418362109.5,n/a,2002,Consumer Services,Consumer Electronics/Video Chains,http://www.nasdaq.com/symbol/nflx,,NASDAQ
-98,NTRS,Northern Trust Corporation,98.22,22337303192.16,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/ntrs,,NASDAQ
-99,NCLH,Norwegian Cruise Line Holdings Ltd.,55.29,12631770689.7,n/a,2013,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/nclh,,NASDAQ
-100,NVDA,NVIDIA Corporation,196.42,119030520000.0,n/a,1999,Technology,Semiconductors,http://www.nasdaq.com/symbol/nvda,,NASDAQ
-101,NXPI,NXP Semiconductors N.V.,113.0,38310370451.0,n/a,2010,Technology,Semiconductors,http://www.nasdaq.com/symbol/nxpi,,NASDAQ
-102,ODFL,"Old Dominion Freight Line, Inc.",127.05,10465863812.25,n/a,1991,Transportation,Trucking Freight/Courier Services,http://www.nasdaq.com/symbol/odfl,,NASDAQ
-103,ORLY,"O&#39;Reilly Automotive, Inc.",236.34,20095445908.98,n/a,1993,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/orly,,NASDAQ
-104,PCAR,PACCAR Inc.,69.01,24264618176.75,n/a,n/a,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/pcar,,NASDAQ
-105,PAYX,"Paychex, Inc.",66.58,23924137669.94,n/a,1983,Consumer Services,Diversified Commercial Services,http://www.nasdaq.com/symbol/payx,,NASDAQ
-106,PYPL,"PayPal Holdings, Inc.",73.25,88039930500.5,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/pypl,,NASDAQ
-107,QCOM,QUALCOMM Incorporated,66.52,98061431786.28,n/a,1991,Technology,Radio And Television Broadcasting And Communications Equipment,http://www.nasdaq.com/symbol/qcom,,NASDAQ
-108,REGN,"Regeneron Pharmaceuticals, Inc.",358.61,38528919976.54,n/a,1991,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/regn,,NASDAQ
-109,ROST,"Ross Stores, Inc.",75.95,29285718627.9,n/a,1985,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/rost,,NASDAQ
-110,RYAAY,Ryanair Holdings plc,126.77,12781683750.29,100825777,1997,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/ryaay,,NASDAQ
+92,MNST,Monster Beverage Corporation,62.67,35343580011.0,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/mnst,,NASDAQ
+93,MYL,Mylan N.V.,36.55,19606747605.65,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/myl,,NASDAQ
+94,NDAQ,"Nasdaq, Inc.",79.19,13163458558.87,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/ndaq,,NASDAQ
+95,NTAP,"NetApp, Inc.",56.51,15244000958.82,n/a,1995,Technology,Electronic Components,http://www.nasdaq.com/symbol/ntap,,NASDAQ
+96,NTES,"NetEase, Inc.",328.71,24936298236.48,75861088,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/ntes,,NASDAQ
+97,NFLX,"Netflix, Inc.",187.58,81171705365.4,n/a,2002,Consumer Services,Consumer Electronics/Video Chains,http://www.nasdaq.com/symbol/nflx,,NASDAQ
+98,NTRS,Northern Trust Corporation,97.84,22250883163.52,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/ntrs,,NASDAQ
+99,NCLH,Norwegian Cruise Line Holdings Ltd.,54.2,12382745006.0,n/a,2013,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/nclh,,NASDAQ
+100,NVDA,NVIDIA Corporation,200.71,121630260000.0,n/a,1999,Technology,Semiconductors,http://www.nasdaq.com/symbol/nvda,,NASDAQ
+101,NXPI,NXP Semiconductors N.V.,113.39,38442592083.53,n/a,2010,Technology,Semiconductors,http://www.nasdaq.com/symbol/nxpi,,NASDAQ
+102,ODFL,"Old Dominion Freight Line, Inc.",129.24,10646267131.8,n/a,1991,Transportation,Trucking Freight/Courier Services,http://www.nasdaq.com/symbol/odfl,,NASDAQ
+103,ORLY,"O&#39;Reilly Automotive, Inc.",236.21,20084392308.37,n/a,1993,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/orly,,NASDAQ
+104,PCAR,PACCAR Inc.,70.42,24760388523.5,n/a,n/a,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/pcar,,NASDAQ
+105,PAYX,"Paychex, Inc.",67.31,24186447980.83,n/a,1983,Consumer Services,Diversified Commercial Services,http://www.nasdaq.com/symbol/payx,,NASDAQ
+106,PYPL,"PayPal Holdings, Inc.",75.73,91020668079.22,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/pypl,,NASDAQ
+107,QCOM,QUALCOMM Incorporated,66.34,97796082151.26,n/a,1991,Technology,Radio And Television Broadcasting And Communications Equipment,http://www.nasdaq.com/symbol/qcom,,NASDAQ
+108,REGN,"Regeneron Pharmaceuticals, Inc.",362.04,38897437852.56,n/a,1991,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/regn,,NASDAQ
+109,ROST,"Ross Stores, Inc.",76.03,29316565994.46,n/a,1985,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/rost,,NASDAQ
+110,RYAAY,Ryanair Holdings plc,121.96,12296711762.92,100825777,1997,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/ryaay,,NASDAQ
 111,SBAC,SBA Communications Corporation,169.75,19952869590.5,n/a,1999,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/sbac,,NASDAQ
-112,SNI,"Scripps Networks Interactive, Inc",81.38,10572533481.12,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/sni,,NASDAQ
-113,STX,Seagate Technology PLC,38.75,11211094975.0,n/a,2002,Technology,Electronic Components,http://www.nasdaq.com/symbol/stx,,NASDAQ
-114,SEIC,SEI Investments Company,69.81,10993200322.26,n/a,1981,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/seic,,NASDAQ
-115,SHPG,Shire plc,149.5,10896771099.5,72888101,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/shpg,,NASDAQ
-116,SIRI,Sirius XM Holdings Inc.,5.48,25185093610.96,n/a,n/a,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/siri,,NASDAQ
-117,SWKS,"Skyworks Solutions, Inc.",105.33,19295359514.7,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/swks,,NASDAQ
-118,SPLK,Splunk Inc.,79.49,11127817977.38,n/a,2012,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/splk,,NASDAQ
-119,SBUX,Starbucks Corporation,57.51,81825228000.0,n/a,1992,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/sbux,,NASDAQ
-120,SIVB,SVB Financial Group,226.92,11967926224.68,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/sivb,,NASDAQ
-121,SYMC,Symantec Corporation,28.575,17715987393.075,n/a,1989,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/symc,,NASDAQ
-122,SNPS,"Synopsys, Inc.",86.66,13020462475.58,n/a,1992,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/snps,,NASDAQ
-123,TROW,"T. Rowe Price Group, Inc.",101.27,24538737345.72,n/a,1986,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/trow,,NASDAQ
+112,SNI,"Scripps Networks Interactive, Inc",81.87,10636192136.88,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/sni,,NASDAQ
+113,STX,Seagate Technology PLC,38.56,11156124444.8,n/a,2002,Technology,Electronic Components,http://www.nasdaq.com/symbol/stx,,NASDAQ
+114,SEIC,SEI Investments Company,70.36,11079810552.56,n/a,1981,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/seic,,NASDAQ
+115,SHPG,Shire plc,148.77,10843562785.77,72888101,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/shpg,,NASDAQ
+116,SIRI,Sirius XM Holdings Inc.,5.495,25254030910.99,n/a,n/a,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/siri,,NASDAQ
+117,SWKS,"Skyworks Solutions, Inc.",104.74,19187277656.6,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/swks,,NASDAQ
+118,SPLK,Splunk Inc.,80.09,11211812074.58,n/a,2012,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/splk,,NASDAQ
+119,SBUX,Starbucks Corporation,57.82,82266296000.0,n/a,1992,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/sbux,,NASDAQ
+120,SIVB,SVB Financial Group,227.79,12013810658.91,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/sivb,,NASDAQ
+121,SYMC,Symantec Corporation,28.97,17960880307.17,n/a,1989,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/symc,,NASDAQ
+122,SNPS,"Synopsys, Inc.",90.38,13579383781.94,n/a,1992,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/snps,,NASDAQ
+123,TROW,"T. Rowe Price Group, Inc.",102.92,24938548905.12,n/a,1986,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/trow,,NASDAQ
 124,TTWO,"Take-Two Interactive Software, Inc.",111.55,12722620739.35,n/a,1997,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/ttwo,,NASDAQ
-125,AMTD,TD Ameritrade Holding Corporation,50.87,28750305235.7,n/a,1997,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/amtd,,NASDAQ
-126,TSLA,"Tesla, Inc. ",307.54,51687446658.3,n/a,2010,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/tsla,,NASDAQ
-127,TXN,Texas Instruments Incorporated,96.88,95481110056.08,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/txn,,NASDAQ
-128,KHC,The Kraft Heinz Company,81.09,98805556821.24,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/khc,,NASDAQ
-129,PCLN,The Priceline Group Inc. ,1732.77,84506406222.42,n/a,1999,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/pcln,,NASDAQ
-130,TMUS,"T-Mobile US, Inc.",61.85,51456979461.3,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/tmus,,NASDAQ
-131,TRMB,Trimble Inc.,41.42,10427953046.0,n/a,1990,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/trmb,,NASDAQ
-132,FOX,"Twenty-First Century Fox, Inc.",31.3,57984182427.0,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/fox,,NASDAQ
-133,ULTA,"Ulta Beauty, Inc.",223.07,13703326841.91,n/a,2007,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/ulta,,NASDAQ
-134,VRSN,"VeriSign, Inc.",114.73,11308947802.46,n/a,1998,Technology,EDP Services,http://www.nasdaq.com/symbol/vrsn,,NASDAQ
-135,VRSK,"Verisk Analytics, Inc.",94.97,15640790882.64,n/a,2009,Technology,EDP Services,http://www.nasdaq.com/symbol/vrsk,,NASDAQ
-136,VRTX,Vertex Pharmaceuticals Incorporated,143.76,36357313428.48,n/a,1991,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/vrtx,,NASDAQ
-137,VIA,Viacom Inc.,34.25,13777339445.5,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/via,,NASDAQ
-138,VOD,Vodafone Group Plc,30.64,14237528723.92,464671303,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/vod,,NASDAQ
-139,WBA,"Walgreens Boots Alliance, Inc.",71.92,72606779758.56,n/a,n/a,Health Care,Medical/Nursing Services,http://www.nasdaq.com/symbol/wba,,NASDAQ
-140,WDC,Western Digital Corporation,81.0,23958716058.0,n/a,n/a,Technology,Electronic Components,http://www.nasdaq.com/symbol/wdc,,NASDAQ
-141,WLTW,Willis Towers Watson Public Limited Company,159.07,21003414938.33,n/a,n/a,Finance,Specialty Insurers,http://www.nasdaq.com/symbol/wltw,,NASDAQ
-142,WDAY,"Workday, Inc.",106.52,22156160000.0,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/wday,,NASDAQ
-143,WYNN,"Wynn Resorts, Limited",156.03,16037160184.29,n/a,2002,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/wynn,,NASDAQ
-144,XLNX,"Xilinx, Inc.",69.39,17413621106.49,n/a,1990,Technology,Semiconductors,http://www.nasdaq.com/symbol/xlnx,,NASDAQ
-145,YNDX,Yandex N.V.,32.95,10734312642.95,n/a,2011,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/yndx,,NASDAQ
-146,MMM,3M Company,238.01,141760685785.08,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/mmm,,NYSE
-147,WUBA,58.com Inc.,73.11,10711356481.62,n/a,2013,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/wuba,,NYSE
-148,ABB,ABB Ltd,25.5,54428514856.5,n/a,n/a,Consumer Durables,Electrical Products,http://www.nasdaq.com/symbol/abb,,NYSE
-149,ABT,Abbott Laboratories,55.58,96742586183.46,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/abt,,NYSE
-150,ABBV,AbbVie Inc.,95.82,152969897686.8,n/a,2012,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/abbv,,NYSE
-151,ACN,Accenture plc,146.95,93346199129.0,n/a,2001,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/acn,,NYSE
-152,ASX,"Advanced Semiconductor Engineering, Inc.",6.45,10911769904.4,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/asx,,NYSE
-153,AEG,Aegon NV,6.23,12751988879.77,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/aeg,,NYSE
-154,AET,Aetna Inc.,179.57,58557777000.0,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/aet,,NYSE
-155,AMG,"Affiliated Managers Group, Inc.",198.63,11040235776.45,n/a,n/a,Finance,Investment Managers,http://www.nasdaq.com/symbol/amg,,NYSE
-156,AFL,Aflac Incorporated,87.19,34278715367.8,n/a,n/a,Finance,Accident &Health Insurance,http://www.nasdaq.com/symbol/afl,,NYSE
-157,A,"Agilent Technologies, Inc.",68.69,22106365526.07,n/a,1999,Capital Goods,Biotechnology: Laboratory Analytical Instruments,http://www.nasdaq.com/symbol/a,,NYSE
-158,AEM,Agnico Eagle Mines Limited,43.59,10122176046.99,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/aem,,NYSE
-159,AGU,Agrium Inc.,108.58,15001875785.12,n/a,n/a,Basic Industries,Agricultural Chemicals,http://www.nasdaq.com/symbol/agu,,NYSE
-160,APD,"Air Products and Chemicals, Inc.",162.62,35551715426.52,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/apd,,NYSE
-161,ALB,Albemarle Corporation,131.95,14579901149.45,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/alb,,NYSE
-162,ARE,"Alexandria Real Estate Equities, Inc.",126.97,12153292367.22,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/are,,NYSE
-163,BABA,Alibaba Group Holding Limited,179.91,461619271581.66,n/a,2014,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/baba,,NYSE
-164,AGN,Allergan plc.,175.69,58431524311.93,n/a,2013,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/agn,,NYSE
-165,ADS,Alliance Data Systems Corporation,233.21,12884541631.07,n/a,2001,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/ads,,NYSE
-166,LNT,Alliant Energy Corporation,44.9,10381075764.0,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/lnt,,NYSE
-167,ALL,Allstate Corporation (The),101.96,36585892944.36,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/all,,NYSE
-168,ALLY,Ally Financial Inc.,26.66,11788676227.3,n/a,2014,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/ally,,NYSE
-169,ATUS,"Altice USA, Inc.",18.7,13783189664.2,n/a,2017,Consumer Services,Television Services,http://www.nasdaq.com/symbol/atus,,NYSE
-170,MO,Altria Group,67.37,128554738606.86,n/a,n/a,Consumer Non-Durables,Farming/Seeds/Milling,http://www.nasdaq.com/symbol/mo,,NYSE
-171,ABEV,Ambev S.A.,6.3,98960148894.6,n/a,2013,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/abev,,NYSE
-172,AEE,Ameren Corporation,63.68,15450983936.64,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/aee,,NYSE
-173,AEP,"American Electric Power Company, Inc.",77.14,37943923043.18,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/aep,,NYSE
-174,AXP,American Express Company,96.6,83848437750.0,n/a,n/a,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/axp,,NYSE
-175,AIG,"American International Group, Inc.",60.3,54207250071.3,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/aig,,NYSE
-176,AMT,American Tower Corporation (REIT),146.3,61878517808.8,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/amt,,NYSE
-177,AWK,American Water Works,90.35,16116217390.0,n/a,2008,Public Utilities,Water Supply,http://www.nasdaq.com/symbol/awk,,NYSE
-178,AMP,"AMERIPRISE FINANCIAL SERVICES, INC.",163.56,24195432599.16,n/a,n/a,Finance,Investment Managers,http://www.nasdaq.com/symbol/amp,,NYSE
-179,ABC,AmerisourceBergen Corporation (Holding Co),84.66,18462826437.66,n/a,n/a,Health Care,Other Pharmaceuticals,http://www.nasdaq.com/symbol/abc,,NYSE
-180,APH,Amphenol Corporation,89.77,27410290647.92,n/a,n/a,Capital Goods,Electrical Products,http://www.nasdaq.com/symbol/aph,,NYSE
-181,AME,"AMTEK, Inc.",71.68,16566481254.4,n/a,n/a,Consumer Durables,Metal Fabrications,http://www.nasdaq.com/symbol/ame,,NYSE
-182,APC,Anadarko Petroleum Corporation,47.88,26197903829.16,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/apc,,NYSE
-183,ANDV,Andeavor,105.15,16403117567.1,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/andv,,NYSE
-184,BUD,Anheuser-Busch Inbev SA,115.89,224073315000.0,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/bud,,NYSE
-185,NLY,Annaly Capital Management Inc,11.77,13647821427.79,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/nly,,NYSE
-186,ANTM,"Anthem, Inc.",227.31,58364234028.51,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/antm,,NYSE
-187,AON,Aon plc,140.47,35103131604.64,n/a,n/a,Finance,Specialty Insurers,http://www.nasdaq.com/symbol/aon,,NYSE
-188,APA,Apache Corporation,40.74,15519602705.46,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/apa,,NYSE
-189,APO,"Apollo Global Management, LLC",30.92,12646221035.56,n/a,2011,Finance,Investment Managers,http://www.nasdaq.com/symbol/apo,,NYSE
-190,ARMK,Aramark,42.58,10433750613.7,n/a,2013,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/armk,,NYSE
-191,MT,ArcelorMittal,30.4,30995950139.2,n/a,n/a,Basic Industries,Steel/Iron Ore,http://www.nasdaq.com/symbol/mt,,NYSE
-192,ADM,Archer-Daniels-Midland Company,39.77,22241384908.24,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/adm,,NYSE
-193,ARNC,Arconic Inc.,24.07,11585472940.39,n/a,n/a,Capital Goods,Metal Fabrications,http://www.nasdaq.com/symbol/arnc,,NYSE
-194,ANET,"Arista Networks, Inc.",234.21,17120901831.24,n/a,2014,Technology,Computer Communications Equipment,http://www.nasdaq.com/symbol/anet,,NYSE
-195,AJG,Arthur J. Gallagher & Co.,66.42,12008669580.0,n/a,n/a,Finance,Specialty Insurers,http://www.nasdaq.com/symbol/ajg,,NYSE
-196,AZN,Astrazeneca PLC,33.32,84362829231.52,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/azn,,NYSE
-197,T,AT&T Inc.,36.48,223950720000.0,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/t,,NYSE
-198,ALV,"Autoliv, Inc.",126.82,11027397595.26,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/alv,,NYSE
-199,AZO,"AutoZone, Inc.",688.92,18940146878.4,n/a,n/a,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/azo,,NYSE
-200,AVB,"AvalonBay Communities, Inc.",182.04,25137515126.64,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/avb,,NYSE
-201,AGR,"Avangrid, Inc.",52.83,16324748519.76,n/a,2015,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/agr,,NYSE
-202,BHGE,"Baker Hughes, a GE company",29.98,34335698413.9,n/a,2017,Energy,Metal Fabrications,http://www.nasdaq.com/symbol/bhge,,NYSE
-203,BLL,Ball Corporation,39.56,13848201316.2,n/a,n/a,Consumer Durables,Containers/Packaging,http://www.nasdaq.com/symbol/bll,,NYSE
-204,BBVA,Banco Bilbao Viscaya Argentaria S.A.,8.63,57543861185.4,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bbva,,NYSE
-205,BBD,Banco Bradesco Sa,10.08,61337541988.8,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/bbd,,NYSE
-206,BCH,Banco De Chile,83.31,13962106265.31,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bch,,NYSE
-207,BSBR,Banco Santander Brasil SA,9.03,67678540650.0,n/a,2009,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bsbr,,NYSE
-208,BSAC,Banco Santander Chile,28.03,13205362307.48,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bsac,,NYSE
-209,SAN,"Banco Santander, S.A.",6.73,108596313606.86,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/san,,NYSE
-210,BAC,Bank of America Corporation,28.28,294977754729.0,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/bac,,NYSE
-211,BK,Bank Of New York Mellon Corporation (The),54.41,55717056226.73,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/bk,,NYSE
-212,BNS,Bank of Nova Scotia (The),63.58,76206528570.92,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/bns,,NYSE
-213,ABX,Barrick Gold Corporation,14.03,16362674758.41,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/abx,,NYSE
-214,BAX,Baxter International Inc.,65.18,35512144741.14,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/bax,,NYSE
-215,BBT,BB&T Corporation,49.12,38751802074.24,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/bbt,,NYSE
-216,BCE,"BCE, Inc.",47.99,43212613448.26,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/bce,,NYSE
-217,BDX,"Becton, Dickinson and Company",226.88,51723723056.64,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/bdx,,NYSE
-218,BBY,"Best Buy Co., Inc.",58.83,17601028370.76,n/a,n/a,Consumer Services,Consumer Electronics/Video Chains,http://www.nasdaq.com/symbol/bby,,NYSE
-219,BHP,BHP Billiton Limited,41.44,110308367288.0,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/bhp,,NYSE
-220,BBL,BHP Billiton plc,36.32,96679534264.0,n/a,n/a,Energy,Coal Mining,http://www.nasdaq.com/symbol/bbl,,NYSE
-221,BLK,"BlackRock, Inc.",500.82,80297552872.02,n/a,1999,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/blk,,NYSE
-222,BA,Boeing Company (The),269.3,160389296243.9,n/a,n/a,Capital Goods,Aerospace,http://www.nasdaq.com/symbol/ba,,NYSE
-223,BWA,BorgWarner Inc.,54.86,11566600055.14,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/bwa,,NYSE
-224,BXP,"Boston Properties, Inc.",125.05,19297999363.3,n/a,1997,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/bxp,,NYSE
-225,BSX,Boston Scientific Corporation,25.95,35634423666.15,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/bsx,,NYSE
-226,BP,BP p.l.c.,39.71,131076761164.03,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/bp,,NYSE
-227,BAK,Braskem S.A.,28.24,11236889161.6,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/bak,,NYSE
-228,BMY,Bristol-Myers Squibb Company,62.9,102948410878.4,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/bmy,,NYSE
-229,BTI,British American Tobacco p.l.c.,64.77,148557083104.95,n/a,n/a,Consumer Non-Durables,Farming/Seeds/Milling,http://www.nasdaq.com/symbol/bti,,NYSE
-230,BR,"Broadridge Financial Solutions, Inc.",89.12,10387158532.64,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/br,,NYSE
-231,BAM,Brookfield Asset Management Inc,41.37,40921035384.6,n/a,n/a,Consumer Services,Building operators,http://www.nasdaq.com/symbol/bam,,NYSE
-232,BIP,Brookfield Infrastructure Partners LP,43.77,12101274946.14,n/a,n/a,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/bip,,NYSE
-233,BT,BT Group plc,17.29,34295674318.36,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/bt,,NYSE
-234,BCR,"C.R. Bard, Inc.",336.81,24550879813.32,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/bcr,,NYSE
-235,COG,Cabot Oil & Gas Corporation,29.17,13491370436.38,n/a,1990,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/cog,,NYSE
-236,CPB,Campbell Soup Company,48.99,14722891263.99,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/cpb,,NYSE
-237,CM,Canadian Imperial Bank of Commerce,89.28,39250524502.08,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/cm,,NYSE
-238,CNI,Canadian National Railway Company,76.36,57071316854.28,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/cni,,NYSE
-239,CNQ,Canadian Natural Resources Limited,33.27,40485034072.74,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/cnq,,NYSE
-240,CP,Canadian Pacific Railway Limited,173.29,25125393867.47,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/cp,,NYSE
-241,CAJ,"Canon, Inc.",38.31,51096478305.84,n/a,n/a,Miscellaneous,Industrial Machinery/Components,http://www.nasdaq.com/symbol/caj,,NYSE
-242,COF,Capital One Financial Corporation,90.97,44097178236.54,n/a,1994,Finance,Major Banks,http://www.nasdaq.com/symbol/cof,,NYSE
-243,CAH,"Cardinal Health, Inc.",59.11,18596221219.51,n/a,n/a,Health Care,Other Pharmaceuticals,http://www.nasdaq.com/symbol/cah,,NYSE
-244,KMX,CarMax Inc,68.5,12489608356.5,n/a,n/a,Consumer Durables,Automotive Aftermarket,http://www.nasdaq.com/symbol/kmx,,NYSE
-245,CCL,Carnival Corporation,65.7,47113820772.3,n/a,1987,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/ccl,,NYSE
-246,CAT,"Caterpillar, Inc.",138.06,82136530330.92,n/a,n/a,Capital Goods,Construction/Ag Equipment/Trucks,http://www.nasdaq.com/symbol/cat,,NYSE
-247,CBG,"CBRE Group, Inc.",42.99,14593348342.62,n/a,2004,Finance,Real Estate,http://www.nasdaq.com/symbol/cbg,,NYSE
-248,CBS,CBS Corporation,56.54,21616600203.88,n/a,n/a,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/cbs,,NYSE
-249,CE,Celanese Corporation,106.88,14496816508.16,n/a,2005,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/ce,,NYSE
-250,CX,Cemex S.A.B. de C.V.,7.78,11331634363.94,n/a,n/a,Capital Goods,Building Materials,http://www.nasdaq.com/symbol/cx,,NYSE
-251,CVE,Cenovus Energy Inc,9.2,11304016365.2,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/cve,,NYSE
-252,CNC,Centene Corporation,99.01,17085812234.31,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/cnc,,NYSE
-253,CNP,"CenterPoint Energy, Inc.",29.67,12788764212.03,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/cnp,,NYSE
-254,CTL,"CenturyLink, Inc.",14.54,15543308461.82,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/ctl,,NYSE
-255,GIB,"CGI Group, Inc.",52.89,13453544147.1,n/a,n/a,Consumer Services,Professional Services,http://www.nasdaq.com/symbol/gib,,NYSE
-256,CVX,Chevron Corporation,117.18,222568636883.04,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/cvx,,NYSE
-257,LFC,China Life Insurance Company Limited,16.7,94404114700.0,n/a,2003,Finance,Life Insurance,http://www.nasdaq.com/symbol/lfc,,NYSE
-258,CHL,China Mobile (Hong Kong) Ltd.,51.02,208931827460.58,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/chl,,NYSE
-259,SNP,China Petroleum & Chemical Corporation,71.49,86553807743.04,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/snp,,NYSE
-260,CHA,China Telecom Corp Ltd,48.23,39033503600.0,n/a,2002,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/cha,,NYSE
-261,CHU,China Unicom (Hong Kong) Ltd,14.61,34986685457.88,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/chu,,NYSE
-262,CB,Chubb Limited,152.64,70858843943.04,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/cb,,NYSE
-263,CHT,"Chunghwa Telecom Co., Ltd.",34.54,26794221938.0,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/cht,,NYSE
-264,CHD,"Church & Dwight Company, Inc.",46.79,11694006752.18,n/a,n/a,Basic Industries,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/chd,,NYSE
-265,CI,Cigna Corporation,205.83,50747325985.98,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/ci,,NYSE
-266,XEC,Cimarex Energy Co,114.23,10881652721.23,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/xec,,NYSE
-267,CFG,"Citizens Financial Group, Inc.",40.67,20009290360.01,n/a,2014,Finance,Major Banks,http://www.nasdaq.com/symbol/cfg,,NYSE
-268,CLX,Clorox Company (The),139.22,17950825070.22,n/a,n/a,Consumer Durables,Specialty Chemicals,http://www.nasdaq.com/symbol/clx,,NYSE
-269,CMS,CMS Energy Corporation,49.61,13972182079.57,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/cms,,NYSE
-270,CNA,CNA Financial Corporation,54.5,14779139415.0,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/cna,,NYSE
-271,CNHI,CNH Industrial N.V.,12.84,17509606298.52,n/a,2013,Capital Goods,Construction/Ag Equipment/Trucks,http://www.nasdaq.com/symbol/cnhi,,NYSE
-272,KOF,Coca Cola Femsa S.A.B. de C.V.,68.85,14464008000.0,n/a,1993,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/kof,,NYSE
-273,KO,Coca-Cola Company (The),45.5,193860362878.0,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/ko,,NYSE
-274,CCE,Coca-Cola European Partners plc,38.33,18562077954.23,n/a,2016,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/cce,,NYSE
-275,CL,Colgate-Palmolive Company,72.01,63232357108.23,n/a,n/a,Consumer Non-Durables,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/cl,,NYSE
-276,CMA,Comerica Incorporated,83.49,14520166522.62,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/cma,,NYSE
-277,CAG,"ConAgra Brands, Inc.",37.2,15196130510.4,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/cag,,NYSE
-278,CXO,Concho Resources Inc.,137.51,20447191360.32,n/a,2007,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/cxo,,NYSE
-279,COP,ConocoPhillips,50.73,60648517751.52,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/cop,,NYSE
-280,ED,Consolidated Edison Inc,88.4,27410081654.8,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/ed,,NYSE
-281,STZ,Constellation Brands Inc,214.36,41930692507.44,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/stz,,NYSE
-282,CLR,"Continental Resources, Inc.",46.05,17278370029.2,n/a,2007,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/clr,,NYSE
-283,COO,"Cooper Companies, Inc. (The)",242.59,11874596131.6,n/a,n/a,Health Care,Ophthalmic Goods,http://www.nasdaq.com/symbol/coo,,NYSE
-284,GLW,Corning Incorporated,32.48,28226985521.28,n/a,n/a,Basic Industries,Telecommunications Equipment,http://www.nasdaq.com/symbol/glw,,NYSE
-285,COTY,Coty Inc.,17.09,12808810794.58,n/a,2013,Consumer Non-Durables,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/coty,,NYSE
-286,BAP,Credicorp Ltd.,213.61,20160939020.0,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bap,,NYSE
-287,CS,Credit Suisse Group,16.65,42541782383.25,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/cs,,NYSE
-288,CRH,CRH PLC,35.25,29487926817.75,n/a,n/a,Capital Goods,Building Materials,http://www.nasdaq.com/symbol/crh,,NYSE
-289,CCI,Crown Castle International Corporation,112.86,45852206770.26,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cci,,NYSE
-290,CMI,Cummins Inc.,164.52,27304977706.56,n/a,n/a,Energy,Industrial Machinery/Components,http://www.nasdaq.com/symbol/cmi,,NYSE
-291,CVS,CVS Health Corporation,73.4,74353643995.0,n/a,n/a,Health Care,Medical/Nursing Services,http://www.nasdaq.com/symbol/cvs,,NYSE
-292,DHI,"D.R. Horton, Inc.",50.66,18999416417.14,n/a,n/a,Capital Goods,Homebuilding,http://www.nasdaq.com/symbol/dhi,,NYSE
-293,DHR,Danaher Corporation,93.94,65345157842.58,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/dhr,,NYSE
-294,DRI,"Darden Restaurants, Inc.",84.81,10488729689.46,n/a,n/a,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/dri,,NYSE
-295,DVA,DaVita Inc.,60.64,11115312000.0,n/a,n/a,Health Care,Hospital/Nursing Management,http://www.nasdaq.com/symbol/dva,,NYSE
-296,DE,Deere & Company,148.44,47767992000.0,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/de,,NYSE
-297,DVMT,Dell Technologies Inc.,77.99,15842933054.3,n/a,n/a,Technology,Computer Manufacturing,http://www.nasdaq.com/symbol/dvmt,,NYSE
-298,DLPH,Delphi Automotive plc,102.05,27128950977.7,n/a,2011,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/dlph,,NYSE
-299,DAL,"Delta Air Lines, Inc.",52.1,37145900541.9,n/a,n/a,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/dal,,NYSE
-300,DB,Deutsche Bank AG,19.0,39257800000.0,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/db,,NYSE
-301,DVN,Devon Energy Corporation,37.1,19496050000.0,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/dvn,,NYSE
-302,DEO,Diageo plc,139.14,86926427537.58,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/deo,,NYSE
-303,DLR,"Digital Realty Trust, Inc.",116.99,24034726264.3,n/a,2004,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/dlr,,NYSE
-304,DFS,Discover Financial Services,69.01,25076897207.29,n/a,n/a,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/dfs,,NYSE
-305,DG,Dollar General Corporation,88.68,24232608563.4,n/a,2009,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/dg,,NYSE
-306,D,"Dominion Energy, Inc.",84.0,54056500596.0,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/d,,NYSE
-307,DOV,Dover Corporation,95.86,14934133887.4,n/a,n/a,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/dov,,NYSE
-308,DWDP,DowDuPont Inc.,71.78,167964500934.58,n/a,2017,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/dwdp,,NYSE
-309,DPS,"Dr Pepper Snapple Group, Inc",89.46,16151238564.3,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/dps,,NYSE
-310,DTE,DTE Energy Company,114.56,20550951164.16,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/dte,,NYSE
-311,DUK,Duke Energy Corporation,89.0,62297829646.0,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/duk,,NYSE
-312,DRE,Duke Realty Corporation,28.65,10203435352.5,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/dre,,NYSE
-313,DXC,DXC Technology Company,95.52,27248870522.4,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/dxc,,NYSE
-314,EMN,Eastman Chemical Company,91.41,13138761412.59,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/emn,,NYSE
-315,ETN,"Eaton Corporation, PLC",76.84,33855704000.0,n/a,n/a,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/etn,,NYSE
-316,ECL,Ecolab Inc.,135.0,39003431175.0,n/a,n/a,Basic Industries,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/ecl,,NYSE
-317,EC,Ecopetrol S.A.,11.74,24135499777.16,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/ec,,NYSE
-318,EIX,Edison International,81.41,26524290280.46,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/eix,,NYSE
-319,EW,Edwards Lifesciences Corporation,116.37,24626206715.67,n/a,n/a,Health Care,Industrial Specialties,http://www.nasdaq.com/symbol/ew,,NYSE
-320,LLY,Eli Lilly and Company,84.96,93549006646.56,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/lly,,NYSE
-321,EMR,Emerson Electric Company,63.87,40878052873.92,n/a,n/a,Energy,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/emr,,NYSE
-322,ENB,Enbridge Inc,35.63,58905024609.83,n/a,n/a,Energy,Natural Gas Distribution,http://www.nasdaq.com/symbol/enb,,NYSE
-323,ECA,Encana Corporation,11.52,11209213866.24,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/eca,,NYSE
-324,ENIA,Enel Americas S.A.,9.72,11168793507.6,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/enia,,NYSE
-325,ETE,"Energy Transfer Equity, L.P.",15.79,17040331623.7,n/a,2006,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/ete,,NYSE
-326,ETP,"Energy Transfer Partners, L.P.",15.71,18152804833.04,n/a,n/a,Energy,Natural Gas Distribution,http://www.nasdaq.com/symbol/etp,,NYSE
-327,E,ENI S.p.A.,32.73,59473442925.45,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/e,,NYSE
-328,ETR,Entergy Corporation,86.15,15528658713.05,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/etr,,NYSE
-329,EPD,Enterprise Products Partners L.P.,23.89,51428065639.58,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/epd,,NYSE
-330,EOG,"EOG Resources, Inc.",100.5,58111032615.0,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/eog,,NYSE
-331,EQT,EQT Corporation,58.11,15413270730.0,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/eqt,,NYSE
-332,EFX,"Equifax, Inc.",112.65,13526941706.4,n/a,n/a,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/efx,,NYSE
-333,EQR,Equity Residential,66.74,24525934617.64,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/eqr,,NYSE
-334,ESS,"Essex Property Trust, Inc.",247.68,16356051342.72,n/a,1994,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ess,,NYSE
-335,EL,"Estee Lauder Companies, Inc. (The)",123.93,45635626529.46,n/a,1995,Consumer Non-Durables,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/el,,NYSE
-336,ES,Eversource Energy,64.61,20473992054.88,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/es,,NYSE
-337,EXC,Exelon Corporation,41.69,40057939599.37,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/exc,,NYSE
-338,EXR,Extra Space Storage Inc,85.06,10718223723.18,n/a,2004,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/exr,,NYSE
-339,XOM,Exxon Mobil Corporation,82.27,348586716954.79,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/xom,,NYSE
-340,FDX,FedEx Corporation,225.93,60582602631.24,n/a,n/a,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/fdx,,NYSE
-341,RACE,Ferrari N.V.,108.4,26606334801.2,n/a,2015,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/race,,NYSE
-342,FCAU,Fiat Chrysler Automobiles N.V.,17.05,33183323066.85,n/a,2014,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/fcau,,NYSE
-343,FNF,"Fidelity National Financial, Inc.",40.21,13613700861.55,n/a,2014,Finance,Specialty Insurers,http://www.nasdaq.com/symbol/fnf,,NYSE
-344,FIS,"Fidelity National Information Services, Inc.",92.72,30956292048.72,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/fis,,NYSE
-345,FDC,First Data Corporation,16.17,14932455795.18,n/a,2015,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/fdc,,NYSE
-346,FE,FirstEnergy Corporation,33.67,14978368961.01,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/fe,,NYSE
-347,FLT,"FleetCor Technologies, Inc.",179.52,16077952661.76,n/a,2010,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/flt,,NYSE
-348,FMC,FMC Corporation,93.21,12514540700.22,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/fmc,,NYSE
-349,FMX,Fomento Economico Mexicano S.A.B. de C.V.,90.44,32361478385.88,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/fmx,,NYSE
-350,F,Ford Motor Company,12.56,49892115531.52,n/a,n/a,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/f,,NYSE
-351,FTS,Fortis Inc.,36.89,15477095248.86,n/a,2016,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/fts,,NYSE
-352,FTV,Fortive Corporation,73.42,25517780091.34,n/a,2016,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/ftv,,NYSE
-353,FBHS,"Fortune Brands Home & Security, Inc.",66.87,10150917690.51,n/a,n/a,Basic Industries,Homebuilding,http://www.nasdaq.com/symbol/fbhs,,NYSE
-354,FNV,Franco-Nevada Corporation,82.96,15407972646.72,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/fnv,,NYSE
-355,BEN,"Franklin Resources, Inc.",43.13,23890053031.99,n/a,n/a,Finance,Investment Managers,http://www.nasdaq.com/symbol/ben,,NYSE
-356,FCX,"Freeport-McMoran, Inc.",14.01,20280745258.68,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/fcx,,NYSE
-357,FMS,Fresenius Medical Care Corporation,49.31,30272546285.84,n/a,n/a,Health Care,Hospital/Nursing Management,http://www.nasdaq.com/symbol/fms,,NYSE
-358,GPS,"Gap, Inc. (The)",32.5,12637854872.5,n/a,n/a,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/gps,,NYSE
-359,IT,"Gartner, Inc.",119.31,10815623187.09,n/a,1993,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/it,,NYSE
-360,GD,General Dynamics Corporation,204.17,60961667222.11,n/a,n/a,Capital Goods,Marine Transportation,http://www.nasdaq.com/symbol/gd,,NYSE
-361,GE,General Electric Company,18.48,160260130800.0,n/a,n/a,Energy,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/ge,,NYSE
-362,GIS,"General Mills, Inc.",56.34,32020189287.12,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/gis,,NYSE
-363,GM,General Motors Company,43.81,63597988120.68,n/a,2010,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/gm,,NYSE
-364,GPC,Genuine Parts Company,91.5,13415134884.0,n/a,n/a,Capital Goods,Automotive Aftermarket,http://www.nasdaq.com/symbol/gpc,,NYSE
-365,GGP,GGP Inc.,23.4,22386980538.0,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ggp,,NYSE
-366,GSK,GlaxoSmithKline PLC,35.47,87232820197.79,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/gsk,,NYSE
-367,GPN,Global Payments Inc.,98.96,15748734971.76,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/gpn,,NYSE
-368,GOL,Gol Linhas Aereas Inteligentes S.A.,9.05,23703699727.0,n/a,2004,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/gol,,NYSE
-369,GG,Goldcorp Inc.,12.65,10969259799.3,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/gg,,NYSE
-370,GS,"Goldman Sachs Group, Inc. (The)",241.36,91041348971.44,n/a,1999,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/gs,,NYSE
-371,BSMX,Grupo Financiero Santander Mexico S.A. B. de C.V.,8.3,11266410546.3,n/a,2012,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bsmx,,NYSE
-372,TV,Grupo Televisa S.A.,18.05,10644810068.5,n/a,1993,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/tv,,NYSE
-373,HAL,Halliburton Company,41.3,36035939293.9,n/a,n/a,Energy,Oilfield Services/Equipment,http://www.nasdaq.com/symbol/hal,,NYSE
-374,HRS,Harris Corporation,143.22,17071902771.0,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/hrs,,NYSE
-375,HIG,"Hartford Financial Services Group, Inc. (The)",57.65,20564832074.95,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/hig,,NYSE
-376,HCA,"HCA Healthcare, Inc.",80.14,28373767350.0,n/a,2011,Health Care,Hospital/Nursing Management,http://www.nasdaq.com/symbol/hca,,NYSE
-377,HCP,"HCP, Inc.",26.9,12619017278.1,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hcp,,NYSE
-378,HDB,HDFC Bank Limited,97.85,83581699404.25,n/a,2001,Finance,Commercial Banks,http://www.nasdaq.com/symbol/hdb,,NYSE
-379,HSY,Hershey Company (The),110.5,23281841258.0,n/a,n/a,Consumer Non-Durables,Specialty Foods,http://www.nasdaq.com/symbol/hsy,,NYSE
-380,HES,Hess Corporation,44.81,14238557815.44,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/hes,,NYSE
-381,HPE,Hewlett Packard Enterprise Company,13.97,22282150000.0,n/a,2015,Technology,Computer Manufacturing,http://www.nasdaq.com/symbol/hpe,,NYSE
-382,HLT,Hilton Worldwide Holdings Inc.,76.56,24495481021.44,n/a,2016,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/hlt,,NYSE
-383,HD,"Home Depot, Inc. (The)",177.25,206983442717.75,n/a,n/a,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/hd,,NYSE
-384,HMC,"Honda Motor Company, Ltd.",33.2,59835665090.8,n/a,n/a,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/hmc,,NYSE
-385,HON,Honeywell International Inc.,153.24,116741721734.52,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/hon,,NYSE
-386,HRL,Hormel Foods Corporation,35.99,18996536774.04,n/a,n/a,Consumer Non-Durables,Meat/Poultry/Fish,http://www.nasdaq.com/symbol/hrl,,NYSE
-387,HST,"Host Hotels & Resorts, Inc.",19.67,14557534736.64,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hst,,NYSE
-388,HPQ,HP Inc.,21.43,35793551170.53,n/a,n/a,Technology,Computer Manufacturing,http://www.nasdaq.com/symbol/hpq,,NYSE
-389,HSBC,HSBC Holdings plc,49.79,199106030926.14,n/a,n/a,Finance,Savings Institutions,http://www.nasdaq.com/symbol/hsbc,,NYSE
-390,HUM,Humana Inc.,250.13,35733595812.48,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/hum,,NYSE
-391,HII,"Huntington Ingalls Industries, Inc.",239.68,10848217598.4,n/a,n/a,Capital Goods,Marine Transportation,http://www.nasdaq.com/symbol/hii,,NYSE
-392,IBN,ICICI Bank Limited,9.7,31102225422.4,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/ibn,,NYSE
-393,IEX,IDEX Corporation,132.5,10123244462.5,n/a,1989,Capital Goods,Fluid Controls,http://www.nasdaq.com/symbol/iex,,NYSE
-394,ITW,Illinois Tool Works Inc.,165.88,56830319631.8,n/a,n/a,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/itw,,NYSE
-395,INFY,Infosys Limited,15.5,35603395638.5,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/infy,,NYSE
-396,ING,"ING Group, N.V.",18.22,70796213892.14,n/a,1997,Finance,Commercial Banks,http://www.nasdaq.com/symbol/ing,,NYSE
-397,IR,Ingersoll-Rand plc (Ireland),86.07,21506127140.55,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/ir,,NYSE
-398,INGR,Ingredion Incorporated,139.75,10043133750.0,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/ingr,,NYSE
-399,ICE,Intercontinental Exchange Inc.,69.8,40834827084.8,n/a,2005,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/ice,,NYSE
-400,IHG,Intercontinental Hotels Group,58.76,10688777227.96,n/a,n/a,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/ihg,,NYSE
-401,IFF,"Internationa Flavors & Fragrances, Inc.",154.56,12206709540.48,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/iff,,NYSE
-402,IBM,International Business Machines Corporation,153.55,142155266091.9,n/a,n/a,Technology,Computer Manufacturing,http://www.nasdaq.com/symbol/ibm,,NYSE
-403,IP,International Paper Company,55.52,22925774219.2,n/a,n/a,Basic Industries,Paper,http://www.nasdaq.com/symbol/ip,,NYSE
-404,IVZ,Invesco Plc,36.1,14695534933.0,n/a,n/a,Finance,Investment Managers,http://www.nasdaq.com/symbol/ivz,,NYSE
-405,IQV,"IQVIA Holdings, Inc.",101.31,21408169975.83,n/a,2013,Health Care,Biotechnology: Commercial Physical & Biological Resarch,http://www.nasdaq.com/symbol/iqv,,NYSE
-406,IRM,Iron Mountain Incorporated,40.52,10816291048.88,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/irm,,NYSE
-407,ITUB,Itau Unibanco Banco Holding SA,12.96,84356528971.68,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/itub,,NYSE
-408,JPM,J P Morgan Chase & Co,103.73,359914634102.21,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/jpm,,NYSE
-409,SJM,J.M. Smucker Company (The),117.66,13365888203.64,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/sjm,,NYSE
-410,JNJ,Johnson & Johnson,139.81,375602368190.5,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/jnj,,NYSE
-411,JCI,Johnson Controls International plc,38.09,35249819607.08,n/a,n/a,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/jci,,NYSE
-412,JNPR,"Juniper Networks, Inc.",29.61,11101627051.83,n/a,1999,Technology,Computer Communications Equipment,http://www.nasdaq.com/symbol/jnpr,,NYSE
-413,KSU,Kansas City Southern,110.12,11402168484.52,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/ksu,,NYSE
-414,KB,KB Financial Group Inc,54.83,21987019382.82,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/kb,,NYSE
-415,K,Kellogg Company,66.8,23077568878.4,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/k,,NYSE
-416,KEY,KeyCorp,19.01,20443347441.55,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/key,,NYSE
-417,KMB,Kimberly-Clark Corporation,119.14,41908364126.3,n/a,n/a,Consumer Durables,Containers/Packaging,http://www.nasdaq.com/symbol/kmb,,NYSE
-418,KMI,"Kinder Morgan, Inc.",16.76,37429095260.24,n/a,2011,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/kmi,,NYSE
-419,PHG,Koninklijke Philips N.V.,38.4,35975462400.0,n/a,n/a,Energy,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/phg,,NYSE
-420,KEP,Korea Electric Power Corporation,17.62,22622814073.48,n/a,1994,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/kep,,NYSE
-421,KR,Kroger Company (The),24.38,21686550626.5,n/a,n/a,Consumer Services,Food Chains,http://www.nasdaq.com/symbol/kr,,NYSE
-422,KYO,Kyocera Corporation,71.19,26177239874.52,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/kyo,,NYSE
-423,LB,"L Brands, Inc.",52.53,14910454281.15,n/a,n/a,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/lb,,NYSE
-424,LLL,"L3 Technologies, Inc.",196.45,15351025367.5,n/a,n/a,Technology,Radio And Television Broadcasting And Communications Equipment,http://www.nasdaq.com/symbol/lll,,NYSE
-425,LH,Laboratory Corporation of America Holdings,157.02,15984636000.0,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/lh,,NYSE
-426,LVS,Las Vegas Sands Corp.,67.56,53404829475.6,n/a,2004,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/lvs,,NYSE
-427,LEA,Lear Corporation,179.1,12100127101.2,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/lea,,NYSE
-428,LEN,Lennar Corporation,62.18,14921055411.8,n/a,n/a,Basic Industries,Homebuilding,http://www.nasdaq.com/symbol/len,,NYSE
-429,LNC,Lincoln National Corporation,76.55,16751392789.95,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/lnc,,NYSE
-430,LYG,Lloyds Banking Group Plc,3.62,65087600000.0,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/lyg,,NYSE
-431,LMT,Lockheed Martin Corporation,320.76,91972855897.56,n/a,n/a,Capital Goods,Military/Government/Technical,http://www.nasdaq.com/symbol/lmt,,NYSE
-432,L,Loews Corporation,50.33,16942645880.16,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/l,,NYSE
-433,LOMA,Loma Negra Compania Industrial Argentina Sociedad ,22.09,13166225164.1,n/a,2017,Capital Goods,Building Materials,http://www.nasdaq.com/symbol/loma,,NYSE
-434,LOW,"Lowe&#39;s Companies, Inc.",83.3,69373254510.7,n/a,n/a,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/low,,NYSE
-435,LYB,LyondellBasell Industries NV,105.01,41422274212.82,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/lyb,,NYSE
-436,MTB,M&T Bank Corporation,169.11,25453653713.37,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/mtb,,NYSE
-437,MMP,Magellan Midstream Partners L.P.,64.71,14755469018.76,n/a,n/a,Energy,Natural Gas Distribution,http://www.nasdaq.com/symbol/mmp,,NYSE
-438,MGA,"Magna International, Inc.",55.21,19951110827.42,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/mga,,NYSE
-439,MFC,Manulife Financial Corp,21.07,41693888682.6,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/mfc,,NYSE
-440,MRO,Marathon Oil Corporation,14.75,12532536949.5,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/mro,,NYSE
-441,MPC,Marathon Petroleum Corporation,61.4,29988507238.0,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/mpc,,NYSE
-442,MKL,Markel Corporation,1103.74,15333046809.74,n/a,1986,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/mkl,,NYSE
-443,MMC,"Marsh & McLennan Companies, Inc.",83.6,42665830653.6,n/a,n/a,Finance,Specialty Insurers,http://www.nasdaq.com/symbol/mmc,,NYSE
-444,MLM,"Martin Marietta Materials, Inc.",208.51,13106844979.01,n/a,1994,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),http://www.nasdaq.com/symbol/mlm,,NYSE
-445,MAS,Masco Corporation,42.03,13221179222.76,n/a,n/a,Basic Industries,Forest Products,http://www.nasdaq.com/symbol/mas,,NYSE
-446,MA,Mastercard Incorporated,148.35,164502956235.0,n/a,2006,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/ma,,NYSE
-447,MKC,"McCormick & Company, Incorporated",102.12,13377553442.28,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/mkc,,NYSE
-448,MCD,McDonald&#39;s Corporation,170.43,135864339762.84,n/a,n/a,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/mcd,,NYSE
-449,MCK,McKesson Corporation,148.12,30879236867.08,n/a,n/a,Health Care,Other Pharmaceuticals,http://www.nasdaq.com/symbol/mck,,NYSE
-450,MDT,Medtronic plc,82.11,111143438134.68,n/a,n/a,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,http://www.nasdaq.com/symbol/mdt,,NYSE
-451,MRK,"Merck & Company, Inc.",55.36,150824823185.6,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/mrk,,NYSE
-452,MET,"MetLife, Inc.",53.55,56350625962.05,n/a,2000,Finance,Life Insurance,http://www.nasdaq.com/symbol/met,,NYSE
-453,MTD,"Mettler-Toledo International, Inc.",625.44,15998207314.56,n/a,1997,Capital Goods,Biotechnology: Laboratory Analytical Instruments,http://www.nasdaq.com/symbol/mtd,,NYSE
-454,MGM,MGM Resorts International,33.65,19050551944.25,n/a,n/a,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/mgm,,NYSE
-455,MFGP,Micro Focus Intl PLC,33.33,14506457809.14,n/a,2017,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/mfgp,,NYSE
-456,MAA,"Mid-America Apartment Communities, Inc.",102.25,11618362181.5,n/a,1994,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/maa,,NYSE
-457,MTU,Mitsubishi UFJ Financial Group Inc,7.09,94229238920.25,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/mtu,,NYSE
-458,MFG,"Mizuho Financial Group, Inc.",3.65,46286514787.2,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/mfg,,NYSE
-459,MBT,Mobile TeleSystems OJSC,10.49,10253126736.64,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/mbt,,NYSE
-460,MHK,"Mohawk Industries, Inc.",279.1,20747785200.7,n/a,n/a,Consumer Durables,Home Furnishings,http://www.nasdaq.com/symbol/mhk,,NYSE
-461,TAP,Molson Coors Brewing  Company,76.52,12455460741.0,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/tap,,NYSE
-462,MON,Monsanto Company,117.71,51815938350.99,n/a,n/a,Basic Industries,Agricultural Chemicals,http://www.nasdaq.com/symbol/mon,,NYSE
-463,MCO,Moody&#39;s Corporation,149.84,28634424000.0,n/a,n/a,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/mco,,NYSE
-464,MS,Morgan Stanley,51.32,92781384942.52,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/ms,,NYSE
-465,MSI,"Motorola Solutions, Inc.",94.17,15255521354.34,n/a,n/a,Technology,Radio And Television Broadcasting And Communications Equipment,http://www.nasdaq.com/symbol/msi,,NYSE
-466,MPLX,MPLX LP,34.41,14007152071.2,n/a,2012,Energy,Natural Gas Distribution,http://www.nasdaq.com/symbol/mplx,,NYSE
-467,MSCI,MSCI Inc,127.73,11504493316.39,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/msci,,NYSE
-468,NGG,"National Grid Transco, PLC",59.77,40531332694.06,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/ngg,,NYSE
-469,NOV,"National Oilwell Varco, Inc.",32.61,12392850400.71,n/a,n/a,Energy,Metal Fabrications,http://www.nasdaq.com/symbol/nov,,NYSE
-470,EDU,"New Oriental Education & Technology Group, Inc.",85.0,13403432740.0,n/a,2006,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/edu,,NYSE
-471,NWL,Newell Brands Inc.,30.51,14952951000.0,n/a,n/a,Consumer Non-Durables,Plastic Products,http://www.nasdaq.com/symbol/nwl,,NYSE
-472,NEM,Newmont Mining Corporation,36.6,19520114802.0,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/nem,,NYSE
-473,NEE,"NextEra Energy, Inc.",157.77,74214626354.37,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/nee,,NYSE
-474,NLSN,Nielsen N.V.,36.32,12936021760.0,n/a,2011,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/nlsn,,NYSE
-475,NKE,"Nike, Inc.",60.36,98478453762.72,n/a,n/a,Consumer Non-Durables,Shoe Manufacturing,http://www.nasdaq.com/symbol/nke,,NYSE
-476,NBL,Noble Energy Inc.,25.91,12607994728.44,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/nbl,,NYSE
-477,NOK,Nokia Corporation,5.02,29313696651.06,n/a,1994,Technology,Radio And Television Broadcasting And Communications Equipment,http://www.nasdaq.com/symbol/nok,,NYSE
-478,NMR,Nomura Holdings Inc ADR,5.83,20128187215.84,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/nmr,,NYSE
-479,NSC,Norfolk Souther Corporation,136.41,39033553170.06,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/nsc,,NYSE
-480,NOC,Northrop Grumman Corporation,306.69,53388141912.18,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/noc,,NYSE
-481,NVS,Novartis AG,85.15,199497935000.0,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/nvs,,NYSE
-482,NVO,Novo Nordisk A/S,51.32,125763968108.72,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/nvo,,NYSE
-483,DCM,"NTT DOCOMO, Inc",25.7,95207848198.1,n/a,n/a,Technology,Radio And Television Broadcasting And Communications Equipment,http://www.nasdaq.com/symbol/dcm,,NYSE
-484,NUE,Nucor Corporation,57.36,18235700420.64,n/a,n/a,Basic Industries,Steel/Iron Ore,http://www.nasdaq.com/symbol/nue,,NYSE
-485,NVR,"NVR, Inc.",3468.4,12971323487.2,n/a,n/a,Capital Goods,Homebuilding,http://www.nasdaq.com/symbol/nvr,,NYSE
-486,OXY,Occidental Petroleum Corporation,69.9,53490649755.3,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/oxy,,NYSE
-487,OMC,Omnicom Group Inc.,72.93,16812746966.73,n/a,n/a,Technology,Advertising,http://www.nasdaq.com/symbol/omc,,NYSE
-488,OKE,"ONEOK, Inc.",50.43,19336712125.41,n/a,n/a,Public Utilities,Oil & Gas Production,http://www.nasdaq.com/symbol/oke,,NYSE
-489,ORCL,Oracle Corporation,48.52,202497554742.28,n/a,1986,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/orcl,,NYSE
-490,ORAN,Orange,17.12,45517533647.04,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/oran,,NYSE
-491,IX,Orix Corp Ads,85.83,21994778634.0,n/a,n/a,Finance,Diversified Financial Services,http://www.nasdaq.com/symbol/ix,,NYSE
-492,PCG,Pacific Gas & Electric Co.,55.06,28324119698.36,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/pcg,,NYSE
-493,PKG,Packaging Corporation of America,115.09,10858798929.91,n/a,2000,Consumer Durables,Containers/Packaging,http://www.nasdaq.com/symbol/pkg,,NYSE
-494,PANW,"Palo Alto Networks, Inc.",144.9,13314710014.2,n/a,2012,Technology,Computer peripheral equipment,http://www.nasdaq.com/symbol/panw,,NYSE
-495,PH,Parker-Hannifin Corporation,184.32,24556226826.24,n/a,n/a,Capital Goods,Metal Fabrications,http://www.nasdaq.com/symbol/ph,,NYSE
-496,PBA,Pembina Pipeline Corp.,33.91,17046818513.92,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/pba,,NYSE
-497,PNR,Pentair plc.,69.32,12588331144.12,n/a,n/a,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/pnr,,NYSE
-498,PEP,"Pepsico, Inc.",116.84,166163229831.88,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/pep,,NYSE
-499,PRGO,Perrigo Company,87.72,12354548046.12,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/prgo,,NYSE
-500,PTR,PetroChina Company Limited,66.91,122459336245.98,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/ptr,,NYSE
-501,PBR,Petroleo Brasileiro S.A.- Petrobras,9.81,63983257441.65,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/pbr,,NYSE
-502,PFE,"Pfizer, Inc.",36.21,215837211948.57,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/pfe,,NYSE
-503,PM,Philip Morris International Inc,102.68,159482841633.16,n/a,n/a,Consumer Non-Durables,Farming/Seeds/Milling,http://www.nasdaq.com/symbol/pm,,NYSE
-504,PSX,Phillips 66,94.91,48094739621.17,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/psx,,NYSE
-505,PNW,Pinnacle West Capital Corporation,91.01,10168526822.75,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/pnw,,NYSE
-506,PXD,Pioneer Natural Resources Company,151.16,25722181457.4,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/pxd,,NYSE
-507,PAA,"Plains All American Pipeline, L.P.",18.57,13466762292.66,n/a,1998,Energy,Natural Gas Distribution,http://www.nasdaq.com/symbol/paa,,NYSE
-508,PNC,"PNC Financial Services Group, Inc. (The)",139.73,66483685048.13,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/pnc,,NYSE
-509,PKX,POSCO,75.69,24220397026.44,n/a,1994,Basic Industries,Steel/Iron Ore,http://www.nasdaq.com/symbol/pkx,,NYSE
-510,POT,Potash Corporation of Saskatchewan Inc.,19.5,16383197961.0,n/a,1989,Basic Industries,Agricultural Chemicals,http://www.nasdaq.com/symbol/pot,,NYSE
-511,PPG,"PPG Industries, Inc.",117.01,29776228218.27,n/a,n/a,Basic Industries,Paints/Coatings,http://www.nasdaq.com/symbol/ppg,,NYSE
-512,PPL,PPL Corporation,36.61,25204678608.76,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/ppl,,NYSE
-513,PX,"Praxair, Inc.",155.17,44425999762.97,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/px,,NYSE
-514,PFG,Principal Financial Group Inc,71.54,20657510451.06,n/a,2001,Finance,Accident &Health Insurance,http://www.nasdaq.com/symbol/pfg,,NYSE
-515,PG,Procter & Gamble Company (The),89.38,226753313190.4,n/a,n/a,Basic Industries,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/pg,,NYSE
-516,PGR,Progressive Corporation (The),52.45,30506703772.05,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/pgr,,NYSE
-517,PLD,"Prologis, Inc.",66.13,35186582660.0,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/pld,,NYSE
-518,PRU,"Prudential Financial, Inc.",115.87,49128880000.0,n/a,2001,Finance,Life Insurance,http://www.nasdaq.com/symbol/pru,,NYSE
-519,PUK,Prudential Public Limited Company,50.84,65733471998.6,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/puk,,NYSE
-520,TLK,"PT Telekomunikasi Indonesia, Tbk",30.75,30461631604.5,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/tlk,,NYSE
-521,PEG,Public Service Enterprise Group Incorporated,52.7,26668244285.7,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/peg,,NYSE
-522,PSA,Public Storage,210.26,36593906706.94,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/psa,,NYSE
-523,PVH,PVH Corp.,137.14,10617985233.08,n/a,n/a,Consumer Non-Durables,Apparel,http://www.nasdaq.com/symbol/pvh,,NYSE
-524,DGX,Quest Diagnostics Incorporated,97.33,13266024689.86,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/dgx,,NYSE
-525,RJF,"Raymond James Financial, Inc.",88.4,12765006763.6,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/rjf,,NYSE
-526,RTN,Raytheon Company,188.58,54516026460.0,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/rtn,,NYSE
-527,O,Realty Income Corporation,55.47,15630636914.58,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/o,,NYSE
-528,RHT,"Red Hat, Inc.",124.49,22028154811.67,n/a,n/a,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/rht,,NYSE
-529,REG,Regency Centers Corporation,68.0,11567511552.0,n/a,1993,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/reg,,NYSE
-530,RF,Regions Financial Corporation,16.57,19220727639.01,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/rf,,NYSE
-531,RGA,"Reinsurance Group of America, Incorporated",164.17,10573214694.37,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/rga,,NYSE
-532,RENX,RELX N.V.,23.15,46623019635.8,n/a,2015,Consumer Services,Publishing,http://www.nasdaq.com/symbol/renx,,NYSE
-533,RELX,RELX PLC,23.83,48039841859.5,n/a,2015,Consumer Services,Publishing,http://www.nasdaq.com/symbol/relx,,NYSE
-534,RSG,"Republic Services, Inc.",64.31,21493978752.58,n/a,1998,Public Utilities,Environmental Services,http://www.nasdaq.com/symbol/rsg,,NYSE
-535,RMD,ResMed Inc.,85.25,12097308157.0,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/rmd,,NYSE
-536,QSR,Restaurant Brands International Inc.,64.46,15393924333.7,n/a,2014,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/qsr,,NYSE
-537,RIO,Rio Tinto Plc,47.89,85405797860.95,n/a,2002,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/rio,,NYSE
-538,ROK,"Rockwell Automation, Inc.",190.13,24432259228.95,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/rok,,NYSE
-539,COL,"Rockwell Collins, Inc.",131.98,21500152671.46,n/a,n/a,Capital Goods,Military/Government/Technical,http://www.nasdaq.com/symbol/col,,NYSE
-540,RCI,"Rogers Communication, Inc.",52.4,21085939889.2,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/rci,,NYSE
-541,ROL,"Rollins, Inc.",46.11,10050834350.94,n/a,n/a,Finance,Diversified Commercial Services,http://www.nasdaq.com/symbol/rol,,NYSE
-542,ROP,"Roper Technologies, Inc.",262.24,26843459132.16,n/a,1992,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/rop,,NYSE
-543,RY,Royal Bank Of Canada,78.9,114633619772.1,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/ry,,NYSE
-544,RBS,Royal Bank Scotland plc (The),7.59,45396698970.81,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/rbs,,NYSE
-545,RCL,Royal Caribbean Cruises Ltd.,124.7,26696892065.0,n/a,1993,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/rcl,,NYSE
-546,SPGI,S&P Global Inc.,164.73,42006150000.0,n/a,n/a,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/spgi,,NYSE
-547,CRM,Salesforce.com Inc,103.53,74779719000.0,n/a,2004,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/crm,,NYSE
-548,SNY,Sanofi,45.7,114993462041.2,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/sny,,NYSE
-549,SAP,SAP SE,112.97,135408535430.74,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/sap,,NYSE
-550,SSL,Sasol Ltd.,30.91,20223651315.78,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/ssl,,NYSE
-551,SLB,Schlumberger N.V.,62.15,86094014033.5,n/a,n/a,Energy,Oilfield Services/Equipment,http://www.nasdaq.com/symbol/slb,,NYSE
-552,SEE,Sealed Air Corporation,47.34,10888035162.12,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/see,,NYSE
-553,SRE,Sempra Energy,120.26,30218619282.18,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/sre,,NYSE
-554,NOW,"ServiceNow, Inc.",120.59,20825893000.0,n/a,2012,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/now,,NYSE
-555,SJR,Shaw Communications Inc.,22.56,10742244702.24,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/sjr,,NYSE
-556,SHW,Sherwin-Williams Company (The),393.96,36840742347.36,n/a,n/a,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/shw,,NYSE
-557,SHG,Shinhan Financial Group Co Ltd,45.03,21353207402.61,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/shg,,NYSE
-558,SPG,"Simon Property Group, Inc.",158.73,49342869228.51,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/spg,,NYSE
-559,SKM,"SK Telecom Co., Ltd.",26.46,16831697044.68,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/skm,,NYSE
-560,SLG,SL Green Realty Corporation,102.23,10045704044.45,n/a,1997,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/slg,,NYSE
-561,SNN,"Smith & Nephew SNATS, Inc.",35.64,16104347495.28,n/a,n/a,Health Care,Industrial Specialties,http://www.nasdaq.com/symbol/snn,,NYSE
-562,AOS,Smith (A.O.) Corporation,62.5,10745595437.5,n/a,n/a,Consumer Durables,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/aos,,NYSE
-563,SNAP,Snap Inc.,13.7,16498375645.2,n/a,2017,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/snap,,NYSE
-564,SQM,Sociedad Quimica y Minera S.A.,52.42,13796761788.08,n/a,1993,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),http://www.nasdaq.com/symbol/sqm,,NYSE
-565,SNE,Sony Corp Ord,47.37,59854691584.62,n/a,n/a,Consumer Non-Durables,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/sne,,NYSE
-566,SO,Southern Company (The),51.09,51275338733.19,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/so,,NYSE
-567,SCCO,Southern Copper Corporation,42.5,32853709932.5,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/scco,,NYSE
-568,LUV,Southwest Airlines Company,58.88,34938665420.8,n/a,n/a,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/luv,,NYSE
-569,SEP,"Spectra Energy Partners, LP",38.84,12078613433.12,n/a,2007,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/sep,,NYSE
-570,S,Sprint Corporation,6.07,24282097816.28,n/a,2013,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/s,,NYSE
-571,SQ,"Square, Inc.",39.13,15204651831.46,n/a,2015,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/sq,,NYSE
-572,SWK,"Stanley Black & Decker, Inc.",167.61,25703277431.34,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/swk,,NYSE
-573,STT,State Street Corporation,94.68,35110816862.4,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/stt,,NYSE
-574,STO,Statoil ASA,20.13,66321337835.28,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/sto,,NYSE
-575,STM,STMicroelectronics N.V.,22.32,19704308397.12,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/stm,,NYSE
-576,SYK,Stryker Corporation,154.1,57670018937.1,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/syk,,NYSE
-577,SMFG,Sumitomo Mitsui Financial Group Inc,8.22,57973748685.6,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/smfg,,NYSE
-578,SLF,Sun Life Financial Inc.,39.57,24216035304.48,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/slf,,NYSE
-579,SU,Suncor Energy  Inc.,34.48,57025994486.48,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/su,,NYSE
-580,STI,"SunTrust Banks, Inc.",61.3,29180837673.3,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/sti,,NYSE
-581,SYF,Synchrony Financial,35.35,27664611964.15,n/a,2014,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/syf,,NYSE
-582,SYT,Syngenta AG,92.36,42587422743.8,n/a,n/a,Basic Industries,Agricultural Chemicals,http://www.nasdaq.com/symbol/syt,,NYSE
-583,SYY,Sysco Corporation,57.7,30064949664.0,n/a,n/a,Consumer Non-Durables,Food Distributors,http://www.nasdaq.com/symbol/syy,,NYSE
-584,TSM,Taiwan Semiconductor Manufacturing Company Ltd.,39.41,204383255160.0,n/a,1997,Technology,Semiconductors,http://www.nasdaq.com/symbol/tsm,,NYSE
-585,TAL,TAL Education Group,27.29,13474679125.66,n/a,n/a,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/tal,,NYSE
-586,TPR,"Tapestry, Inc.",41.51,11804416087.87,n/a,n/a,Consumer Non-Durables,Apparel,http://www.nasdaq.com/symbol/tpr,,NYSE
-587,TGT,Target Corporation,61.68,33548573454.24,n/a,n/a,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/tgt,,NYSE
-588,TTM,Tata Motors Ltd,31.56,21434609713.08,n/a,n/a,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/ttm,,NYSE
-589,TEL,TE Connectivity Ltd.,94.25,33141806477.0,n/a,n/a,Consumer Non-Durables,Electronic Components,http://www.nasdaq.com/symbol/tel,,NYSE
-590,FTI,TechnipFMC plc,27.57,12846153524.13,n/a,n/a,Energy,Metal Fabrications,http://www.nasdaq.com/symbol/fti,,NYSE
-591,TECK,Teck Resources Ltd,22.67,12933041103.49,n/a,n/a,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),http://www.nasdaq.com/symbol/teck,,NYSE
-592,TI,Telecom Italia S.P.A.,8.29,17464675548.81,n/a,n/a,Consumer Services,Telecommunications Equipment,http://www.nasdaq.com/symbol/ti,,NYSE
-593,TFX,Teleflex Incorporated,264.41,11911476687.47,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/tfx,,NYSE
-594,VIV,Telefonica Brasil S.A.,14.78,24958894009.28,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/viv,,NYSE
-595,TEF,Telefonica SA,10.2,52959743197.2,n/a,1988,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/tef,,NYSE
-596,TU,TELUS Corporation,37.37,22217754302.37,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/tu,,NYSE
-597,TS,Tenaris S.A.,28.76,16976119615.4,n/a,n/a,Basic Industries,Steel/Iron Ore,http://www.nasdaq.com/symbol/ts,,NYSE
-598,TEVA,Teva Pharmaceutical Industries Limited,15.07,15311120000.0,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/teva,,NYSE
-599,TXT,Textron Inc.,54.84,14445971884.32,n/a,n/a,Capital Goods,Aerospace,http://www.nasdaq.com/symbol/txt,,NYSE
-600,BX,The Blackstone Group L.P.,31.53,37046613248.91,n/a,2007,Finance,Investment Managers,http://www.nasdaq.com/symbol/bx,,NYSE
-601,SCHW,The Charles Schwab Corporation,48.42,64910708125.92,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/schw,,NYSE
-602,TRV,"The Travelers Companies, Inc.",134.53,36820306198.28,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/trv,,NYSE
-603,TMO,Thermo Fisher Scientific Inc,192.62,77239725665.34,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/tmo,,NYSE
-604,TRI,Thomson Reuters Corp,44.31,31529210484.24,n/a,n/a,Consumer Services,Publishing,http://www.nasdaq.com/symbol/tri,,NYSE
-605,TIF,Tiffany & Co.,92.55,11523604850.4,n/a,1987,Consumer Services,Consumer Specialties,http://www.nasdaq.com/symbol/tif,,NYSE
-606,TWX,Time Warner Inc.,90.92,70789673741.6,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/twx,,NYSE
-607,TJX,"TJX Companies, Inc. (The)",74.78,47580587741.98,n/a,n/a,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/tjx,,NYSE
-608,TMK,Torchmark Corporation,89.09,10285158262.88,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/tmk,,NYSE
-609,TD,Toronto Dominion Bank (The),58.38,107949563151.36,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/td,,NYSE
-610,TOT,Total S.A.,56.74,142994082493.78,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/tot,,NYSE
-611,TSS,"Total System Services, Inc.",72.33,13297596513.96,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/tss,,NYSE
-612,TM,Toyota Motor Corp Ltd Ord,126.55,185698508726.2,n/a,n/a,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/tm,,NYSE
-613,TRP,TransCanada Corporation,48.21,42151477117.17,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/trp,,NYSE
-614,TDG,Transdigm Group Incorporated,279.32,14513383962.64,n/a,2006,Capital Goods,Military/Government/Technical,http://www.nasdaq.com/symbol/tdg,,NYSE
-615,TWTR,"Twitter, Inc.",20.79,15442678382.67,n/a,2013,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/twtr,,NYSE
-616,TSN,"Tyson Foods, Inc.",82.02,30160309509.3,n/a,n/a,Consumer Non-Durables,Meat/Poultry/Fish,http://www.nasdaq.com/symbol/tsn,,NYSE
-617,USB,U.S. Bancorp,54.76,90873736250.16,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/usb,,NYSE
-618,UBS,UBS AG,17.28,64258385892.48,n/a,2014,Finance,Major Banks,http://www.nasdaq.com/symbol/ubs,,NYSE
-619,UGP,Ultrapar Participacoes S.A.,21.8,12129631092.8,n/a,n/a,Public Utilities,Oil/Gas Transmission,http://www.nasdaq.com/symbol/ugp,,NYSE
-620,UN,Unilever NV,57.94,167059759650.08,n/a,n/a,Basic Industries,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/un,,NYSE
-621,UL,Unilever PLC,56.68,163426772125.76,n/a,n/a,Basic Industries,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/ul,,NYSE
-622,UNP,Union Pacific Corporation,122.94,96774534116.1,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/unp,,NYSE
-623,UAL,"United Continental Holdings, Inc.",62.09,18394313689.15,n/a,n/a,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/ual,,NYSE
-624,UDR,"United Dominion Realty Trust, Inc.",39.36,10538878049.28,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/udr,,NYSE
-625,UPS,"United Parcel Service, Inc.",119.04,102580501451.52,n/a,1999,Transportation,Trucking Freight/Courier Services,http://www.nasdaq.com/symbol/ups,,NYSE
-626,URI,"United Rentals, Inc.",157.84,13349253127.76,n/a,1997,Technology,Diversified Commercial Services,http://www.nasdaq.com/symbol/uri,,NYSE
-627,UTX,United Technologies Corporation,118.16,94359021865.36,n/a,n/a,Capital Goods,Aerospace,http://www.nasdaq.com/symbol/utx,,NYSE
-628,UNH,UnitedHealth Group Incorporated,222.88,215985753033.12,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/unh,,NYSE
-629,UHS,"Universal Health Services, Inc.",107.47,10200175982.15,n/a,n/a,Health Care,Hospital/Nursing Management,http://www.nasdaq.com/symbol/uhs,,NYSE
-630,UNM,Unum Group,56.42,12660032119.28,n/a,n/a,Finance,Accident &Health Insurance,http://www.nasdaq.com/symbol/unm,,NYSE
-631,VFC,V.F. Corporation,74.13,29292400781.49,n/a,n/a,Consumer Non-Durables,Apparel,http://www.nasdaq.com/symbol/vfc,,NYSE
-632,VALE,VALE S.A.,11.01,57446351911.08,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/vale,,NYSE
-633,VLO,Valero Energy Corporation,83.34,36468030292.38,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/vlo,,NYSE
-634,VNTV,"Vantiv, Inc.",72.25,12843120696.0,n/a,2012,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/vntv,,NYSE
-635,VAR,"Varian Medical Systems, Inc.",111.22,10210095430.68,n/a,n/a,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,http://www.nasdaq.com/symbol/var,,NYSE
-636,VEDL,Vedanta  Limited,18.35,17052628557.65,n/a,2013,Capital Goods,Metal Fabrications,http://www.nasdaq.com/symbol/vedl,,NYSE
-637,VTR,"Ventas, Inc.",64.07,22819417805.43,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/vtr,,NYSE
-638,VZ,Verizon Communications Inc.,49.9,203564097716.4,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/vz,,NYSE
-639,V,Visa Inc.,109.86,249881973793.68,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/v,,NYSE
-640,VMW,"Vmware, Inc.",119.42,48836483938.76,n/a,2007,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/vmw,,NYSE
-641,VNO,Vornado Realty Trust,76.93,14607303692.87,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/vno,,NYSE
-642,VMC,Vulcan Materials Company,124.86,16517040672.24,n/a,n/a,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),http://www.nasdaq.com/symbol/vmc,,NYSE
-643,GWW,"W.W. Grainger, Inc.",216.77,12352245662.76,n/a,n/a,Consumer Services,Office Equipment/Supplies/Services,http://www.nasdaq.com/symbol/gww,,NYSE
-644,WMT,"Wal-Mart Stores, Inc.",97.56,291431392291.08,n/a,n/a,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/wmt,,NYSE
-645,DIS,Walt Disney Company (The),105.24,158945255296.56,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/dis,,NYSE
-646,WCN,"Waste Connections, Inc.",69.1,18217543831.7,n/a,n/a,Public Utilities,Environmental Services,http://www.nasdaq.com/symbol/wcn,,NYSE
-647,WM,"Waste Management, Inc.",82.62,35874939056.58,n/a,n/a,Public Utilities,Environmental Services,http://www.nasdaq.com/symbol/wm,,NYSE
-648,WAT,Waters Corporation,195.68,15563020570.88,n/a,1995,Capital Goods,Biotechnology: Laboratory Analytical Instruments,http://www.nasdaq.com/symbol/wat,,NYSE
-649,WEC,"WEC Energy Group, Inc.",69.26,21856763424.12,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/wec,,NYSE
-650,WFC,Wells Fargo & Company,56.68,279107138929.32,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/wfc,,NYSE
-651,HCN,Welltower Inc.,67.28,24917607858.8,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hcn,,NYSE
-652,WLK,Westlake Chemical Corporation,96.09,12405934582.23,n/a,2004,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/wlk,,NYSE
-653,WBK,Westpac Banking Corporation,23.92,80997010946.8,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/wbk,,NYSE
-654,WRK,Westrock Company,60.26,15306071757.02,n/a,2015,Consumer Durables,Containers/Packaging,http://www.nasdaq.com/symbol/wrk,,NYSE
-655,WY,Weyerhaeuser Company,35.37,26698316479.29,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/wy,,NYSE
-656,WHR,Whirlpool Corporation,168.99,12144092375.13,n/a,n/a,Consumer Durables,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/whr,,NYSE
-657,WMB,"Williams Companies, Inc. (The)",28.32,23413462267.68,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/wmb,,NYSE
-658,WPZ,Williams Partners LP,35.37,34444076111.01,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/wpz,,NYSE
-659,WIT,Wipro Limited,5.32,25757970541.52,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/wit,,NYSE
-660,WF,Woori Bank,44.6,10009298893.2,n/a,2014,Finance,Commercial Banks,http://www.nasdaq.com/symbol/wf,,NYSE
-661,WYN,Wyndham Worldwide Corp,112.27,11342216413.88,n/a,n/a,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/wyn,,NYSE
-662,XEL,Xcel Energy Inc.,51.26,26027925280.06,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/xel,,NYSE
-663,XL,XL Group Ltd.,39.54,10122831992.88,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/xl,,NYSE
-664,XYL,Xylem Inc.,68.2,12248719863.6,n/a,2011,Capital Goods,Fluid Controls,http://www.nasdaq.com/symbol/xyl,,NYSE
-665,YUMC,"Yum China Holdings, Inc.",41.01,15759134071.98,n/a,2016,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/yumc,,NYSE
-666,YUM,"Yum! Brands, Inc.",81.81,27569452469.94,n/a,n/a,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/yum,,NYSE
-667,ZBH,"Zimmer Biomet Holdings, Inc.",116.52,23592162815.52,n/a,n/a,Health Care,Industrial Specialties,http://www.nasdaq.com/symbol/zbh,,NYSE
-668,ZTS,Zoetis Inc.,71.61,34894711224.45,n/a,2013,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/zts,,NYSE
-669,ZTO,ZTO Express (Cayman) Inc.,15.91,11348980687.49,n/a,2016,Transportation,Trucking Freight/Courier Services,http://www.nasdaq.com/symbol/zto,,NYSE
+125,AMTD,TD Ameritrade Holding Corporation,51.17,28919856868.7,n/a,1997,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/amtd,,NASDAQ
+126,TSLA,"Tesla, Inc. ",308.85,51907614945.75,n/a,2010,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/tsla,,NASDAQ
+127,TXN,Texas Instruments Incorporated,97.29,95885189898.39,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/txn,,NASDAQ
+128,KHC,The Kraft Heinz Company,81.37,99146727815.32,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/khc,,NASDAQ
+129,PCLN,The Priceline Group Inc. ,1739.71,84844866871.66,n/a,1999,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/pcln,,NASDAQ
+130,TMUS,"T-Mobile US, Inc.",61.11,50841326028.78,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/tmus,,NASDAQ
+131,TRMB,Trimble Inc.,42.0,10573974600.0,n/a,1990,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/trmb,,NASDAQ
+132,FOX,"Twenty-First Century Fox, Inc.",31.15,57706302958.5,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/fox,,NASDAQ
+133,ULTA,"Ulta Beauty, Inc.",221.71,13619781208.23,n/a,2007,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/ulta,,NASDAQ
+134,VRSN,"VeriSign, Inc.",115.1,11345418740.2,n/a,1998,Technology,EDP Services,http://www.nasdaq.com/symbol/vrsn,,NASDAQ
+135,VRSK,"Verisk Analytics, Inc.",96.48,15889475669.76,n/a,2009,Technology,EDP Services,http://www.nasdaq.com/symbol/vrsk,,NASDAQ
+136,VRTX,Vertex Pharmaceuticals Incorporated,144.29,36491351937.92,n/a,1991,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/vrtx,,NASDAQ
+137,VIA,Viacom Inc.,34.075,13706944280.45,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/via,,NASDAQ
+138,VOD,Vodafone Group Plc,30.79,14307229419.37,464671303,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/vod,,NASDAQ
+139,WBA,"Walgreens Boots Alliance, Inc.",72.76,73454801101.68,n/a,n/a,Health Care,Medical/Nursing Services,http://www.nasdaq.com/symbol/wba,,NASDAQ
+140,WDC,Western Digital Corporation,78.86,23325732695.48,n/a,n/a,Technology,Electronic Components,http://www.nasdaq.com/symbol/wdc,,NASDAQ
+141,WLTW,Willis Towers Watson Public Limited Company,160.9,21245045977.1,n/a,n/a,Finance,Specialty Insurers,http://www.nasdaq.com/symbol/wltw,,NASDAQ
+142,WDAY,"Workday, Inc.",103.0,21424000000.0,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/wday,,NASDAQ
+143,WYNN,"Wynn Resorts, Limited",158.08,16247864397.44,n/a,2002,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/wynn,,NASDAQ
+144,XLNX,"Xilinx, Inc.",69.54,17451264040.14,n/a,1990,Technology,Semiconductors,http://www.nasdaq.com/symbol/xlnx,,NASDAQ
+145,YNDX,Yandex N.V.,33.17,10805983319.17,n/a,2011,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/yndx,,NASDAQ
+146,MMM,3M Company,243.14,144816155379.12,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/mmm,,NYSE
+147,WUBA,58.com Inc.,71.74,10510637587.08,n/a,2013,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/wuba,,NYSE
+148,ABB,ABB Ltd,25.74,54940783231.62,n/a,n/a,Consumer Durables,Electrical Products,http://www.nasdaq.com/symbol/abb,,NYSE
+149,ABT,Abbott Laboratories,56.37,98117660726.19,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/abt,,NYSE
+150,ABBV,AbbVie Inc.,96.92,154725970400.8,n/a,2012,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/abbv,,NYSE
+151,ACN,Accenture plc,148.01,94019536802.2,n/a,2001,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/acn,,NYSE
+152,ASX,"Advanced Semiconductor Engineering, Inc.",6.51,11013274740.72,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/asx,,NYSE
+153,AEG,Aegon NV,6.19,12670114151.81,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/aeg,,NYSE
+154,AET,Aetna Inc.,180.18,58756698000.0,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/aet,,NYSE
+155,AMG,"Affiliated Managers Group, Inc.",198.67,11042459053.05,n/a,n/a,Finance,Investment Managers,http://www.nasdaq.com/symbol/amg,,NYSE
+156,AFL,Aflac Incorporated,87.64,34455632696.8,n/a,n/a,Finance,Accident &Health Insurance,http://www.nasdaq.com/symbol/afl,,NYSE
+157,A,"Agilent Technologies, Inc.",69.24,22283370927.72,n/a,1999,Capital Goods,Biotechnology: Laboratory Analytical Instruments,http://www.nasdaq.com/symbol/a,,NYSE
+158,AEM,Agnico Eagle Mines Limited,43.71,10150041638.31,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/aem,,NYSE
+159,AGU,Agrium Inc.,109.94,15189779184.16,n/a,n/a,Basic Industries,Agricultural Chemicals,http://www.nasdaq.com/symbol/agu,,NYSE
+160,APD,"Air Products and Chemicals, Inc.",163.04,35643535131.84,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/apd,,NYSE
+161,ALB,Albemarle Corporation,134.32,14841775842.32,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/alb,,NYSE
+162,ARE,"Alexandria Real Estate Equities, Inc.",127.06,12161906971.56,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/are,,NYSE
+163,BABA,Alibaba Group Holding Limited,177.08,454357960156.08,n/a,2014,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/baba,,NYSE
+164,AGN,Allergan plc.,173.83,57812919751.51,n/a,2013,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/agn,,NYSE
+165,ADS,Alliance Data Systems Corporation,239.27,13219348553.09,n/a,2001,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/ads,,NYSE
+166,LNT,Alliant Energy Corporation,45.11,10429628679.6,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/lnt,,NYSE
+167,ALL,Allstate Corporation (The),102.66,36837071103.06,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/all,,NYSE
+168,ALLY,Ally Financial Inc.,26.86,11877113408.3,n/a,2014,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/ally,,NYSE
+169,ATUS,"Altice USA, Inc.",17.85,13156681043.1,n/a,2017,Consumer Services,Television Services,http://www.nasdaq.com/symbol/atus,,NYSE
+170,MO,Altria Group,67.83,129432505858.74,n/a,n/a,Consumer Non-Durables,Farming/Seeds/Milling,http://www.nasdaq.com/symbol/mo,,NYSE
+171,ABEV,Ambev S.A.,6.19,97232273278.98,n/a,2013,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/abev,,NYSE
+172,AEE,Ameren Corporation,63.96,15518921680.08,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/aee,,NYSE
+173,AEP,"American Electric Power Company, Inc.",77.63,38184946147.81,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/aep,,NYSE
+174,AXP,American Express Company,97.71,84811913587.5,n/a,n/a,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/axp,,NYSE
+175,AIG,"American International Group, Inc.",59.96,53901603885.16,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/aig,,NYSE
+176,AMT,American Tower Corporation (REIT),143.93,60876111197.68,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/amt,,NYSE
+177,AWK,American Water Works,91.56,16332051624.0,n/a,2008,Public Utilities,Water Supply,http://www.nasdaq.com/symbol/awk,,NYSE
+178,AMP,"AMERIPRISE FINANCIAL SERVICES, INC.",163.23,24146615695.53,n/a,n/a,Finance,Investment Managers,http://www.nasdaq.com/symbol/amp,,NYSE
+179,ABC,AmerisourceBergen Corporation (Holding Co),84.82,18497719565.82,n/a,n/a,Health Care,Other Pharmaceuticals,http://www.nasdaq.com/symbol/abc,,NYSE
+180,APH,Amphenol Corporation,90.59,27660668706.64,n/a,n/a,Capital Goods,Electrical Products,http://www.nasdaq.com/symbol/aph,,NYSE
+181,AME,"AMTEK, Inc.",72.69,16799909631.45,n/a,n/a,Consumer Durables,Metal Fabrications,http://www.nasdaq.com/symbol/ame,,NYSE
+182,APC,Anadarko Petroleum Corporation,48.09,26312806916.13,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/apc,,NYSE
+183,ANDV,Andeavor,105.47,16453036707.58,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/andv,,NYSE
+184,BUD,Anheuser-Busch Inbev SA,114.49,221366415000.0,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/bud,,NYSE
+185,NLY,Annaly Capital Management Inc,11.67,13531867125.09,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/nly,,NYSE
+186,ANTM,"Anthem, Inc.",234.96,60328452014.16,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/antm,,NYSE
+187,AON,Aon plc,140.22,35040657176.64,n/a,n/a,Finance,Specialty Insurers,http://www.nasdaq.com/symbol/aon,,NYSE
+188,APA,Apache Corporation,41.83,15934830171.07,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/apa,,NYSE
+189,APO,"Apollo Global Management, LLC",31.31,12805730291.83,n/a,2011,Finance,Investment Managers,http://www.nasdaq.com/symbol/apo,,NYSE
+190,ARMK,Aramark,42.6,10438651389.0,n/a,2013,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/armk,,NYSE
+191,MT,ArcelorMittal,30.25,30843009595.75,n/a,n/a,Basic Industries,Steel/Iron Ore,http://www.nasdaq.com/symbol/mt,,NYSE
+192,ADM,Archer-Daniels-Midland Company,39.88,22302902442.56,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/adm,,NYSE
+193,ARNC,Arconic Inc.,24.61,11845387995.97,n/a,n/a,Capital Goods,Metal Fabrications,http://www.nasdaq.com/symbol/arnc,,NYSE
+194,ANET,"Arista Networks, Inc.",233.12,17041222129.28,n/a,2014,Technology,Computer Communications Equipment,http://www.nasdaq.com/symbol/anet,,NYSE
+195,AJG,Arthur J. Gallagher & Co.,65.83,11901998170.0,n/a,n/a,Finance,Specialty Insurers,http://www.nasdaq.com/symbol/ajg,,NYSE
+196,AZN,Astrazeneca PLC,32.87,83223475295.32,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/azn,,NYSE
+197,T,AT&T Inc.,36.38,223336820000.0,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/t,,NYSE
+198,ALV,"Autoliv, Inc.",127.92,11123046052.56,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/alv,,NYSE
+199,AZO,"AutoZone, Inc.",686.76,18880763035.2,n/a,n/a,Consumer Services,Other Specialty Stores,http://www.nasdaq.com/symbol/azo,,NYSE
+200,AVB,"AvalonBay Communities, Inc.",181.33,25039472741.78,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/avb,,NYSE
+201,AGR,"Avangrid, Inc.",53.07,16398909785.04,n/a,2015,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/agr,,NYSE
+202,AVY,Avery Dennison Corporation,114.12,10046710316.16,n/a,n/a,Consumer Durables,Containers/Packaging,http://www.nasdaq.com/symbol/avy,,NYSE
+203,BHGE,"Baker Hughes, a GE company",29.73,34049376712.65,n/a,2017,Energy,Metal Fabrications,http://www.nasdaq.com/symbol/bhge,,NYSE
+204,BLL,Ball Corporation,39.91,13970720791.95,n/a,n/a,Consumer Durables,Containers/Packaging,http://www.nasdaq.com/symbol/bll,,NYSE
+205,BBVA,Banco Bilbao Viscaya Argentaria S.A.,8.56,57077109124.8,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bbva,,NYSE
+206,BBD,Banco Bradesco Sa,9.79,59572870641.9,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/bbd,,NYSE
+207,BCH,Banco De Chile,82.96,13903448994.96,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bch,,NYSE
+208,BSBR,Banco Santander Brasil SA,8.75,65579981250.0,n/a,2009,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bsbr,,NYSE
+209,BSAC,Banco Santander Chile,27.47,12941537730.52,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bsac,,NYSE
+210,SAN,"Banco Santander, S.A.",6.69,107950867463.58,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/san,,NYSE
+211,BAC,Bank of America Corporation,28.17,293830387224.75,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/bac,,NYSE
+212,BK,Bank Of New York Mellon Corporation (The),54.74,56054983603.22,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/bk,,NYSE
+213,BNS,Bank of Nova Scotia (The),63.25,75810992955.5,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/bns,,NYSE
+214,ABX,Barrick Gold Corporation,13.78,16071108921.66,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/abx,,NYSE
+215,BAX,Baxter International Inc.,65.53,35702835914.19,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/bax,,NYSE
+216,BBT,BB&T Corporation,49.42,38988478389.84,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/bbt,,NYSE
+217,BCE,"BCE, Inc.",47.81,43050532380.94,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/bce,,NYSE
+218,BDX,"Becton, Dickinson and Company",228.21,52026934232.88,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/bdx,,NYSE
+219,BBY,"Best Buy Co., Inc.",59.61,17834392336.92,n/a,n/a,Consumer Services,Consumer Electronics/Video Chains,http://www.nasdaq.com/symbol/bby,,NYSE
+220,BHP,BHP Billiton Limited,41.55,110601174247.5,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/bhp,,NYSE
+221,BBL,BHP Billiton plc,36.37,96812628336.5,n/a,n/a,Energy,Coal Mining,http://www.nasdaq.com/symbol/bbl,,NYSE
+222,BLK,"BlackRock, Inc.",501.19,80356875771.59,n/a,1999,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/blk,,NYSE
+223,BA,Boeing Company (The),276.8,164856135166.4,n/a,n/a,Capital Goods,Aerospace,http://www.nasdaq.com/symbol/ba,,NYSE
+224,BWA,BorgWarner Inc.,55.68,11739487624.32,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/bwa,,NYSE
+225,BXP,"Boston Properties, Inc.",125.38,19348925711.08,n/a,1997,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/bxp,,NYSE
+226,BSX,Boston Scientific Corporation,26.28,36087578186.76,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/bsx,,NYSE
+227,BP,BP p.l.c.,40.07,132138833029.57,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/bp,,NYSE
+228,BAK,Braskem S.A.,27.94,11117517109.6,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/bak,,NYSE
+229,BMY,Bristol-Myers Squibb Company,63.19,103423053790.24,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/bmy,,NYSE
+230,BTI,British American Tobacco p.l.c.,63.63,145942368349.05,n/a,n/a,Consumer Non-Durables,Farming/Seeds/Milling,http://www.nasdaq.com/symbol/bti,,NYSE
+231,BR,"Broadridge Financial Solutions, Inc.",90.26,10520028379.22,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/br,,NYSE
+232,BAM,Brookfield Asset Management Inc,41.5,41049624570.0,n/a,n/a,Consumer Services,Building operators,http://www.nasdaq.com/symbol/bam,,NYSE
+233,BIP,Brookfield Infrastructure Partners LP,42.84,11844153956.88,n/a,n/a,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/bip,,NYSE
+234,BT,BT Group plc,17.69,35089096511.96,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/bt,,NYSE
+235,BCR,"C.R. Bard, Inc.",335.94,24487463449.68,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/bcr,,NYSE
+236,COG,Cabot Oil & Gas Corporation,28.95,13389618585.3,n/a,1990,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/cog,,NYSE
+237,CPB,Campbell Soup Company,49.3,14816055099.3,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/cpb,,NYSE
+238,CM,Canadian Imperial Bank of Commerce,91.76,40340816849.36,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/cm,,NYSE
+239,CNI,Canadian National Railway Company,77.98,58282101732.54,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/cni,,NYSE
+240,CNQ,Canadian Natural Resources Limited,33.92,41275995063.04,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/cnq,,NYSE
+241,CP,Canadian Pacific Railway Limited,175.18,25399425804.74,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/cp,,NYSE
+242,CAJ,"Canon, Inc.",38.37,51176504113.68,n/a,n/a,Miscellaneous,Industrial Machinery/Components,http://www.nasdaq.com/symbol/caj,,NYSE
+243,COF,Capital One Financial Corporation,92.0,44596464744.0,n/a,1994,Finance,Major Banks,http://www.nasdaq.com/symbol/cof,,NYSE
+244,CAH,"Cardinal Health, Inc.",59.19,18621389510.79,n/a,n/a,Health Care,Other Pharmaceuticals,http://www.nasdaq.com/symbol/cah,,NYSE
+245,KMX,CarMax Inc,68.91,12564363676.59,n/a,n/a,Consumer Durables,Automotive Aftermarket,http://www.nasdaq.com/symbol/kmx,,NYSE
+246,CCL,Carnival Corporation,65.64,47070794451.96,n/a,1987,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/ccl,,NYSE
+247,CAT,"Caterpillar, Inc.",141.15,83974875099.3,n/a,n/a,Capital Goods,Construction/Ag Equipment/Trucks,http://www.nasdaq.com/symbol/cat,,NYSE
+248,CBG,"CBRE Group, Inc.",43.36,14718948223.68,n/a,2004,Finance,Real Estate,http://www.nasdaq.com/symbol/cbg,,NYSE
+249,CBS,CBS Corporation,56.06,21433084673.32,n/a,n/a,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/cbs,,NYSE
+250,CE,Celanese Corporation,107.24,14545645605.68,n/a,2005,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/ce,,NYSE
+251,CX,Cemex S.A.B. de C.V.,7.59,11054897792.07,n/a,n/a,Capital Goods,Building Materials,http://www.nasdaq.com/symbol/cx,,NYSE
+252,CVE,Cenovus Energy Inc,9.51,11684912568.81,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/cve,,NYSE
+253,CNC,Centene Corporation,102.09,17617317149.79,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/cnc,,NYSE
+254,CNP,"CenterPoint Energy, Inc.",30.01,12935315605.09,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/cnp,,NYSE
+255,CTL,"CenturyLink, Inc.",14.59,15596758628.47,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/ctl,,NYSE
+256,GIB,"CGI Group, Inc.",52.79,13428107308.1,n/a,n/a,Consumer Services,Professional Services,http://www.nasdaq.com/symbol/gib,,NYSE
+257,CVX,Chevron Corporation,118.99,226006503692.72,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/cvx,,NYSE
+258,LFC,China Life Insurance Company Limited,16.36,92482114760.0,n/a,2003,Finance,Life Insurance,http://www.nasdaq.com/symbol/lfc,,NYSE
+259,CHL,China Mobile (Hong Kong) Ltd.,50.84,208194710076.36,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/chl,,NYSE
+260,SNP,China Petroleum & Chemical Corporation,72.1,87292342121.6,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/snp,,NYSE
+261,CHA,China Telecom Corp Ltd,48.49,39243926800.0,n/a,2002,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/cha,,NYSE
+262,CHU,China Unicom (Hong Kong) Ltd,14.56,44550869039.04,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/chu,,NYSE
+263,CB,Chubb Limited,152.11,70612806290.46,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/cb,,NYSE
+264,CHT,"Chunghwa Telecom Co., Ltd.",34.71,26926098537.0,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/cht,,NYSE
+265,CHD,"Church & Dwight Company, Inc.",47.09,11768984354.78,n/a,n/a,Basic Industries,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/chd,,NYSE
+266,CI,Cigna Corporation,211.73,52201969251.38,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/ci,,NYSE
+267,XEC,Cimarex Energy Co,116.11,11060743215.11,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/xec,,NYSE
+268,CFG,"Citizens Financial Group, Inc.",40.7,20024050102.1,n/a,2014,Finance,Major Banks,http://www.nasdaq.com/symbol/cfg,,NYSE
+269,CLX,Clorox Company (The),139.29,17959850768.79,n/a,n/a,Consumer Durables,Specialty Chemicals,http://www.nasdaq.com/symbol/clx,,NYSE
+270,CMS,CMS Energy Corporation,49.9,14053857806.3,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/cms,,NYSE
+271,CNA,CNA Financial Corporation,54.38,14746598190.6,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/cna,,NYSE
+272,CNHI,CNH Industrial N.V.,13.0,17727794539.0,n/a,2013,Capital Goods,Construction/Ag Equipment/Trucks,http://www.nasdaq.com/symbol/cnhi,,NYSE
+273,KOF,Coca Cola Femsa S.A.B. de C.V.,68.46,14382076800.0,n/a,1993,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/kof,,NYSE
+274,KO,Coca-Cola Company (The),45.77,195010743053.32,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/ko,,NYSE
+275,CCE,Coca-Cola European Partners plc,38.99,18881696306.69,n/a,2016,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/cce,,NYSE
+276,CL,Colgate-Palmolive Company,72.45,63618723406.35,n/a,n/a,Consumer Non-Durables,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/cl,,NYSE
+277,CMA,Comerica Incorporated,83.31,14488861815.78,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/cma,,NYSE
+278,CAG,"ConAgra Brands, Inc.",37.33,15249235267.56,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/cag,,NYSE
+279,CXO,Concho Resources Inc.,139.86,20796627035.52,n/a,2007,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/cxo,,NYSE
+280,COP,ConocoPhillips,50.88,60827845125.12,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/cop,,NYSE
+281,ED,Consolidated Edison Inc,89.04,27608525684.88,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/ed,,NYSE
+282,STZ,Constellation Brands Inc,217.59,42562508782.86,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/stz,,NYSE
+283,CLR,"Continental Resources, Inc.",47.33,17758637426.32,n/a,2007,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/clr,,NYSE
+284,COO,"Cooper Companies, Inc. (The)",241.18,11805577703.2,n/a,n/a,Health Care,Ophthalmic Goods,http://www.nasdaq.com/symbol/coo,,NYSE
+285,GLW,Corning Incorporated,32.39,28148770352.04,n/a,n/a,Basic Industries,Telecommunications Equipment,http://www.nasdaq.com/symbol/glw,,NYSE
+286,COTY,Coty Inc.,17.23,12913739613.26,n/a,2013,Consumer Non-Durables,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/coty,,NYSE
+287,BAP,Credicorp Ltd.,211.03,19917433460.0,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bap,,NYSE
+288,CS,Credit Suisse Group,16.9,43180547884.5,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/cs,,NYSE
+289,CRH,CRH PLC,34.66,29071262961.18,n/a,n/a,Capital Goods,Building Materials,http://www.nasdaq.com/symbol/crh,,NYSE
+290,CCI,Crown Castle International Corporation,113.0,45909085283.0,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/cci,,NYSE
+291,CMI,Cummins Inc.,167.4,27782964187.2,n/a,n/a,Energy,Industrial Machinery/Components,http://www.nasdaq.com/symbol/cmi,,NYSE
+292,CVS,CVS Health Corporation,76.6,77595219755.0,n/a,n/a,Health Care,Medical/Nursing Services,http://www.nasdaq.com/symbol/cvs,,NYSE
+293,DHI,"D.R. Horton, Inc.",51.0,19126929279.0,n/a,n/a,Capital Goods,Homebuilding,http://www.nasdaq.com/symbol/dhi,,NYSE
+294,DHR,Danaher Corporation,94.36,65637312050.52,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/dhr,,NYSE
+295,DRI,"Darden Restaurants, Inc.",84.32,10428129789.12,n/a,n/a,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/dri,,NYSE
+296,DVA,DaVita Inc.,61.06,11192298000.0,n/a,n/a,Health Care,Hospital/Nursing Management,http://www.nasdaq.com/symbol/dva,,NYSE
+297,DE,Deere & Company,149.86,48224948000.0,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/de,,NYSE
+298,DVMT,Dell Technologies Inc.,78.24,15893718196.8,n/a,n/a,Technology,Computer Manufacturing,http://www.nasdaq.com/symbol/dvmt,,NYSE
+299,DLPH,Delphi Automotive plc,104.67,27825451237.98,n/a,2011,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/dlph,,NYSE
+300,DAL,"Delta Air Lines, Inc.",52.92,37730538515.88,n/a,n/a,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/dal,,NYSE
+301,DB,Deutsche Bank AG,18.86,38968532000.0,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/db,,NYSE
+302,DVN,Devon Energy Corporation,38.53,20247515000.0,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/dvn,,NYSE
+303,DEO,Diageo plc,138.47,86417954020.63,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/deo,,NYSE
+304,DLR,"Digital Realty Trust, Inc.",116.7,23975147919.0,n/a,2004,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/dlr,,NYSE
+305,DFS,Discover Financial Services,70.6,25654672407.4,n/a,n/a,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/dfs,,NYSE
+306,DG,Dollar General Corporation,88.08,24068653160.4,n/a,2009,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/dg,,NYSE
+307,D,"Dominion Energy, Inc.",84.13,54140159465.97,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/d,,NYSE
+308,DOV,Dover Corporation,97.71,15222347403.9,n/a,n/a,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/dov,,NYSE
+309,DWDP,DowDuPont Inc.,71.96,168385699181.56,n/a,2017,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/dwdp,,NYSE
+310,DPS,"Dr Pepper Snapple Group, Inc",90.19,16283033826.45,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/dps,,NYSE
+311,DTE,DTE Energy Company,115.57,20732135353.02,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/dte,,NYSE
+312,DUK,Duke Energy Corporation,89.18,62423825256.52,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/duk,,NYSE
+313,DRE,Duke Realty Corporation,28.13,10018242110.5,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/dre,,NYSE
+314,DXC,DXC Technology Company,96.14,27425737144.3,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/dxc,,NYSE
+315,EMN,Eastman Chemical Company,92.37,13276746435.63,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/emn,,NYSE
+316,ETN,"Eaton Corporation, PLC",77.78,34269868000.0,n/a,n/a,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/etn,,NYSE
+317,ECL,Ecolab Inc.,135.92,39269232335.6,n/a,n/a,Basic Industries,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/ecl,,NYSE
+318,EC,Ecopetrol S.A.,11.6,23847682914.4,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/ec,,NYSE
+319,EIX,Edison International,81.27,26478676711.62,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/eix,,NYSE
+320,EW,Edwards Lifesciences Corporation,117.2,24801851225.2,n/a,n/a,Health Care,Industrial Specialties,http://www.nasdaq.com/symbol/ew,,NYSE
+321,LLY,Eli Lilly and Company,84.64,93196656339.04,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/lly,,NYSE
+322,EMR,Emerson Electric Company,64.82,41486071509.12,n/a,n/a,Energy,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/emr,,NYSE
+323,ENB,Enbridge Inc,37.71,62343768679.11,n/a,n/a,Energy,Natural Gas Distribution,http://www.nasdaq.com/symbol/enb,,NYSE
+324,ECA,Encana Corporation,11.84,11520580918.08,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/eca,,NYSE
+325,ENIA,Enel Americas S.A.,9.82,11283698790.6,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/enia,,NYSE
+326,ETE,"Energy Transfer Equity, L.P.",16.2,17482797486.0,n/a,2006,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/ete,,NYSE
+327,ETP,"Energy Transfer Partners, L.P.",16.61,19192749094.64,n/a,n/a,Energy,Natural Gas Distribution,http://www.nasdaq.com/symbol/etp,,NYSE
+328,E,ENI S.p.A.,32.97,59909545165.05,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/e,,NYSE
+329,ETR,Entergy Corporation,86.48,15588141677.36,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/etr,,NYSE
+330,EPD,Enterprise Products Partners L.P.,24.63,53021065579.86,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/epd,,NYSE
+331,EOG,"EOG Resources, Inc.",102.32,59163391613.6,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/eog,,NYSE
+332,EQT,EQT Corporation,59.6,15808482800.0,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/eqt,,NYSE
+333,EFX,"Equifax, Inc.",114.12,13703458389.12,n/a,n/a,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/efx,,NYSE
+334,EQR,Equity Residential,66.82,24555333400.52,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/eqr,,NYSE
+335,ESS,"Essex Property Trust, Inc.",246.99,16310485792.71,n/a,1994,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ess,,NYSE
+336,EL,"Estee Lauder Companies, Inc. (The)",124.83,45967039939.26,n/a,1995,Consumer Non-Durables,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/el,,NYSE
+337,ES,Eversource Energy,64.85,20550044648.8,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/es,,NYSE
+338,EXC,Exelon Corporation,41.71,40077156648.83,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/exc,,NYSE
+339,EXR,Extra Space Storage Inc,85.36,10756026064.08,n/a,2004,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/exr,,NYSE
+340,XOM,Exxon Mobil Corporation,83.29,352908565153.33,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/xom,,NYSE
+341,FDX,FedEx Corporation,231.46,62065459235.28,n/a,n/a,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/fdx,,NYSE
+342,RACE,Ferrari N.V.,108.6,26655423979.8,n/a,2015,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/race,,NYSE
+343,FCAU,Fiat Chrysler Automobiles N.V.,17.1,33280634864.7,n/a,2014,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/fcau,,NYSE
+344,FNF,"Fidelity National Financial, Inc.",40.46,13698342125.3,n/a,2014,Finance,Specialty Insurers,http://www.nasdaq.com/symbol/fnf,,NYSE
+345,FIS,"Fidelity National Information Services, Inc.",94.33,31493820415.83,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/fis,,NYSE
+346,FDC,First Data Corporation,16.45,15191026458.3,n/a,2015,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/fdc,,NYSE
+347,FE,FirstEnergy Corporation,34.14,15187452222.42,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/fe,,NYSE
+348,FLT,"FleetCor Technologies, Inc.",181.87,16288420513.56,n/a,2010,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/flt,,NYSE
+349,FMC,FMC Corporation,94.4,12674312220.8,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/fmc,,NYSE
+350,FMX,Fomento Economico Mexicano S.A.B. de C.V.,89.97,32193301751.19,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/fmx,,NYSE
+351,F,Ford Motor Company,12.52,49733223443.84,n/a,n/a,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/f,,NYSE
+352,FTS,Fortis Inc.,36.8,15439336003.2,n/a,2016,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/fts,,NYSE
+353,FTV,Fortive Corporation,74.65,25945277633.05,n/a,2016,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/ftv,,NYSE
+354,FBHS,"Fortune Brands Home & Security, Inc.",68.42,10386208888.66,n/a,n/a,Basic Industries,Homebuilding,http://www.nasdaq.com/symbol/fbhs,,NYSE
+355,FNV,Franco-Nevada Corporation,81.15,15071805451.8,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/fnv,,NYSE
+356,BEN,"Franklin Resources, Inc.",43.35,24011912797.05,n/a,n/a,Finance,Investment Managers,http://www.nasdaq.com/symbol/ben,,NYSE
+357,FCX,"Freeport-McMoran, Inc.",13.92,20150462098.56,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/fcx,,NYSE
+358,FMS,Fresenius Medical Care Corporation,49.88,30622482432.32,n/a,n/a,Health Care,Hospital/Nursing Management,http://www.nasdaq.com/symbol/fms,,NYSE
+359,GPS,"Gap, Inc. (The)",32.31,12563972028.63,n/a,n/a,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/gps,,NYSE
+360,IT,"Gartner, Inc.",120.89,10958852460.71,n/a,1993,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/it,,NYSE
+361,GD,General Dynamics Corporation,207.16,61854430042.28,n/a,n/a,Capital Goods,Marine Transportation,http://www.nasdaq.com/symbol/gd,,NYSE
+362,GE,General Electric Company,18.29,158612434650.0,n/a,n/a,Energy,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/ge,,NYSE
+363,GIS,"General Mills, Inc.",56.56,32145223750.08,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/gis,,NYSE
+364,GM,General Motors Company,43.09,62552780372.52,n/a,2010,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/gm,,NYSE
+365,GPC,Genuine Parts Company,92.97,13630656723.12,n/a,n/a,Capital Goods,Automotive Aftermarket,http://www.nasdaq.com/symbol/gpc,,NYSE
+366,GGP,GGP Inc.,23.5,22482651395.0,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/ggp,,NYSE
+367,GSK,GlaxoSmithKline PLC,35.06,86224490446.42,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/gsk,,NYSE
+368,GPN,Global Payments Inc.,100.56,16003362861.36,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/gpn,,NYSE
+369,GOL,Gol Linhas Aereas Inteligentes S.A.,8.53,22341719190.2,n/a,2004,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/gol,,NYSE
+370,GG,Goldcorp Inc.,12.64,10960588447.68,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/gg,,NYSE
+371,GS,"Goldman Sachs Group, Inc. (The)",247.64,93410174259.56,n/a,1999,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/gs,,NYSE
+372,BSMX,Grupo Financiero Santander Mexico S.A. B. de C.V.,8.13,11035652739.93,n/a,2012,Finance,Commercial Banks,http://www.nasdaq.com/symbol/bsmx,,NYSE
+373,TV,Grupo Televisa S.A.,18.66,11004551572.2,n/a,1993,Consumer Services,Broadcasting,http://www.nasdaq.com/symbol/tv,,NYSE
+374,HAL,Halliburton Company,41.78,36454758927.34,n/a,n/a,Energy,Oilfield Services/Equipment,http://www.nasdaq.com/symbol/hal,,NYSE
+375,HRS,Harris Corporation,144.5,17224479475.0,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/hrs,,NYSE
+376,HIG,"Hartford Financial Services Group, Inc. (The)",57.44,20489921151.52,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/hig,,NYSE
+377,HCA,"HCA Healthcare, Inc.",85.0,30094462500.0,n/a,2011,Health Care,Hospital/Nursing Management,http://www.nasdaq.com/symbol/hca,,NYSE
+378,HCP,"HCP, Inc.",26.44,12403227391.56,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hcp,,NYSE
+379,HDB,HDFC Bank Limited,97.1,82941062975.5,n/a,2001,Finance,Commercial Banks,http://www.nasdaq.com/symbol/hdb,,NYSE
+380,HSY,Hershey Company (The),110.93,23372440278.28,n/a,n/a,Consumer Non-Durables,Specialty Foods,http://www.nasdaq.com/symbol/hsy,,NYSE
+381,HES,Hess Corporation,45.88,14578554621.12,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/hes,,NYSE
+382,HPE,Hewlett Packard Enterprise Company,13.95,22250250000.0,n/a,2015,Technology,Computer Manufacturing,http://www.nasdaq.com/symbol/hpe,,NYSE
+383,HLT,Hilton Worldwide Holdings Inc.,77.56,24815432445.44,n/a,2016,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/hlt,,NYSE
+384,HD,"Home Depot, Inc. (The)",179.82,209984556668.58,n/a,n/a,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/hd,,NYSE
+385,HMC,"Honda Motor Company, Ltd.",33.34,60087984160.46,n/a,n/a,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/hmc,,NYSE
+386,HON,Honeywell International Inc.,155.96,118813879677.08,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/hon,,NYSE
+387,HRL,Hormel Foods Corporation,36.45,19239337744.2,n/a,n/a,Consumer Non-Durables,Meat/Poultry/Fish,http://www.nasdaq.com/symbol/hrl,,NYSE
+388,HST,"Host Hotels & Resorts, Inc.",19.79,14646345319.68,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hst,,NYSE
+389,HPQ,HP Inc.,21.45,35826956257.95,n/a,n/a,Technology,Computer Manufacturing,http://www.nasdaq.com/symbol/hpq,,NYSE
+390,HSBC,HSBC Holdings plc,49.65,198546182676.9,n/a,n/a,Finance,Savings Institutions,http://www.nasdaq.com/symbol/hsbc,,NYSE
+391,HUM,Humana Inc.,260.86,37266484642.56,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/hum,,NYSE
+392,HII,"Huntington Ingalls Industries, Inc.",241.67,10938287495.85,n/a,n/a,Capital Goods,Marine Transportation,http://www.nasdaq.com/symbol/hii,,NYSE
+393,IBN,ICICI Bank Limited,9.54,30589199023.68,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/ibn,,NYSE
+394,IEX,IDEX Corporation,135.57,10357798126.65,n/a,1989,Capital Goods,Fluid Controls,http://www.nasdaq.com/symbol/iex,,NYSE
+395,ITW,Illinois Tool Works Inc.,169.25,57984878211.25,n/a,n/a,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/itw,,NYSE
+396,INFY,Infosys Limited,15.56,35741215234.52,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/infy,,NYSE
+397,ING,"ING Group, N.V.",18.1,70329938059.7,n/a,1997,Finance,Commercial Banks,http://www.nasdaq.com/symbol/ing,,NYSE
+398,IR,Ingersoll-Rand plc (Ireland),87.62,21893422331.3,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/ir,,NYSE
+399,ICE,Intercontinental Exchange Inc.,71.45,41800120275.2,n/a,2005,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/ice,,NYSE
+400,IHG,Intercontinental Hotels Group,58.66,10670586660.86,n/a,n/a,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/ihg,,NYSE
+401,IFF,"Internationa Flavors & Fragrances, Inc.",155.44,12276209439.52,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/iff,,NYSE
+402,IBM,International Business Machines Corporation,153.97,142544098470.66,n/a,n/a,Technology,Computer Manufacturing,http://www.nasdaq.com/symbol/ibm,,NYSE
+403,IP,International Paper Company,56.61,23375865968.1,n/a,n/a,Basic Industries,Paper,http://www.nasdaq.com/symbol/ip,,NYSE
+404,IVZ,Invesco Plc,36.17,14724030430.1,n/a,n/a,Finance,Investment Managers,http://www.nasdaq.com/symbol/ivz,,NYSE
+405,IQV,"IQVIA Holdings, Inc.",102.01,21471867618.7,n/a,2013,Health Care,Biotechnology: Commercial Physical & Biological Resarch,http://www.nasdaq.com/symbol/iqv,,NYSE
+406,IRM,Iron Mountain Incorporated,40.87,10909719031.78,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/irm,,NYSE
+407,ITUB,Itau Unibanco Banco Holding SA,12.55,81687842484.15,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/itub,,NYSE
+408,JPM,J P Morgan Chase & Co,104.52,362655717308.04,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/jpm,,NYSE
+409,SJM,J.M. Smucker Company (The),116.67,13253426625.18,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/sjm,,NYSE
+410,JNJ,Johnson & Johnson,139.33,374312838566.5,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/jnj,,NYSE
+411,JCI,Johnson Controls International plc,37.64,34833373851.68,n/a,n/a,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/jci,,NYSE
+412,JNPR,"Juniper Networks, Inc.",27.76,10408009691.28,n/a,1999,Technology,Computer Communications Equipment,http://www.nasdaq.com/symbol/jnpr,,NYSE
+413,KSU,Kansas City Southern,112.14,11611325588.94,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/ksu,,NYSE
+414,KB,KB Financial Group Inc,55.31,22179501040.74,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/kb,,NYSE
+415,K,Kellogg Company,66.16,22856466422.08,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/k,,NYSE
+416,KEY,KeyCorp,18.98,20411085451.9,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/key,,NYSE
+417,KMB,Kimberly-Clark Corporation,119.76,42126453649.2,n/a,n/a,Consumer Durables,Containers/Packaging,http://www.nasdaq.com/symbol/kmb,,NYSE
+418,KMI,"Kinder Morgan, Inc.",17.23,38478717860.02,n/a,2011,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/kmi,,NYSE
+419,PHG,Koninklijke Philips N.V.,38.74,36293995140.0,n/a,n/a,Energy,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/phg,,NYSE
+420,KEP,Korea Electric Power Corporation,17.45,22404546287.3,n/a,1994,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/kep,,NYSE
+421,KR,Kroger Company (The),25.86,23003043445.5,n/a,n/a,Consumer Services,Food Chains,http://www.nasdaq.com/symbol/kr,,NYSE
+422,KYO,Kyocera Corporation,70.68,25989708025.44,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/kyo,,NYSE
+423,LB,"L Brands, Inc.",56.07,15915270731.85,n/a,n/a,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/lb,,NYSE
+424,LLL,"L3 Technologies, Inc.",198.59,15518249568.5,n/a,n/a,Technology,Radio And Television Broadcasting And Communications Equipment,http://www.nasdaq.com/symbol/lll,,NYSE
+425,LH,Laboratory Corporation of America Holdings,158.27,16111886000.0,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/lh,,NYSE
+426,LVS,Las Vegas Sands Corp.,69.29,54772359892.9,n/a,2004,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/lvs,,NYSE
+427,LEA,Lear Corporation,180.89,12221060811.48,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/lea,,NYSE
+428,LEN,Lennar Corporation,62.78,15065034717.8,n/a,n/a,Basic Industries,Homebuilding,http://www.nasdaq.com/symbol/len,,NYSE
+429,LPL,"LG Display Co., Ltd.",14.06,10061777484.0,n/a,2004,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/lpl,,NYSE
+430,LNC,Lincoln National Corporation,76.55,16751392789.95,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/lnc,,NYSE
+431,LYG,Lloyds Banking Group Plc,3.61,64907800000.0,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/lyg,,NYSE
+432,LMT,Lockheed Martin Corporation,319.12,91502611840.72,n/a,n/a,Capital Goods,Military/Government/Technical,http://www.nasdaq.com/symbol/lmt,,NYSE
+433,L,Loews Corporation,50.28,16925814322.56,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/l,,NYSE
+434,LOMA,Loma Negra Compania Industrial Argentina Sociedad ,22.08,13160264899.2,n/a,2017,Capital Goods,Building Materials,http://www.nasdaq.com/symbol/loma,,NYSE
+435,LOW,"Lowe&#39;s Companies, Inc.",83.37,69431551363.23,n/a,n/a,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/low,,NYSE
+436,LYB,LyondellBasell Industries NV,104.7,41299991525.4,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/lyb,,NYSE
+437,MTB,M&T Bank Corporation,168.95,25429571254.65,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/mtb,,NYSE
+438,MMP,Magellan Midstream Partners L.P.,67.0,15277645252.0,n/a,n/a,Energy,Natural Gas Distribution,http://www.nasdaq.com/symbol/mmp,,NYSE
+439,MGA,"Magna International, Inc.",56.0,20236591312.0,n/a,n/a,Capital Goods,Auto Parts:O.E.M.,http://www.nasdaq.com/symbol/mga,,NYSE
+440,MFC,Manulife Financial Corp,21.04,41634523867.2,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/mfc,,NYSE
+441,MRO,Marathon Oil Corporation,14.84,12609006666.48,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/mro,,NYSE
+442,MPC,Marathon Petroleum Corporation,62.63,30589254207.1,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/mpc,,NYSE
+443,MKL,Markel Corporation,1106.9,15376945216.9,n/a,1986,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/mkl,,NYSE
+444,MMC,"Marsh & McLennan Companies, Inc.",83.93,42834248406.18,n/a,n/a,Finance,Specialty Insurers,http://www.nasdaq.com/symbol/mmc,,NYSE
+445,MLM,"Martin Marietta Materials, Inc.",208.39,13099301832.89,n/a,1994,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),http://www.nasdaq.com/symbol/mlm,,NYSE
+446,MAS,Masco Corporation,42.91,13497996679.72,n/a,n/a,Basic Industries,Forest Products,http://www.nasdaq.com/symbol/mas,,NYSE
+447,MA,Mastercard Incorporated,150.47,166853790527.0,n/a,2006,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/ma,,NYSE
+448,MKC,"McCormick & Company, Incorporated",102.18,13385413344.42,n/a,n/a,Consumer Non-Durables,Packaged Foods,http://www.nasdaq.com/symbol/mkc,,NYSE
+449,MCD,McDonald&#39;s Corporation,171.97,137092005568.36,n/a,n/a,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/mcd,,NYSE
+450,MCK,McKesson Corporation,147.74,30800016572.66,n/a,n/a,Health Care,Other Pharmaceuticals,http://www.nasdaq.com/symbol/mck,,NYSE
+451,MDT,Medtronic plc,82.13,111170509974.44,n/a,n/a,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,http://www.nasdaq.com/symbol/mdt,,NYSE
+452,MRK,"Merck & Company, Inc.",55.27,150579623870.45,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/mrk,,NYSE
+453,MET,"MetLife, Inc.",53.68,56487424867.28,n/a,2000,Finance,Life Insurance,http://www.nasdaq.com/symbol/met,,NYSE
+454,MTD,"Mettler-Toledo International, Inc.",629.21,16094640612.04,n/a,1997,Capital Goods,Biotechnology: Laboratory Analytical Instruments,http://www.nasdaq.com/symbol/mtd,,NYSE
+455,MGM,MGM Resorts International,34.12,19316636919.4,n/a,n/a,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/mgm,,NYSE
+456,MFGP,Micro Focus Intl PLC,33.5,14580448143.0,n/a,2017,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/mfgp,,NYSE
+457,MAA,"Mid-America Apartment Communities, Inc.",102.44,11639951314.16,n/a,1994,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/maa,,NYSE
+458,MTU,Mitsubishi UFJ Financial Group Inc,7.13,94760856629.25,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/mtu,,NYSE
+459,MFG,"Mizuho Financial Group, Inc.",3.64,46159702417.92,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/mfg,,NYSE
+460,MBT,Mobile TeleSystems OJSC,10.37,10135836440.32,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/mbt,,NYSE
+461,MHK,"Mohawk Industries, Inc.",282.61,21008712201.97,n/a,n/a,Consumer Durables,Home Furnishings,http://www.nasdaq.com/symbol/mhk,,NYSE
+462,TAP,Molson Coors Brewing  Company,78.1,12712643542.5,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/tap,,NYSE
+463,MON,Monsanto Company,118.34,52093264331.46,n/a,n/a,Basic Industries,Agricultural Chemicals,http://www.nasdaq.com/symbol/mon,,NYSE
+464,MCO,Moody&#39;s Corporation,151.82,29012802000.0,n/a,n/a,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/mco,,NYSE
+465,MS,Morgan Stanley,51.61,93305675699.21,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/ms,,NYSE
+466,MSI,"Motorola Solutions, Inc.",94.11,15245801366.22,n/a,n/a,Technology,Radio And Television Broadcasting And Communications Equipment,http://www.nasdaq.com/symbol/msi,,NYSE
+467,MPLX,MPLX LP,35.86,14597398235.2,n/a,2012,Energy,Natural Gas Distribution,http://www.nasdaq.com/symbol/mplx,,NYSE
+468,MSCI,MSCI Inc,128.7,11591860094.1,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/msci,,NYSE
+469,NGG,"National Grid Transco, PLC",60.11,40709833635.12,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/ngg,,NYSE
+470,NOV,"National Oilwell Varco, Inc.",33.55,12750080679.05,n/a,n/a,Energy,Metal Fabrications,http://www.nasdaq.com/symbol/nov,,NYSE
+471,EDU,"New Oriental Education & Technology Group, Inc.",84.86,13381356497.84,n/a,2006,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/edu,,NYSE
+472,NWL,Newell Brands Inc.,30.97,15178397000.0,n/a,n/a,Consumer Non-Durables,Plastic Products,http://www.nasdaq.com/symbol/nwl,,NYSE
+473,NEM,Newmont Mining Corporation,36.99,19728116025.3,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/nem,,NYSE
+474,NEE,"NextEra Energy, Inc.",158.04,74341633701.24,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/nee,,NYSE
+475,NLSN,Nielsen N.V.,36.72,13078488960.0,n/a,2011,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/nlsn,,NYSE
+476,NKE,"Nike, Inc.",60.42,98576344869.84,n/a,n/a,Consumer Non-Durables,Shoe Manufacturing,http://www.nasdaq.com/symbol/nke,,NYSE
+477,NBL,Noble Energy Inc.,26.3,12797771569.2,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/nbl,,NYSE
+478,NOK,Nokia Corporation,5.01,29255302833.03,n/a,1994,Technology,Radio And Television Broadcasting And Communications Equipment,http://www.nasdaq.com/symbol/nok,,NYSE
+479,NMR,Nomura Holdings Inc ADR,5.98,20646065103.04,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/nmr,,NYSE
+480,NSC,Norfolk Souther Corporation,138.63,39668803430.58,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/nsc,,NYSE
+481,NOC,Northrop Grumman Corporation,307.4,53511737662.8,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/noc,,NYSE
+482,NVS,Novartis AG,85.8,201020820000.0,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/nvs,,NYSE
+483,NVO,Novo Nordisk A/S,51.77,126798394484.42,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/nvo,,NYSE
+484,DCM,"NTT DOCOMO, Inc",25.77,95467169185.41,n/a,n/a,Technology,Radio And Television Broadcasting And Communications Equipment,http://www.nasdaq.com/symbol/dcm,,NYSE
+485,NUE,Nucor Corporation,57.5,18280208755.0,n/a,n/a,Basic Industries,Steel/Iron Ore,http://www.nasdaq.com/symbol/nue,,NYSE
+486,NVR,"NVR, Inc.",3475.0,12996006550.0,n/a,n/a,Capital Goods,Homebuilding,http://www.nasdaq.com/symbol/nvr,,NYSE
+487,OXY,Occidental Petroleum Corporation,70.5,53949796963.5,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/oxy,,NYSE
+488,OMC,Omnicom Group Inc.,71.44,16469253301.84,n/a,n/a,Technology,Advertising,http://www.nasdaq.com/symbol/omc,,NYSE
+489,OKE,"ONEOK, Inc.",51.9,19900364055.3,n/a,n/a,Public Utilities,Oil & Gas Production,http://www.nasdaq.com/symbol/oke,,NYSE
+490,ORCL,Oracle Corporation,49.06,204751237338.34,n/a,1986,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/orcl,,NYSE
+491,ORAN,Orange,17.23,45809994435.66,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/oran,,NYSE
+492,IX,Orix Corp Ads,86.27,22073680598.0,n/a,n/a,Finance,Diversified Financial Services,http://www.nasdaq.com/symbol/ix,,NYSE
+493,PCG,Pacific Gas & Electric Co.,54.24,27902292997.44,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/pcg,,NYSE
+494,PKG,Packaging Corporation of America,118.6,11189969181.4,n/a,2000,Consumer Durables,Containers/Packaging,http://www.nasdaq.com/symbol/pkg,,NYSE
+495,PANW,"Palo Alto Networks, Inc.",145.75,13392815628.5,n/a,2012,Technology,Computer peripheral equipment,http://www.nasdaq.com/symbol/panw,,NYSE
+496,PH,Parker-Hannifin Corporation,187.49,24978553426.93,n/a,n/a,Capital Goods,Metal Fabrications,http://www.nasdaq.com/symbol/ph,,NYSE
+497,PBA,Pembina Pipeline Corp.,34.86,17524390840.32,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/pba,,NYSE
+498,PNR,Pentair plc.,71.16,12922470343.56,n/a,n/a,Technology,Industrial Machinery/Components,http://www.nasdaq.com/symbol/pnr,,NYSE
+499,PEP,"Pepsico, Inc.",116.52,165708143957.64,n/a,n/a,Consumer Non-Durables,Beverages (Production/Distribution),http://www.nasdaq.com/symbol/pep,,NYSE
+500,PRGO,Perrigo Company,87.21,12282719278.41,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/prgo,,NYSE
+501,PTR,PetroChina Company Limited,67.54,123612368406.12,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/ptr,,NYSE
+502,PBR,Petroleo Brasileiro S.A.- Petrobras,9.72,63396255079.8,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/pbr,,NYSE
+503,PFE,"Pfizer, Inc.",36.26,216135247314.42,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/pfe,,NYSE
+504,PM,Philip Morris International Inc,102.75,159591565814.25,n/a,n/a,Consumer Non-Durables,Farming/Seeds/Milling,http://www.nasdaq.com/symbol/pm,,NYSE
+505,PSX,Phillips 66,97.56,49437601911.72,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/psx,,NYSE
+506,PNW,Pinnacle West Capital Corporation,91.81,10257910642.75,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/pnw,,NYSE
+507,PXD,Pioneer Natural Resources Company,156.04,26552587950.6,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/pxd,,NYSE
+508,PAA,"Plains All American Pipeline, L.P.",19.5,14141188191.0,n/a,1998,Energy,Natural Gas Distribution,http://www.nasdaq.com/symbol/paa,,NYSE
+509,PNC,"PNC Financial Services Group, Inc. (The)",140.56,66878599945.36,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/pnc,,NYSE
+510,PKX,POSCO,76.24,24396394098.24,n/a,1994,Basic Industries,Steel/Iron Ore,http://www.nasdaq.com/symbol/pkx,,NYSE
+511,POT,Potash Corporation of Saskatchewan Inc.,19.65,16509222560.7,n/a,1989,Basic Industries,Agricultural Chemicals,http://www.nasdaq.com/symbol/pot,,NYSE
+512,PPG,"PPG Industries, Inc.",116.85,29735512069.95,n/a,n/a,Basic Industries,Paints/Coatings,http://www.nasdaq.com/symbol/ppg,,NYSE
+513,PPL,PPL Corporation,36.67,25245986467.72,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/ppl,,NYSE
+514,PX,"Praxair, Inc.",153.92,44068118086.72,n/a,n/a,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/px,,NYSE
+515,PFG,Principal Financial Group Inc,70.79,20440944434.31,n/a,2001,Finance,Accident &Health Insurance,http://www.nasdaq.com/symbol/pfg,,NYSE
+516,PG,Procter & Gamble Company (The),89.99,228300857619.2,n/a,n/a,Basic Industries,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/pg,,NYSE
+517,PGR,Progressive Corporation (The),53.18,30931296598.62,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/pgr,,NYSE
+518,PLD,"Prologis, Inc.",66.23,35239790860.0,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/pld,,NYSE
+519,PRU,"Prudential Financial, Inc.",115.84,49116160000.0,n/a,2001,Finance,Life Insurance,http://www.nasdaq.com/symbol/pru,,NYSE
+520,PUK,Prudential Public Limited Company,50.15,64841337937.25,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/puk,,NYSE
+521,TLK,"PT Telekomunikasi Indonesia, Tbk",31.08,30788536919.28,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/tlk,,NYSE
+522,PEG,Public Service Enterprise Group Incorporated,53.06,26850418250.46,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/peg,,NYSE
+523,PSA,Public Storage,213.12,37091664593.28,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/psa,,NYSE
+524,PHM,"PulteGroup, Inc.",34.13,10033115826.24,n/a,n/a,Capital Goods,Homebuilding,http://www.nasdaq.com/symbol/phm,,NYSE
+525,PVH,PVH Corp.,134.55,10417455980.1,n/a,n/a,Consumer Non-Durables,Apparel,http://www.nasdaq.com/symbol/pvh,,NYSE
+526,DGX,Quest Diagnostics Incorporated,98.46,13420043059.32,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/dgx,,NYSE
+527,RJF,"Raymond James Financial, Inc.",88.3,12750566710.7,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/rjf,,NYSE
+528,RTN,Raytheon Company,191.15,55258980050.0,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/rtn,,NYSE
+529,O,Realty Income Corporation,55.3,15582733394.2,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/o,,NYSE
+530,RHT,"Red Hat, Inc.",126.76,22429824917.08,n/a,n/a,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/rht,,NYSE
+531,REG,Regency Centers Corporation,67.81,11535190563.84,n/a,1993,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/reg,,NYSE
+532,RF,Regions Financial Corporation,16.59,19243927068.87,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/rf,,NYSE
+533,RGA,"Reinsurance Group of America, Incorporated",162.05,10436678085.05,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/rga,,NYSE
+534,RENX,RELX N.V.,23.04,46399351265.28,n/a,2015,Consumer Services,Publishing,http://www.nasdaq.com/symbol/renx,,NYSE
+535,RELX,RELX PLC,23.76,47898726084.0,n/a,2015,Consumer Services,Publishing,http://www.nasdaq.com/symbol/relx,,NYSE
+536,RSG,"Republic Services, Inc.",64.94,21704540198.92,n/a,1998,Public Utilities,Environmental Services,http://www.nasdaq.com/symbol/rsg,,NYSE
+537,RMD,ResMed Inc.,85.4,12118593743.2,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/rmd,,NYSE
+538,QSR,Restaurant Brands International Inc.,62.69,14971224270.55,n/a,2014,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/qsr,,NYSE
+539,RIO,Rio Tinto Plc,47.9,85323942076.6,n/a,2002,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/rio,,NYSE
+540,ROK,"Rockwell Automation, Inc.",193.08,24811342828.2,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/rok,,NYSE
+541,COL,"Rockwell Collins, Inc.",132.31,21553911198.37,n/a,n/a,Capital Goods,Military/Government/Technical,http://www.nasdaq.com/symbol/col,,NYSE
+542,RCI,"Rogers Communication, Inc.",51.86,20868642035.38,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/rci,,NYSE
+543,ROL,"Rollins, Inc.",46.35,10103148387.9,n/a,n/a,Finance,Diversified Commercial Services,http://www.nasdaq.com/symbol/rol,,NYSE
+544,ROP,"Roper Technologies, Inc.",267.21,27352199186.64,n/a,1992,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/rop,,NYSE
+545,RY,Royal Bank Of Canada,78.3,113761881218.7,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/ry,,NYSE
+546,RBS,Royal Bank Scotland plc (The),7.54,45097642982.86,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/rbs,,NYSE
+547,RCL,Royal Caribbean Cruises Ltd.,123.88,26521339126.0,n/a,1993,Consumer Services,Marine Transportation,http://www.nasdaq.com/symbol/rcl,,NYSE
+548,SPGI,S&P Global Inc.,165.48,42197400000.0,n/a,n/a,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/spgi,,NYSE
+549,CRM,Salesforce.com Inc,104.32,75350336000.0,n/a,2004,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/crm,,NYSE
+550,SNY,Sanofi,45.64,114842485942.24,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/sny,,NYSE
+551,SAP,SAP SE,113.35,135864012490.7,n/a,n/a,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/sap,,NYSE
+552,SSL,Sasol Ltd.,31.49,20603131023.42,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/ssl,,NYSE
+553,SLB,Schlumberger N.V.,62.85,87063697216.5,n/a,n/a,Energy,Oilfield Services/Equipment,http://www.nasdaq.com/symbol/slb,,NYSE
+554,SRE,Sempra Energy,120.99,30402051779.07,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/sre,,NYSE
+555,NOW,"ServiceNow, Inc.",123.0,21242100000.0,n/a,2012,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/now,,NYSE
+556,SJR,Shaw Communications Inc.,22.29,10613680603.41,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/sjr,,NYSE
+557,SHW,Sherwin-Williams Company (The),399.42,37351328328.72,n/a,n/a,Consumer Services,RETAIL: Building Materials,http://www.nasdaq.com/symbol/shw,,NYSE
+558,SHG,Shinhan Financial Group Co Ltd,45.17,21419595344.79,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/shg,,NYSE
+559,SPG,"Simon Property Group, Inc.",161.75,50281667597.25,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/spg,,NYSE
+560,SKM,"SK Telecom Co., Ltd.",27.44,17455093231.52,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/skm,,NYSE
+561,SLG,SL Green Realty Corporation,102.23,10045704044.45,n/a,1997,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/slg,,NYSE
+562,SNN,"Smith & Nephew SNATS, Inc.",35.84,16194719815.68,n/a,n/a,Health Care,Industrial Specialties,http://www.nasdaq.com/symbol/snn,,NYSE
+563,AOS,Smith (A.O.) Corporation,63.42,10903770602.34,n/a,n/a,Consumer Durables,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/aos,,NYSE
+564,SNAP,Snap Inc.,13.78,16594716524.88,n/a,2017,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/snap,,NYSE
+565,SQM,Sociedad Quimica y Minera S.A.,54.32,14296835183.68,n/a,1993,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),http://www.nasdaq.com/symbol/sqm,,NYSE
+566,SNE,Sony Corp Ord,46.8,59134464136.8,n/a,n/a,Consumer Non-Durables,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/sne,,NYSE
+567,SO,Southern Company (The),51.2,51385737779.2,n/a,n/a,Public Utilities,Electric Utilities: Central,http://www.nasdaq.com/symbol/so,,NYSE
+568,SCCO,Southern Copper Corporation,42.05,32505847121.45,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/scco,,NYSE
+569,LUV,Southwest Airlines Company,60.67,36000829332.2,n/a,n/a,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/luv,,NYSE
+570,SEP,"Spectra Energy Partners, LP",40.92,12725459878.56,n/a,2007,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/sep,,NYSE
+571,S,Sprint Corporation,5.99,23962070167.96,n/a,2013,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/s,,NYSE
+572,SQ,"Square, Inc.",39.22,15239622919.24,n/a,2015,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/sq,,NYSE
+573,SWK,"Stanley Black & Decker, Inc.",169.63,26013047853.22,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/swk,,NYSE
+574,STT,State Street Corporation,95.35,35359277438.0,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/stt,,NYSE
+575,STO,Statoil ASA,20.08,66156605252.48,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/sto,,NYSE
+576,STM,STMicroelectronics N.V.,22.62,19969151251.92,n/a,n/a,Technology,Semiconductors,http://www.nasdaq.com/symbol/stm,,NYSE
+577,SYK,Stryker Corporation,156.0,58381070436.0,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/syk,,NYSE
+578,SMFG,Sumitomo Mitsui Financial Group Inc,8.2,57832693336.0,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/smfg,,NYSE
+579,SLF,Sun Life Financial Inc.,39.54,24197675914.56,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/slf,,NYSE
+580,SU,Suncor Energy  Inc.,34.76,57489082608.76,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/su,,NYSE
+581,STI,"SunTrust Banks, Inc.",61.63,29337928642.83,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/sti,,NYSE
+582,SYF,Synchrony Financial,35.89,28087211411.41,n/a,2014,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/syf,,NYSE
+583,SYT,Syngenta AG,92.42,42615088891.1,n/a,n/a,Basic Industries,Agricultural Chemicals,http://www.nasdaq.com/symbol/syt,,NYSE
+584,SYY,Sysco Corporation,57.73,30080581353.6,n/a,n/a,Consumer Non-Durables,Food Distributors,http://www.nasdaq.com/symbol/syy,,NYSE
+585,TSM,Taiwan Semiconductor Manufacturing Company Ltd.,39.6,205368609600.0,n/a,1997,Technology,Semiconductors,http://www.nasdaq.com/symbol/tsm,,NYSE
+586,TAL,TAL Education Group,27.88,13765996849.52,n/a,n/a,Consumer Services,Other Consumer Services,http://www.nasdaq.com/symbol/tal,,NYSE
+587,TPR,"Tapestry, Inc.",41.69,11855603630.53,n/a,n/a,Consumer Non-Durables,Apparel,http://www.nasdaq.com/symbol/tpr,,NYSE
+588,TGT,Target Corporation,59.9,32580407748.2,n/a,n/a,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/tgt,,NYSE
+589,TTM,Tata Motors Ltd,31.19,21183316760.17,n/a,n/a,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/ttm,,NYSE
+590,TEL,TE Connectivity Ltd.,94.44,33208617545.76,n/a,n/a,Consumer Non-Durables,Electronic Components,http://www.nasdaq.com/symbol/tel,,NYSE
+591,FTI,TechnipFMC plc,28.64,13340657176.16,n/a,n/a,Energy,Metal Fabrications,http://www.nasdaq.com/symbol/fti,,NYSE
+592,TECK,Teck Resources Ltd,22.98,13109893452.06,n/a,n/a,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),http://www.nasdaq.com/symbol/teck,,NYSE
+593,TI,Telecom Italia S.P.A.,8.28,17443608388.92,n/a,n/a,Consumer Services,Telecommunications Equipment,http://www.nasdaq.com/symbol/ti,,NYSE
+594,TFX,Teleflex Incorporated,265.52,11961481373.84,n/a,n/a,Health Care,Medical/Dental Instruments,http://www.nasdaq.com/symbol/tfx,,NYSE
+595,VIV,Telefonica Brasil S.A.,14.56,24587381378.56,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/viv,,NYSE
+596,TEF,Telefonica SA,10.22,53063585830.92,n/a,1988,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/tef,,NYSE
+597,TU,TELUS Corporation,36.96,21973995156.96,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/tu,,NYSE
+598,TS,Tenaris S.A.,29.24,17259448454.6,n/a,n/a,Basic Industries,Steel/Iron Ore,http://www.nasdaq.com/symbol/ts,,NYSE
+599,TEVA,Teva Pharmaceutical Industries Limited,14.82,15057120000.0,n/a,n/a,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/teva,,NYSE
+600,TXT,Textron Inc.,55.71,14675147587.08,n/a,n/a,Capital Goods,Aerospace,http://www.nasdaq.com/symbol/txt,,NYSE
+601,BX,The Blackstone Group L.P.,31.72,37269856398.84,n/a,2007,Finance,Investment Managers,http://www.nasdaq.com/symbol/bx,,NYSE
+602,SCHW,The Charles Schwab Corporation,48.79,65406721385.04,n/a,n/a,Finance,Investment Bankers/Brokers/Service,http://www.nasdaq.com/symbol/schw,,NYSE
+603,TRV,"The Travelers Companies, Inc.",135.57,37104949909.32,n/a,n/a,Finance,Property-Casualty Insurers,http://www.nasdaq.com/symbol/trv,,NYSE
+604,TMO,Thermo Fisher Scientific Inc,192.76,77295865015.32,n/a,n/a,Capital Goods,Industrial Machinery/Components,http://www.nasdaq.com/symbol/tmo,,NYSE
+605,TRI,Thomson Reuters Corp,44.07,31358436155.28,n/a,n/a,Consumer Services,Publishing,http://www.nasdaq.com/symbol/tri,,NYSE
+606,TIF,Tiffany & Co.,94.5,11766403656.0,n/a,1987,Consumer Services,Consumer Specialties,http://www.nasdaq.com/symbol/tif,,NYSE
+607,TWX,Time Warner Inc.,91.51,71249043599.8,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/twx,,NYSE
+608,TJX,"TJX Companies, Inc. (The)",75.55,48070518907.55,n/a,n/a,Consumer Services,Clothing/Shoe/Accessory Stores,http://www.nasdaq.com/symbol/tjx,,NYSE
+609,TMK,Torchmark Corporation,88.85,10257451023.2,n/a,n/a,Finance,Life Insurance,http://www.nasdaq.com/symbol/tmk,,NYSE
+610,TD,Toronto Dominion Bank (The),56.94,104910217999.08,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/td,,NYSE
+611,TOT,Total S.A.,56.55,142515251410.35,n/a,n/a,Energy,Oil & Gas Production,http://www.nasdaq.com/symbol/tot,,NYSE
+612,TSS,"Total System Services, Inc.",74.36,13670804324.32,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/tss,,NYSE
+613,TM,Toyota Motor Corp Ltd Ord,126.34,185390356321.36,n/a,n/a,Capital Goods,Auto Manufacturing,http://www.nasdaq.com/symbol/tm,,NYSE
+614,TRP,TransCanada Corporation,48.03,42148813578.39,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/trp,,NYSE
+615,TDG,Transdigm Group Incorporated,283.79,14745643830.58,n/a,2006,Capital Goods,Military/Government/Technical,http://www.nasdaq.com/symbol/tdg,,NYSE
+616,TRU,TransUnion,55.52,10126199359.84,n/a,2015,Finance,Finance: Consumer Services,http://www.nasdaq.com/symbol/tru,,NYSE
+617,TWTR,"Twitter, Inc.",20.58,15286691732.34,n/a,2013,Technology,"Computer Software: Programming, Data Processing",http://www.nasdaq.com/symbol/twtr,,NYSE
+618,TSN,"Tyson Foods, Inc.",82.25,30244884871.25,n/a,n/a,Consumer Non-Durables,Meat/Poultry/Fish,http://www.nasdaq.com/symbol/tsn,,NYSE
+619,USB,U.S. Bancorp,55.15,91520937804.9,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/usb,,NYSE
+620,UBS,UBS AG,17.18,63886520233.38,n/a,2014,Finance,Major Banks,http://www.nasdaq.com/symbol/ubs,,NYSE
+621,UGP,Ultrapar Participacoes S.A.,21.39,11901505003.44,n/a,n/a,Public Utilities,Oil/Gas Transmission,http://www.nasdaq.com/symbol/ugp,,NYSE
+622,UN,Unilever NV,57.74,166483094963.68,n/a,n/a,Basic Industries,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/un,,NYSE
+623,UL,Unilever PLC,56.48,162850107439.36,n/a,n/a,Basic Industries,Package Goods/Cosmetics,http://www.nasdaq.com/symbol/ul,,NYSE
+624,UNP,Union Pacific Corporation,126.5,99576855097.5,n/a,n/a,Transportation,Railroads,http://www.nasdaq.com/symbol/unp,,NYSE
+625,UAL,"United Continental Holdings, Inc.",63.32,18758704184.2,n/a,n/a,Transportation,Air Freight/Delivery Services,http://www.nasdaq.com/symbol/ual,,NYSE
+626,UDR,"United Dominion Realty Trust, Inc.",39.33,10530845367.84,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/udr,,NYSE
+627,UPS,"United Parcel Service, Inc.",121.45,104657274036.35,n/a,1999,Transportation,Trucking Freight/Courier Services,http://www.nasdaq.com/symbol/ups,,NYSE
+628,URI,"United Rentals, Inc.",159.48,13487955453.72,n/a,1997,Technology,Diversified Commercial Services,http://www.nasdaq.com/symbol/uri,,NYSE
+629,UTX,United Technologies Corporation,121.45,96986316905.45,n/a,n/a,Capital Goods,Aerospace,http://www.nasdaq.com/symbol/utx,,NYSE
+630,UNH,UnitedHealth Group Incorporated,228.17,221112119838.33,n/a,n/a,Health Care,Medical Specialities,http://www.nasdaq.com/symbol/unh,,NYSE
+631,UHS,"Universal Health Services, Inc.",108.35,10283698405.75,n/a,n/a,Health Care,Hospital/Nursing Management,http://www.nasdaq.com/symbol/uhs,,NYSE
+632,UNM,Unum Group,56.62,12704909936.08,n/a,n/a,Finance,Accident &Health Insurance,http://www.nasdaq.com/symbol/unm,,NYSE
+633,VFC,V.F. Corporation,72.96,28830076366.08,n/a,n/a,Consumer Non-Durables,Apparel,http://www.nasdaq.com/symbol/vfc,,NYSE
+634,VALE,VALE S.A.,10.7,55828879695.6,n/a,n/a,Basic Industries,Precious Metals,http://www.nasdaq.com/symbol/vale,,NYSE
+635,VLO,Valero Energy Corporation,85.62,37465715786.34,n/a,n/a,Energy,Integrated oil Companies,http://www.nasdaq.com/symbol/vlo,,NYSE
+636,VNTV,"Vantiv, Inc.",75.0,13334357475.0,n/a,2012,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/vntv,,NYSE
+637,VAR,"Varian Medical Systems, Inc.",111.75,10238191257.0,n/a,n/a,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,http://www.nasdaq.com/symbol/var,,NYSE
+638,VEDL,Vedanta  Limited,18.22,16931819744.98,n/a,2013,Capital Goods,Metal Fabrications,http://www.nasdaq.com/symbol/vedl,,NYSE
+639,VTR,"Ventas, Inc.",64.01,22798047974.49,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/vtr,,NYSE
+640,VZ,Verizon Communications Inc.,50.89,207602744144.04,n/a,n/a,Public Utilities,Telecommunications Equipment,http://www.nasdaq.com/symbol/vz,,NYSE
+641,V,Visa Inc.,112.59,256091493076.92,n/a,n/a,Miscellaneous,Business Services,http://www.nasdaq.com/symbol/v,,NYSE
+642,VMW,"Vmware, Inc.",120.11,49118657560.58,n/a,2007,Technology,Computer Software: Prepackaged Software,http://www.nasdaq.com/symbol/vmw,,NYSE
+643,VNO,Vornado Realty Trust,77.62,14738319415.58,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/vno,,NYSE
+644,VMC,Vulcan Materials Company,125.65,16621545414.6,n/a,n/a,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),http://www.nasdaq.com/symbol/vmc,,NYSE
+645,GWW,"W.W. Grainger, Inc.",221.31,12610949336.28,n/a,n/a,Consumer Services,Office Equipment/Supplies/Services,http://www.nasdaq.com/symbol/gww,,NYSE
+646,WMT,"Wal-Mart Stores, Inc.",97.23,290445615748.89,n/a,n/a,Consumer Services,Department/Specialty Retail Stores,http://www.nasdaq.com/symbol/wmt,,NYSE
+647,DIS,Walt Disney Company (The),104.82,158310924175.08,n/a,n/a,Consumer Services,Television Services,http://www.nasdaq.com/symbol/dis,,NYSE
+648,WCN,"Waste Connections, Inc.",68.83,18147407720.85,n/a,n/a,Public Utilities,Environmental Services,http://www.nasdaq.com/symbol/wcn,,NYSE
+649,WM,"Waste Management, Inc.",82.25,35714279077.75,n/a,n/a,Public Utilities,Environmental Services,http://www.nasdaq.com/symbol/wm,,NYSE
+650,WAT,Waters Corporation,197.17,15681524764.72,n/a,1995,Capital Goods,Biotechnology: Laboratory Analytical Instruments,http://www.nasdaq.com/symbol/wat,,NYSE
+651,WEC,"WEC Energy Group, Inc.",69.49,21929345803.38,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/wec,,NYSE
+652,WFC,Wells Fargo & Company,56.47,278073044025.03,n/a,n/a,Finance,Major Banks,http://www.nasdaq.com/symbol/wfc,,NYSE
+653,HCN,Welltower Inc.,67.46,24984272089.1,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/hcn,,NYSE
+654,WLK,Westlake Chemical Corporation,97.93,12643492284.71,n/a,2004,Basic Industries,Major Chemicals,http://www.nasdaq.com/symbol/wlk,,NYSE
+655,WBK,Westpac Banking Corporation,23.85,80759979560.25,n/a,n/a,Finance,Commercial Banks,http://www.nasdaq.com/symbol/wbk,,NYSE
+656,WRK,Westrock Company,62.41,15852172890.07,n/a,2015,Consumer Durables,Containers/Packaging,http://www.nasdaq.com/symbol/wrk,,NYSE
+657,WY,Weyerhaeuser Company,35.38,26705864773.46,n/a,n/a,Consumer Services,Real Estate Investment Trusts,http://www.nasdaq.com/symbol/wy,,NYSE
+658,WHR,Whirlpool Corporation,168.57,12113910004.59,n/a,n/a,Consumer Durables,Consumer Electronics/Appliances,http://www.nasdaq.com/symbol/whr,,NYSE
+659,WMB,"Williams Companies, Inc. (The)",29.05,24016987248.45,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/wmb,,NYSE
+660,WPZ,Williams Partners LP,36.7,35739259069.1,n/a,n/a,Public Utilities,Natural Gas Distribution,http://www.nasdaq.com/symbol/wpz,,NYSE
+661,WIT,Wipro Limited,5.39,26096891206.54,n/a,n/a,Technology,EDP Services,http://www.nasdaq.com/symbol/wit,,NYSE
+662,WF,Woori Bank,45.32,10170883987.44,n/a,2014,Finance,Commercial Banks,http://www.nasdaq.com/symbol/wf,,NYSE
+663,WYN,Wyndham Worldwide Corp,112.39,11354339563.16,n/a,n/a,Consumer Services,Hotels/Resorts,http://www.nasdaq.com/symbol/wyn,,NYSE
+664,XEL,Xcel Energy Inc.,51.61,26205642288.41,n/a,n/a,Public Utilities,Power Generation,http://www.nasdaq.com/symbol/xel,,NYSE
+665,XYL,Xylem Inc.,69.34,12453463861.32,n/a,2011,Capital Goods,Fluid Controls,http://www.nasdaq.com/symbol/xyl,,NYSE
+666,YUMC,"Yum China Holdings, Inc.",40.83,15689964500.34,n/a,2016,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/yumc,,NYSE
+667,YUM,"Yum! Brands, Inc.",83.47,28128861968.78,n/a,n/a,Consumer Services,Restaurants,http://www.nasdaq.com/symbol/yum,,NYSE
+668,ZBH,"Zimmer Biomet Holdings, Inc.",117.1,23709597199.6,n/a,n/a,Health Care,Industrial Specialties,http://www.nasdaq.com/symbol/zbh,,NYSE
+669,ZTS,Zoetis Inc.,72.29,35226067231.05,n/a,2013,Health Care,Major Pharmaceuticals,http://www.nasdaq.com/symbol/zts,,NYSE
+670,ZTO,ZTO Express (Cayman) Inc.,16.06,11455979248.34,n/a,2016,Transportation,Trucking Freight/Courier Services,http://www.nasdaq.com/symbol/zto,,NYSE

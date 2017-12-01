@@ -6,13 +6,13 @@ library(lubridate)
 
 
 
-main <- function(tickers){
+main <- function(tickers, outputfile){
   
   # assure the code runs in either project root or /src directories
   cwd <- getwd()
   if (str_sub(cwd, -4, -1) == "/src"){
     project_dir_ref <- "../"
-  }else if(str_sub(cwd, -3, -1) == "ting"){
+  }else if(str_sub(cwd, -4, -1) == "ting"){
     project_dir_ref <- "./"
   }else{
     print("Please run the script in project root directory or /src directory")
@@ -20,7 +20,8 @@ main <- function(tickers){
   }
   
   # obtain a combined dataframe from both stock historical qoutes and financial statistics
-  stock_all <- data_combine(paste0(project_dir_ref,tickers))
+  # stock_all <- data_combine(paste0(project_dir_ref,tickers))
+  stock_all <- data_combine(tickers)
   
   # select all relevent data
   colum_list_to_keep <- c("Symbol", "Name", "MarketCap", "Sector", "Industry", "Date", "Median_Quote", "Median_Q_Increase", "UpLow_Q_Var90", "Lower_Quote", "Upper_Quote", "Revenues", "Revenue_Growth", "Profit_Margin", "Debt_to_Equity_Ratio","Net_Income", "Shareholders_Equity", "Total_Liabilities", "Cash_per_Share", "EPS", "Book_Value_per_Share")
@@ -77,9 +78,11 @@ main <- function(tickers){
     na.omit()
   
   # save the cleaned final data into the result folder  
-  write_csv(stock_cleaned, paste0(project_dir_ref,"results/stock_data_clean.csv"))
+  #write_csv(stock_cleaned, paste0(project_dir_ref,"results/stock_data_clean.csv"))
+  write_csv(stock_cleaned, outputfile)
   #write_feather(stock_finan, "../data/stock_data_clean.feather")
 }
+
 
 data_combine <- function(tickers){
   
@@ -87,7 +90,7 @@ data_combine <- function(tickers){
   cwd <- getwd()
   if (str_sub(cwd, -4, -1) == "/src"){
     project_dir_ref <- "../"
-  }else if(str_sub(cwd, -3, -1) == "ting"){
+  }else if(str_sub(cwd, -4, -1) == "ting"){
     project_dir_ref <- "./"
   }else{
     print("Please run the script in project root directory or /src directory")
@@ -101,7 +104,7 @@ data_combine <- function(tickers){
         all_financials <- tibble(Symbolb = character())
         
         for (symbol in tickers$Symbol){
-                print(symbol)
+                print(paste("reading data for stock",symbol))
                 file_name_Growth <- str_c(c(project_dir_ref, "data/data_financials/", symbol, "_Growth.xlsx"), collapse = "")
                 file_name_Balance <- str_c(c(project_dir_ref, "data/data_financials/", symbol, "_Balance.xlsx"), collapse = "")
                 file_name_Income <- str_c(c(project_dir_ref, "data/data_financials/", symbol, "_Income.xlsx"), collapse = "")
@@ -181,7 +184,7 @@ read_financials <- function(symbol){
   cwd <- getwd()
   if (str_sub(cwd, -4, -1) == "/src"){
     project_dir_ref <- "../"
-  }else if(str_sub(cwd, -3, -1) == "ting"){
+  }else if(str_sub(cwd, -4, -1) == "ting"){
     project_dir_ref <- "./"
   }else{
     print("Please run the script in project root directory or /src directory")
@@ -220,7 +223,7 @@ read_history <- function(symbol){
   cwd <- getwd()
   if (str_sub(cwd, -4, -1) == "/src"){
     project_dir_ref <- "../"
-  }else if(str_sub(cwd, -3, -1) == "ting"){
+  }else if(str_sub(cwd, -4, -1) == "ting"){
     project_dir_ref <- "./"
   }else{
     print("Please run the script in project root directory or /src directory")
@@ -295,8 +298,15 @@ FiveYearMean <- function(x){
   return(means)
 }
 
+
+# take the command inputs
+args <- commandArgs(trailingOnly = TRUE)
+inputfile <- args[1]
+outputfile <- args[2]
+
 # call main() function
- main("data/data_Ticker/tickers_TenBillion.csv")
+#main("data/data_Ticker/tickers_TenBillion.csv")
+main(inputfile, outputfile)
 
 
 
