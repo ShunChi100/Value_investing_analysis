@@ -28,7 +28,7 @@ https://query1.finance.yahoo.com/v7/finance/download/AAPL?period1=1167638400&per
 import requests
 import pandas as pd
 import numpy as np
-import feather
+#import feather
 import time
 import datetime
 import re
@@ -62,13 +62,13 @@ def main():
 def download_financials(symbol, financial):
     """
     Download financial data
-    
+
     There are five financial sheets: Balance, Income, Cash, Metrics, Growth
-    
+
     Inputs:
     symbol: str that represent a stock symbol, e.g. "AAPL"
     financial: str that represent a type of stock financial, e.g. "Balance"
-    
+
     Outputs:
     Write data into a file in data directory
     """
@@ -89,7 +89,7 @@ def download_financials(symbol, financial):
 def get_yahoo_crumb_cookie():
     """
     Get Yahoo crumb cookie value.
-    
+
     Original Source: https://pypi.python.org/pypi/fix-yahoo-finance
     """
     res = requests.get('https://finance.yahoo.com/quote/SPY/history')
@@ -106,14 +106,14 @@ def get_yahoo_crumb_cookie():
 def download_historyPrice(symbol, start_Date="20060101", end_Date="20171118"):
     """
     Download stock historical data
-    
+
     Download data from Yahoo finance website
-    
+
     Inputs:
     symbol: str that represent a stock symbol, e.g. "AAPL"
     start_Date: str that represent a date as format "YYYYMMDD"
     end_Date: str that represent a date as format "YYYYMMDD"
-    
+
     Outputs:
     Write data into a file in data directory
     """
