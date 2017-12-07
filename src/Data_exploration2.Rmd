@@ -1,0 +1,75 @@
+---
+title: "Data Exploration 2"
+author: "Shun Chi"
+date: '2017-12-07'
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Read cleaned data
+
+```{r, message=FALSE}
+stock <- read_csv("../results//stock_data_clean.csv")
+glimpse(stock)
+```
+
+
+
+
+```{r}
+stock %>% filter( Year == 2016 ) %>% 
+        ggplot(aes(y = MarketCap, x = Sector))+
+        geom_jitter(size = 1, alpha = 0.3)+
+        geom_boxplot(fill = "blue", alpha = 0.3, color = "blue")+
+        theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+        scale_y_log10("Market Capitalization", breaks = c(1,10,100)*10000000000) +
+        scale_x_discrete("Sectors")
+```
+
+
+Visualized stock growth (percentage to last year) vs time. Overall, the prices grow in the last 9 year.
+
+```{r}
+ stock %>%
+        ggplot(aes(x = ROE_5Y, y = Median_Q_Growth))+
+        geom_point(alpha = 0.1)+
+        geom_smooth(method = lm)+
+        scale_x_continuous("Return on Equity (past 5 years mean)",limits = c(-0.25 ,0.5))+
+        scale_y_continuous("Price growth rate",limits = c(-0.5, 1))
+```
+
+
+
+```{r}
+ stock %>%
+        ggplot(aes(x = DEratio_5Y, y = Median_Q_Growth))+
+        geom_point(alpha = 0.1)+
+        geom_smooth(method = lm)+
+        scale_x_continuous("Debt to equity ratio (past 5 years mean)",limits = c(-0.25 , 3))+
+        scale_y_continuous("Price growth rate", limits = c(-0.5, 1))
+```
+
+
+
+
+```{r}
+ stock %>%
+        ggplot(aes(x = Profit_Margin_5Y, y = Median_Q_Growth))+
+        geom_point(alpha = 0.1)+
+        geom_smooth(method = lm)+
+        scale_x_continuous("Profit margin (past 5 years mean)",limits = c(-0.2 , 0.4))+
+        scale_y_continuous("Price growth rate", limits = c(-0.5, 1))
+```
+
+
+```{r}
+ stock %>%
+        ggplot(aes(x = PEratio, y = Median_Q_Growth))+
+        geom_point(alpha = 0.1)+
+        geom_smooth(method = lm)+
+        scale_x_continuous("Price to earning ratio",limits = c(0 , 40))+
+        scale_y_continuous("Price growth rate", limits = c(-0.5, 1))
+```

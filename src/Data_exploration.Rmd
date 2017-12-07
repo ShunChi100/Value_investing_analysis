@@ -63,6 +63,7 @@ stock_selected <-
 ```
 
 
+
 ## Visulization
 
 First exploration of the dataset
