@@ -1,22 +1,24 @@
 library(tidyverse)
 library(stringr)
 
-# assure the code runs in either project root or /src directories
-cwd <- getwd()
-if (str_sub(cwd, -4, -1) == "/src"){
-  project_dir_ref <- "../"
-}else if(str_sub(cwd, -4, -1) == "ting"){
-  project_dir_ref <- "./"
-}else{
-  print("Please run the script in project root directory or /src directory")
-  exit()
-}
+# read terminal input argument
+args <- commandArgs(trailingOnly = TRUE)
+inputfile <- args[1]
+outputfile = list()
+outputfile[[1]] <- args[2]
+outputfile[[2]] <- args[3]
+outputfile[[3]] <- args[4]
+outputfile[[4]] <- args[5]
+outputfile[[5]] <- args[6]
+
+
 
 # read data (after cleaning)
-stock <- suppressMessages(read_csv(paste0(project_dir_ref,"results/stock_data_clean.csv")))
+stock <- suppressMessages(read_csv(inputfile))
+
 
 # generate plots
-g1 = stock %>% filter( Year == 2016 ) %>% 
+g1 = stock %>% filter( Year == 2016 ) %>%
   ggplot(aes(y = MarketCap, x = Sector))+
   geom_jitter(size = 1, alpha = 0.3)+
   geom_boxplot(fill = "blue", alpha = 0.3, color = "blue")+
@@ -60,10 +62,32 @@ myplots[[2]] <- g2
 myplots[[3]] <- g3
 myplots[[4]] <- g4
 myplots[[5]] <- g5
-names <- c("sectorsummary.png", "ROE.png","DER.png","Profit.png", "PE.png")
 
+names <- c("sectorsummary.png", "ROE.png","DER.png","Profit.png", "PE.png")
 for (i in 1:5){
-  suppressMessages(ggsave(paste0(project_dir_ref,"results/img/",names[i]), plot = myplots[[i]], device = "png"))
-  print(paste("Saving graph", i))
+  suppressMessages(ggsave(outputfile[[i]], plot = myplots[[i]], device = "png"))
+  print(paste("Saving graph", names[i]))
 }
 
+
+
+##################################################
+# # assure the code runs in either project root or ./src directory
+# cwd <- getwd()
+# if (str_sub(cwd, -4, -1) == "/src"){
+#   project_dir_ref <- "../"
+# }else if(str_sub(cwd, -4, -1) == "ting"){
+#   project_dir_ref <- "./"
+# }else{
+#   print("Please run the script in project root directory or /src directory")
+#   exit()
+# }
+#stock <- suppressMessages(read_csv(paste0(project_dir_ref,"results/stock_data_clean.csv")))
+
+
+# # Output figure files without terminal arguments
+# names <- c("sectorsummary.png", "ROE.png","DER.png","Profit.png", "PE.png")
+#for (i in 1:5){
+#  suppressMessages(ggsave(paste0(project_dir_ref,"results/img/",names[i]), plot = myplots[[i]], device = "png"))
+#  print(paste("Saving graph", i))
+#}
