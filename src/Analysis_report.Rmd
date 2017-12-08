@@ -1,0 +1,10 @@
+---
+title: "Value investing analysis"
+author: "Shun CHI"
+date: "December 7, 2017"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
