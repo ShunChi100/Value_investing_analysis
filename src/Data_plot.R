@@ -1,16 +1,30 @@
+# Data_plot.R
+# Shun Chi, Dec 2017
+#
+# This script imports the cleaned ./results/stock_data_clean.csv
+# and use it to output five plots: results/img/sectorsummary.png,
+# results/img/ROE.png, results/img/DER.png, results/img/Profit.png
+# results/img/PE.png
+#
+# Usage: Rscript ./src/Data_plot.R ./results/stock_data_clean.csv results/img/sectorsummary.png results/img/ROE.png results/img/DER.png results/img/Profit.png results/img/PE.png
+
+
 library(tidyverse)
 library(stringr)
 
 # read terminal input argument
 args <- commandArgs(trailingOnly = TRUE)
+
+# read input data file
 inputfile <- args[1]
+
+# read output figure files
 outputfile = list()
 outputfile[[1]] <- args[2]
 outputfile[[2]] <- args[3]
 outputfile[[3]] <- args[4]
 outputfile[[4]] <- args[5]
 outputfile[[5]] <- args[6]
-
 
 
 # read data (after cleaning)
@@ -55,7 +69,7 @@ g5 = stock %>%
   scale_y_continuous("Price growth rate", limits = c(-0.5, 1))
 
 
-# save plots
+# put all plots in a list
 myplots <- list()
 myplots[[1]] <- g1
 myplots[[2]] <- g2
@@ -64,6 +78,8 @@ myplots[[4]] <- g4
 myplots[[5]] <- g5
 
 names <- c("sectorsummary.png", "ROE.png","DER.png","Profit.png", "PE.png")
+
+# save plots
 for (i in 1:5){
   suppressMessages(ggsave(outputfile[[i]], plot = myplots[[i]], device = "png"))
   print(paste("Saving graph", names[i]))
@@ -71,7 +87,12 @@ for (i in 1:5){
 
 
 
+
+
 ##################################################
+
+## codes for runing without input arguments
+
 # # assure the code runs in either project root or ./src directory
 # cwd <- getwd()
 # if (str_sub(cwd, -4, -1) == "/src"){
