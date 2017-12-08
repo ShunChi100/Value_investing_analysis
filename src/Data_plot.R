@@ -1,7 +1,19 @@
 library(tidyverse)
+library(stringr)
+
+# assure the code runs in either project root or /src directories
+cwd <- getwd()
+if (str_sub(cwd, -4, -1) == "/src"){
+  project_dir_ref <- "../"
+}else if(str_sub(cwd, -4, -1) == "ting"){
+  project_dir_ref <- "./"
+}else{
+  print("Please run the script in project root directory or /src directory")
+  exit()
+}
 
 # read data (after cleaning)
-stock <- read_csv("../results/stock_data_clean.csv")
+stock <- suppressMessages(read_csv(paste0(project_dir_ref,"results/stock_data_clean.csv")))
 
 # generate plots
 g1 = stock %>% filter( Year == 2016 ) %>% 
@@ -42,9 +54,16 @@ g5 = stock %>%
 
 
 # save plots
-graphs <- c(g1, g2, g3, g4, g5)
-names <- c("sectorsummary.pdf", "ROE.pdf","DER.pdf","Profit.pdf", "PE.pdf")
+myplots <- list()
+myplots[[1]] <- g1
+myplots[[2]] <- g2
+myplots[[3]] <- g3
+myplots[[4]] <- g4
+myplots[[5]] <- g5
+names <- c("sectorsummary.png", "ROE.png","DER.png","Profit.png", "PE.png")
 
 for (i in 1:5){
-  ggsave(names[i], plot = graphs[i], device = "pdf")
+  suppressMessages(ggsave(paste0(project_dir_ref,"results/img/",names[i]), plot = myplots[[i]], device = "png"))
+  print(paste("Saving graph", i))
 }
+
