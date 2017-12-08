@@ -27,3 +27,22 @@ In this analysis, only stocks in US stock exchanges and have market capital larg
 I will use some criteria based on the first four rules to classify stocks into two or more groups. For example, the revenue growth rate is larger than 5%. After classification, we can visualize the stock average price growth verse the groups. We can also try to optimize the criteria so that we can separate a group from the other, which gives the maximum returns in stock growth. These visualization and analysis will conducted in next two milestones and results will be summarized in the final report.
 
 (To be continued as the project evolving.)
+
+### Required packages
+#####python
+```
+import requests
+import pandas as pd
+import numpy as np
+import argparse
+import time
+import datetime
+import re
+```
+#####R
+```
+library(tidyverse)
+library(XLConnect)
+library(stringr)
+library(lubridate)
+```

@@ -1,10 +1,12 @@
-## To be complete
-# mkdir ./data/data_Tickers
-# mkdir ./data/data_financials
-# mkdir ./data/data_historyPrice
+# Makefile
+# Shun CHI, Dec 2017
+#
+# This is a makefile, used to generate results and reports for this project
+# To run all steps, `make all`
+
 
 # make all
-all: results/img/sectorsummary.png
+all: results/img/sectorsummary.png doc/Analysis_report.md
 
 # create ticker symbol data and downloading online data
 data/data_Ticker/tickers_TenBillion.csv: ./src/stock_symbol_selecting.py
@@ -18,7 +20,9 @@ results/stock_data_clean.csv: ./src/data_cleaning.R ./data/data_Ticker/tickers_T
 results/img/sectorsummary.png: ./src/Data_plot.R ./results/stock_data_clean.csv
 	Rscript ./src/Data_plot.R ./results/stock_data_clean.csv results/img/sectorsummary.png results/img/ROE.png results/img/DER.png results/img/Profit.png results/img/PE.png
 
-
+# knitr the Analysis_report.Rmd to markdown file
+doc/Analysis_report.md: src/Analysis_report.Rmd
+	Rscript -e 'ezknitr::ezknit("src/Analysis_report.Rmd", out_dir = "doc")'
 
 
 # clean files
@@ -30,3 +34,4 @@ clean:
 	rm data/data_historyPrice/ATVI*
 	rm results/stock_data_clean.csv
 	rm results/img/*.png
+	rm -rf doc/Analysis_report*

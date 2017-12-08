@@ -9,11 +9,16 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r}
+library(tidyverse)
+```
+
+
 Read cleaned data
 
 ```{r, message=FALSE}
-library(tidyverse)
-stock <- read_csv("../results/stock_data_clean.csv")
+print(getwd())
+stock <- read_csv("../../results/stock_data_clean.csv")
 glimpse(stock)
 ```
 
