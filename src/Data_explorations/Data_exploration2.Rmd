@@ -12,7 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 Read cleaned data
 
 ```{r, message=FALSE}
-stock <- read_csv("../results//stock_data_clean.csv")
+library(tidyverse)
+stock <- read_csv("../results/stock_data_clean.csv")
 glimpse(stock)
 ```
 

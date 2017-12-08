@@ -29,6 +29,15 @@ outputfile[[5]] <- args[6]
 
 # read data (after cleaning)
 stock <- suppressMessages(read_csv(inputfile))
+# data filtering, remove outliers
+stock <- filter(stock, stock$ROE_5Y<0.5, 
+                stock$ROE_5Y> -0.25, 
+                stock$DEratio_5Y>-0.5, 
+                stock$DEratio_5Y<3, 
+                stock$PEratio > 0, 
+                stock$PEratio < 40, 
+                stock$Profit_Margin_5Y >-0.2, 
+                stock$Profit_Margin_5Y < 0.4)
 
 
 # generate plots
@@ -38,35 +47,40 @@ g1 = stock %>% filter( Year == 2016 ) %>%
   geom_boxplot(fill = "blue", alpha = 0.3, color = "blue")+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   scale_y_log10("Market Capitalization", breaks = c(1,10,100)*10000000000) +
-  scale_x_discrete("Sectors")
+  scale_x_discrete("Sectors")+
+  ggtitle("Market Capitalization distributions in different Sectors")
 
 g2 =  stock %>%
   ggplot(aes(x = ROE_5Y, y = Median_Q_Growth))+
   geom_point(alpha = 0.1)+
   geom_smooth(method = lm)+
   scale_x_continuous("Return on Equity (past 5 years mean)",limits = c(-0.25 ,0.5))+
-  scale_y_continuous("Price growth rate",limits = c(-0.5, 1))
+  scale_y_continuous("Price growth rate",limits = c(-0.5, 1))+
+  ggtitle("Price Growth v.s. Return on Equity")
 
 g3 =  stock %>%
   ggplot(aes(x = DEratio_5Y, y = Median_Q_Growth))+
   geom_point(alpha = 0.1)+
   geom_smooth(method = lm)+
   scale_x_continuous("Debt to equity ratio (past 5 years mean)",limits = c(-0.25 , 3))+
-  scale_y_continuous("Price growth rate", limits = c(-0.5, 1))
+  scale_y_continuous("Price growth rate", limits = c(-0.5, 1))+
+  ggtitle("Price Growth v.s. Debt to Equity Ratio")
 
 g4 =  stock %>%
   ggplot(aes(x = Profit_Margin_5Y, y = Median_Q_Growth))+
   geom_point(alpha = 0.1)+
   geom_smooth(method = lm)+
   scale_x_continuous("Profit margin (past 5 years mean)",limits = c(-0.2 , 0.4))+
-  scale_y_continuous("Price growth rate", limits = c(-0.5, 1))
+  scale_y_continuous("Price growth rate", limits = c(-0.5, 1))+
+  ggtitle("Price Growth v.s. Profit Margin")
 
 g5 = stock %>%
   ggplot(aes(x = PEratio, y = Median_Q_Growth))+
   geom_point(alpha = 0.1)+
   geom_smooth(method = lm)+
   scale_x_continuous("Price to earning ratio",limits = c(0 , 40))+
-  scale_y_continuous("Price growth rate", limits = c(-0.5, 1))
+  scale_y_continuous("Price growth rate", limits = c(-0.5, 1))+
+  ggtitle("Price Growth v.s. Price to Earning Ratio")
 
 
 # put all plots in a list
