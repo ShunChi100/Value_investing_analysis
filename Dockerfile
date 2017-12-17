@@ -7,9 +7,8 @@ FROM rocker/tidyverse:latest
 # Make ~/.R 
 RUN mkdir -p $HOME/.R
 
-# $HOME doesn't exist in the COPY shell, so be explicit 
-# COPY /home/shun/R/x86_64-pc-linux-gnu-library/3.4/RcppEigen/skeleton/Makevars /root/.R/Makevars
-
+# install XLConnect
+# Note: libaries liblzma, libbz2, and java is missing in the rocker/tidyverse.
 RUN apt-get update -qq \
     && apt-get -y --no-install-recommends install \
     liblzma-dev \
@@ -24,15 +23,8 @@ RUN apt-get update -qq \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds \
 && rm -rf /var/lib/apt/lists/*
         
-
 # install the ezknitr packages
 RUN Rscript -e "install.packages('ezknitr', repos = 'http://cran.us.r-project.org')"
-
-# install XLConnect
-# RUN Rscript -e "install.packages('XLConnect', repos = 'http://cran.us.r-project.org')"
-
-# install packrat
-# RUN R -e 'install.packages("packrat" , repos="http://cran.us.r-project.org")'
 
 # install python 3
 RUN apt-get update \
