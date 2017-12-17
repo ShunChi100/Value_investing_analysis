@@ -1,6 +1,6 @@
 # Data_plot.R
 # Shun Chi, Dec 2017
-#
+# 
 # This script imports the cleaned ./results/stock_data_clean.csv
 # and use it to output five plots: results/img/sectorsummary.png,
 # results/img/ROE.png, results/img/DER.png, results/img/Profit.png

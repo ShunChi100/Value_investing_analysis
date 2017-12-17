@@ -1,6 +1,6 @@
 # data_cleaning.R
 # Shun Chi, Dec 2017
-#
+# 
 # This script imports all stock historical data and financial data.
 # All data are combined to a single dataframe. Missing data are deleted.
 # Only useful data for this analysis are selected.
