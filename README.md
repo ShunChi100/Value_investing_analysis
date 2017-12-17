@@ -47,13 +47,13 @@ Then with the docker image, run the following command:
 
 1. Clean intermediate data files:
 ```
-docker run --rm -v {your local project path}:/value_investing shunchi200/value_investing_analysis make -C '/value_investing' clean
+docker run --rm -v {your local project path}:/value_investing shunchi100/value_investing_analysis make -C '/value_investing' clean
 ```
 Replace `{your local project path}` by the path to your downloaded repo root directory, for example, `/home/user/Value_investing_analysis`.
 
 2. Run the scripts and generating reports:
 ```
-docker run --rm -v {your local project path}:/value_investing shunchi200/value_investing_analysis make -C '/value_investing' all
+docker run --rm -v {your local project path}:/value_investing shunchi100/value_investing_analysis make -C '/value_investing' all
 ```
 The final report is generated and saved in `./doc/Analysis_report.md`
 
