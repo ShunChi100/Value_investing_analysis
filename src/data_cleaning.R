@@ -22,13 +22,12 @@ main <- function(tickers, outputfile){
 
   # assure the code runs in either project root or /src directories
   cwd <- getwd()
+  print(cwd)
+  print(str_sub(cwd, -4, -1))
   if (str_sub(cwd, -4, -1) == "/src"){
     project_dir_ref <- "../"
-  }else if(str_sub(cwd, -4, -1) == "ting"){
-    project_dir_ref <- "./"
   }else{
-    print("Please run the script in project root directory or ./src directory")
-    exit()
+    project_dir_ref <- "./"
   }
 
   # obtain a combined dataframe from both stock historical qoutes and financial statistics
@@ -116,11 +115,8 @@ data_combine <- function(tickers){
   cwd <- getwd()
   if (str_sub(cwd, -4, -1) == "/src"){
     project_dir_ref <- "../"
-  }else if(str_sub(cwd, -4, -1) == "ting"){
-    project_dir_ref <- "./"
   }else{
-    print("Please run the script in project root directory or /src directory")
-    exit()
+    project_dir_ref <- "./"
   }
 
         #tickers <- read_feather(tickers)
@@ -217,11 +213,8 @@ read_financials <- function(symbol){
   cwd <- getwd()
   if (str_sub(cwd, -4, -1) == "/src"){
     project_dir_ref <- "../"
-  }else if(str_sub(cwd, -4, -1) == "ting"){
-    project_dir_ref <- "./"
   }else{
-    print("Please run the script in project root directory or /src directory")
-    exit()
+    project_dir_ref <- "./"
   }
 
         flag = FALSE
@@ -259,11 +252,8 @@ read_history <- function(symbol){
   cwd <- getwd()
   if (str_sub(cwd, -4, -1) == "/src"){
     project_dir_ref <- "../"
-  }else if(str_sub(cwd, -4, -1) == "ting"){
-    project_dir_ref <- "./"
   }else{
-    print("Please run the script in project root directory or /src directory")
-    exit()
+    project_dir_ref <- "./"
   }
 
         datafile <- str_c(c(project_dir_ref, "data/data_historyPrice/", symbol, "_historyPricefrom20060101to20171118.csv"), collapse = "")

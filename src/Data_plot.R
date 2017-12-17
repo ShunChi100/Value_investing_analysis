@@ -126,3 +126,18 @@ for (i in 1:5){
 #  suppressMessages(ggsave(paste0(project_dir_ref,"results/img/",names[i]), plot = myplots[[i]], device = "png"))
 #  print(paste("Saving graph", i))
 #}
+
+
+##################################################3
+
+# # read input data file
+#inputfile <- './results/stock_data_clean.csv' # args[1]
+
+# read output figure files
+#outputfile = list()
+#outputfile[[1]] <-"results/img/sectorsummary.png"# args[2]
+#outputfile[[2]] <-"results/img/ROE.png"  #  args[3]
+#outputfile[[3]] <-  "results/img/DER.png" #args[4]
+#outputfile[[4]] <- "results/img/Profit.png"  # args[5]
+#outputfile[[5]] <- "results/img/PE.png"  #args[6]
+
