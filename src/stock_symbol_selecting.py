@@ -1,9 +1,12 @@
-
 # coding: utf-8
-
-# # Stock Ticker Symbol Data cleaning
+"""
+# stock_symbol_selecting.py
+# Shun Chi, Dec 2017
+# # Select Stock Ticker Symbol with Marketcap larger than 10 Billions
 
 # The ticker symbol data is downloaded from [NASDAQ.com](http://www.nasdaq.com/screening/company-list.aspx). For this project we would like to select stocks with marketcapital larger than 10 billion.
+"""
+
 
 import requests
 import pandas as pd

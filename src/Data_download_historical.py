@@ -1,6 +1,13 @@
 # coding: utf-8
-# # Data scraping from websites (public data)
 """
+# Data_download_historical.py
+# Shun Chi, Dec 2017
+#
+# This script downloads stock data from stockrow.com and Yahoo.com
+#
+# Usage: main()
+
+
 ### Download historical financial data from stockrow.com
 
 Ten years historical finanical data can be downloaded from [stockrow.com](stockrow.com)
@@ -22,8 +29,6 @@ The following url is an example link to hitorical qoutes of AAPL
 
 https://query1.finance.yahoo.com/v7/finance/download/AAPL?period1=1167638400&period2=1510992000&interval=1d&events=history&crumb=SkLNFzvwnuu
 """
-
-# In[2]:
 
 import requests
 import pandas as pd

@@ -1,10 +1,11 @@
 # Docker file for value_investing project
 # Shun CHI, Dec, 2017
+# image can be found in https://hub.docker.com/r/shunchi100/value_investing_analysis/
 
-# use rocker/tidyverse as the base image and
+# use rocker/tidyverse as the base image
 FROM rocker/tidyverse:latest
 
-# Make ~/.R 
+# Make ~/.R
 RUN mkdir -p $HOME/.R
 
 # install XLConnect
@@ -22,7 +23,7 @@ RUN apt-get update -qq \
         XLConnect \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds \
 && rm -rf /var/lib/apt/lists/*
-        
+
 # install the ezknitr packages
 RUN Rscript -e "install.packages('ezknitr', repos = 'http://cran.us.r-project.org')"
 
