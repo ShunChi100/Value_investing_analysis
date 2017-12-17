@@ -27,6 +27,9 @@ In this analysis, only stocks in US stock exchanges and have market capital larg
 The linear regression analysis is used to testing the dependence of stock price growth on the four parameters. Results is summarized in the final report in `./doc/Analysis_report.md`.
 
 ### Scripts Executions
+##### Dependency diagram of the Makefile
+![](./Makefile.png)
+
 ##### Option 1: run using the [Docker image](https://hub.docker.com/r/shunchi100/value_investing_analysis/)
 
 Download the docker image by
@@ -77,8 +80,14 @@ Then we need to run rscripts inside a `packrat` local environment. To activate t
 
 Now the local R environment is established. Then in the terminal, simply run
 ```
-# downloading, reading, and writing data
-make all
+# reading data
+make results/stock_data_clean.csv
+
+# generate graphs
+make results/img/sectorsummary.png
+
+# generate final report
+make doc/Analysis_report.md
 ```
 
 
