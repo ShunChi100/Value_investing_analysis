@@ -12,9 +12,6 @@ Here, we follow the Buffett's approach. The six known Buffett's methodologies ca
 
  The first four rules can be quantified using historical stock data. The other two require expertise in finance, so will not be considered here.
 
- __The null hypothesis__ (need to be refined as the project evolving): The true means of returns are the same for two groups that classified by the first four rules. Classification methods is discussed in the __Analysis__ section below.
-
-
 ### Data Description
 Stock data were downloaded from [stockrow.com](stockrow.com) and [Yahoo finance](https://ca.finance.yahoo.com). Thanks to them for making the data publicly available.
 
@@ -25,6 +22,10 @@ Data is cleaned using R language, including all financial data as well as median
 In this analysis, only stocks in US stock exchanges and have market capital larger than ten billion US dollars are considered. For small market cap stocks, parameters fluctuate a lot, and hence value investing may not apply well in general.  
 
 The linear regression analysis is used to testing the dependence of stock price growth on the four parameters. Results is summarized in the final report in `./doc/Analysis_report.md`.
+
+An interactive shiny app is built for visualzing the relationship between these parameters and annual stock price growth rates:
+https://shunchi.shinyapps.io/stock_screening/ (source code repo is [here](https://github.com/ShunChi100/stock_screening))
+
 
 ### Scripts Executions
 ##### Dependency diagram of the Makefile
