@@ -273,7 +273,7 @@ read_history <- function(symbol){
 # #        upper --  the upper bound for defining upper
 # # output: return a dataframe with both price and financial data
 # # example: AAPL_financials <- get_quotes(AAPL_financials, AAPL_history)
-get_quotes <- function(financials, history_quotes, lower = 0.05, upper = 0.95){
+get_quotes <- function(financials, history_quotes, lower = 0.1, upper = 0.9){
         size <- dim(financials)
         median_quotes <- rep(0, size[1])
         median_year_diff <- rep(0, size[1])
@@ -285,7 +285,7 @@ get_quotes <- function(financials, history_quotes, lower = 0.05, upper = 0.95){
                 Index = history_quotes$Date >= financials$Date[i] & history_quotes$Date < (financials$Date[i] %m+% years(1))
                 year_quotes_after <- history_quotes[Index,]$Adj_Close
 
-                Index = history_quotes$Date <= financials$Date[i] & history_quotes$Date < (financials$Date[i] %m-% years(1))
+                Index = history_quotes$Date <= financials$Date[i] & history_quotes$Date > (financials$Date[i] %m-% years(1))
                 year_quotes_before <- history_quotes[Index,]$Adj_Close
 
                 if (is.null(year_quotes_after)){
@@ -299,8 +299,8 @@ get_quotes <- function(financials, history_quotes, lower = 0.05, upper = 0.95){
                         year_quotes_before <- as.numeric(year_quotes_before)
                         median_quotes[i] <- median(year_quotes_after, na.rm = TRUE)
                         median_year_diff[i] <- median_quotes[i] - median(year_quotes_before, na.rm = TRUE)
-                        lower_quotes[i] <- quantile(year_quotes_after, probs = 0.05, na.rm = TRUE)
-                        upper_quotes[i] <- quantile(year_quotes_after, probs = 0.95, na.rm = TRUE)
+                        lower_quotes[i] <- quantile(year_quotes_after, probs = lower, na.rm = TRUE)
+                        upper_quotes[i] <- quantile(year_quotes_after, probs = upper, na.rm = TRUE)
                         upper_lower_diff[i] <- upper_quotes[i] - lower_quotes[i]
                 }
 
