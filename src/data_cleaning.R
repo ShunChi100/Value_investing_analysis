@@ -37,9 +37,11 @@ main <- function(tickers, outputfile){
   # select all relevent data
   colum_list_to_keep <- c("Symbol", "Name", "MarketCap", 
                           "Sector", "Industry", "Date", 
-                          "Median_Quote", "Median_Q_Increase", 
-                          "UpLow_Q_Var90", "Lower_Quote", 
-                          "Upper_Quote", "Revenues", 
+                          "Median_Quote","Median_Quote_prev", 
+                          "Median_Q_Increase", "Median_Q_Increase_prev",
+                          "UpLow_Q_Var90","UpLow_Q_Var90_prev", 
+                          "Lower_Quote","Lower_Quote_prev", 
+                          "Upper_Quote","Upper_Quote_prev", "Revenues", 
                           "Revenue_Growth", "Profit_Margin", 
                           "Debt_to_Equity_Ratio","Net_Income", 
                           "Shareholders_Equity", "Total_Liabilities", 
@@ -56,13 +58,16 @@ main <- function(tickers, outputfile){
   # in stock dataframe:  add a `Year` column
   stock_filtered <- mutate(stock_filtered, Year = year(Date))
 
-  # in stock dataframe:  add `PEratio`, `ROE`, `DEratio`, `Median_Q_Growth` columns
+  # in stock dataframe:  add `PEratio`, `ROE`, `DEratio`, `Median_Q_Growth`, `Median_Q_Growth_prev`, `MB_Ratio`, `MC_Ratio` columns
   stock_filtered <-
     stock_filtered %>%
     mutate(PEratio = Median_Quote/EPS,
            ROE = Net_Income/Shareholders_Equity,
            DEratio = Debt_to_Equity_Ratio,
-           Median_Q_Growth = Median_Q_Increase/Median_Quote)
+           Median_Q_Growth = Median_Q_Increase/Median_Quote,
+           Median_Q_Growth_prev = Median_Q_Increase_prev/Median_Quote_prev,
+           MB_Ratio = Book_Value_per_Share/Median_Quote_prev,
+           MC_Ratio = Book_Value_per_Share/Cash_per_Share)
 
   # in stock dataframe:  add `ROE_5Y`, `DEratio_5Y`, `Profit_Margin_5Y` columns
   stock_filtered <-
@@ -82,7 +87,15 @@ main <- function(tickers, outputfile){
            Year,
            Date,
            Median_Quote,
+           Median_Quote_prev,
            Median_Q_Growth,
+           Median_Q_Growth_prev,
+           Lower_Quote,
+           Lower_Quote_prev,
+           Upper_Quote,
+           Upper_Quote_prev,
+           UpLow_Q_Var90,
+           UpLow_Q_Var90_prev,
            ROE,
            ROE_5Y,
            DEratio,
@@ -90,12 +103,25 @@ main <- function(tickers, outputfile){
            Profit_Margin,
            Profit_Margin_5Y,
            PEratio,
-           Revenue_Growth)
+           Revenue_Growth,
+           Cash_per_Share,
+           MB_Ratio,
+           MC_Ratio)
 
   # remove rows with NA values
   stock_cleaned <-
     stock_cleaned %>%
     na.omit()
+  
+  # remove outliers
+  stock_cleaned <- filter(stock_cleaned, ROE_5Y<0.5, 
+                  ROE_5Y> -0.25, 
+                  DEratio_5Y>-0.5, 
+                  DEratio_5Y<3, 
+                  PEratio > 0, 
+                  PEratio < 40, 
+                  Profit_Margin_5Y >-0.2, 
+                  Profit_Margin_5Y < 0.4)
 
   # save the cleaned final data into the result folder
   #write_csv(stock_cleaned, paste0(project_dir_ref,"results/stock_data_clean.csv"))
@@ -276,42 +302,66 @@ read_history <- function(symbol){
 get_quotes <- function(financials, history_quotes, lower = 0.1, upper = 0.9){
         size <- dim(financials)
         median_quotes <- rep(0, size[1])
+        median_quotes_prev <- rep(0, size[1])
         median_year_diff <- rep(0, size[1])
+        median_year_diff_prev <- rep(0, size[1])
         lower_quotes <- rep(0, size[1])
+        lower_quotes_prev <- rep(0, size[1])
         upper_quotes <- rep(0, size[1])
+        upper_quotes_prev <- rep(0, size[1])
         upper_lower_diff <- rep(0, size[1])
+        upper_lower_diff_prev <- rep(0, size[1])
 
         for (i in 1:size[1]){
                 Index = history_quotes$Date >= financials$Date[i] & history_quotes$Date < (financials$Date[i] %m+% years(1))
-                year_quotes_after <- history_quotes[Index,]$Adj_Close
+                year_quotes_after <- as.numeric(history_quotes[Index,]$Adj_Close)
 
                 Index = history_quotes$Date <= financials$Date[i] & history_quotes$Date > (financials$Date[i] %m-% years(1))
-                year_quotes_before <- history_quotes[Index,]$Adj_Close
+                year_quotes_before <- as.numeric(history_quotes[Index,]$Adj_Close)
+                
+                Index = history_quotes$Date <= (financials$Date[i] %m-% years(1)) & history_quotes$Date > (financials$Date[i] %m-% years(2))
+                year_quotes_before_before <- as.numeric(history_quotes[Index,]$Adj_Close)
+                
 
                 if (is.null(year_quotes_after)){
                         median_year_diff[i] <- NA_real_
+                        median_year_diff_prev[i] <- NA_real_
                         median_quotes[i] <- NA_real_
+                        median_quotes_prev[i] <- NA_real_
                         lower_quotes[i] <- NA_real_
+                        lower_quotes_prev[i] <- NA_real_
                         upper_quotes[i] <- NA_real_
+                        upper_quotes_prev[i] <- NA_real_
                         upper_lower_diff[i] <- NA_real_
+                        upper_lower_diff_prev[i] <- NA_real_
                 }else{
                         year_quotes_after <- as.numeric(year_quotes_after)
                         year_quotes_before <- as.numeric(year_quotes_before)
                         median_quotes[i] <- median(year_quotes_after, na.rm = TRUE)
+                        median_quotes_prev[i] <- median(year_quotes_before, na.rm = TRUE)
                         median_year_diff[i] <- median_quotes[i] - median(year_quotes_before, na.rm = TRUE)
+                        median_year_diff_prev[i] <- median_quotes_prev[i] - median(year_quotes_before_before, na.rm = TRUE)
                         lower_quotes[i] <- quantile(year_quotes_after, probs = lower, na.rm = TRUE)
                         upper_quotes[i] <- quantile(year_quotes_after, probs = upper, na.rm = TRUE)
                         upper_lower_diff[i] <- upper_quotes[i] - lower_quotes[i]
+                        lower_quotes_prev[i] <- quantile(year_quotes_before, probs = lower, na.rm = TRUE)
+                        upper_quotes_prev[i] <- quantile(year_quotes_before, probs = upper, na.rm = TRUE)
+                        upper_lower_diff_prev[i] <- upper_quotes_prev[i] - lower_quotes_prev[i]
                 }
 
         }
 
         financials <- financials %>%
                 mutate(Median_Quote = median_quotes,
+                       Median_Quote_prev = median_quotes_prev,
                        Median_Q_Increase = median_year_diff,
+                       Median_Q_Increase_prev = median_year_diff_prev,
                        Lower_Quote = lower_quotes,
+                       Lower_Quote_prev = lower_quotes_prev,
                        Upper_Quote = upper_quotes,
-                       UpLow_Q_Var90 = upper_lower_diff
+                       Upper_Quote_prev = upper_quotes_prev,
+                       UpLow_Q_Var90 = upper_lower_diff,
+                       UpLow_Q_Var90_prev = upper_lower_diff_prev
                        ) %>%
                 select(Date, Median_Quote, Lower_Quote, Upper_Quote, everything())
         return(financials)
